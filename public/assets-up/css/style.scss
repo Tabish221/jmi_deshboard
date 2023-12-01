@@ -1,0 +1,1366 @@
+@import "globle";
+@import 'header';
+@import 'package';
+@import 'popup';
+
+// Banner
+@import 'banner';
+
+// DASHBOARD BODY START
+main{
+	width: 100%;
+	height: 100%;
+	background-color: #D1D1D1;
+	padding: 65px 50px 155px;
+	position: relative;
+}
+
+aside{
+	width: 100%;
+	position: sticky;
+	top: 0;
+
+	.tabBtn{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		column-gap: 5px;
+		padding-bottom: 5px;
+
+		a{
+			padding: 11px 7px;
+			background-color: #FFBF10;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			column-gap: 5px;
+			color: #FFF;
+			font-size: 18px;
+			font-weight: 600;
+			line-height: normal;
+			height: 50px;
+
+			&:hover{
+				background-color: #eab31e;
+			}
+
+			.icon{
+				span{
+					font-size: 22px;
+					line-height: 1.3;
+				}
+			}
+
+			&.current{
+				background-color: #0342AB;
+
+				span{
+					color:#FEDC18;
+				}
+			}
+		}
+	}
+
+	.aside-menuBar{
+		width: 100%;
+		padding-bottom: 25px;
+
+		&>ul{
+			&>li{
+				.collapsed,  button{
+					&::after{
+						content: '\f107';
+						font-family: 'Font Awesome 5 Pro';
+						color: #fff;
+						font-size: 24px;
+						width: 25px;
+						height: 25px;
+						position: absolute;
+						right: 25px;
+						top: 0;
+						bottom: 0;
+						margin: auto;
+					}
+				}
+				&>a, button{
+					padding: 15px  50px;
+					width: 100%;
+					background-color: #FFBF10;
+					display: flex;
+					align-items: center;
+					color: #fff;
+					column-gap: 20px;
+					line-height: 1.2;
+					color: #FFF;
+					font-size: 20px;
+					font-weight: 500;
+					line-height: 1.1;
+					position: relative;
+
+
+					&:hover{
+						background-color: #eab31e;
+					}
+
+					.icon{
+						width: 40px;
+						flex-shrink: 0;
+						text-align: center;
+						span{
+							font-size: 30px;
+							line-height: 1;
+						}
+
+						svg{
+							max-width: 100%;
+							max-height: 100%;
+						}
+					}
+
+				}
+				&.active{
+					a, button{
+						font-weight: 600;
+						background-color: #0342AB;
+					}
+				}
+				&.last{
+					&>a{
+						border-radius: 0 0 14px 14px;
+					}
+				}
+
+				.asideDropMenu{
+					ul{
+						border-top: 1px solid #fff;
+						li{
+							a{
+								padding: 15px 15px 15px 80px;
+								width: 100%;
+								background-color: #FFBF10;
+								display: flex;
+								align-items: center;
+								color: #fff;
+								column-gap: 20px;
+								line-height: 1.2;
+								color: #FFF;
+								font-size: 20px;
+								font-weight: 500;
+								line-height: 1.1;
+								position: relative;
+
+
+								&:hover{
+									background-color: #eab31e;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.aside-table{
+		border-radius: 13px;
+		border: 1px solid #C7C7C7;
+		background: #FFF;
+		padding: 20px 0 10px;
+
+		.aside-tableHead{
+			padding: 0 5px;
+
+			ul{
+				display: flex;
+				align-items: center;
+				overflow-x: auto;
+				column-gap: 15px;
+				padding-bottom: 25px;
+
+				li{
+					a{
+						padding: 10px 0;
+						color: #342E59;
+						font-size: 15px;
+						font-weight: 500;
+						line-height: normal;
+						position: relative;
+
+						&::after{
+							content: '';
+							width: 0%;
+							height: 1px;
+							background-color: #0342ab;
+							position: absolute;
+							bottom: 0;
+							right: 0;
+							left: 0;
+							margin: auto;
+							opacity: 0;
+						}
+
+						&:hover{
+							color: #FFBF10;
+						}
+					}
+
+					&.current{
+						a{
+							&::after{
+								width: 100%;
+								opacity: 1;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.aside-tablebody{
+			max-width: 100%;
+			overflow: auto;
+
+			table{
+				width: 100%;
+
+				th, td{
+					padding: 10px 20px;
+				}
+
+				thead{
+					tr{
+						th{
+							color: #0342AB;
+							font-size: 16px;
+							font-weight: 700;
+							line-height: normal;
+						}
+					}
+				}
+
+				tbody{
+					tr{
+						td{
+							color: #333;
+							font-size: 16px;
+							font-weight: 400;
+							line-height: normal;
+						}
+					}
+				}
+			}
+
+			.trad-icon{
+				margin-right: 8px;
+
+				&.up{
+					color: #0342AB;
+					transform: rotate(45deg);
+				}
+
+				&.down{
+					color: #FEDC18;
+					transform: rotate(315deg);
+				}
+			}
+		}
+	}
+}
+
+// MAIN BODY
+.main-head{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 40px;
+
+	h6{
+		color: #342E59;
+		font-size: 30px;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	.accouttitle{
+		display: flex;
+		align-items: center;
+		column-gap: 15px;
+
+		span{
+			color: #07338D;
+			font-size: 28px;
+		}
+
+		em{
+			color: #333;
+			font-size: 20px;
+			font-weight: 500;
+			line-height: normal;
+		}
+	}
+}
+
+.card{
+	border-radius: 20px;
+	background: #FFF;
+	box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.02);
+
+	.card-body{
+		padding: 30px;
+	}
+}
+
+.forex-account{
+	.forex-accountAmount{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-bottom: 24px;
+		margin-bottom: 30px;
+
+		border-bottom: 1px solid #D6D6D6;
+
+		h6{
+			color: #333;
+			font-size: 30px;
+			font-weight: 500;
+			line-height: normal;
+		}
+
+		h5{
+			color: #333;
+			text-align: right;
+			font-size: 30px;
+			font-weight: 500;
+			line-height: normal;
+		}
+	}
+
+	.forex-accountTotal{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		h6{
+			color: #333;
+			font-size: 30px;
+			font-weight: 400;
+			line-height: normal;
+		}
+
+		p{
+			color: #07338C;
+			text-align: right;
+			font-size: 50px;
+			font-weight: 600;
+			line-height: normal;
+
+			span{
+				color: #999;
+				font-size: 20px;
+				font-weight: 500;
+			}
+		}
+	}
+
+}
+.forex-accountlist{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.forex-accountlist-profile{
+		display: flex;
+		align-items: center;
+
+		.img{
+			flex-shrink: 0;
+		}
+
+		.cont{
+			padding-left: 30px;
+
+			h6{
+				color: #342E59;
+				font-size: 20px;
+				font-weight: 700;
+				padding-bottom: 5px;
+			}
+
+			p{
+				color: #999;
+				font-size: 14px;
+				font-weight: 600;
+				line-height: normal;
+				letter-spacing: 4.2px;
+			}
+
+			span{
+				color: #999;
+				font-size: 14px;
+				font-weight: 400;
+				line-height: normal;
+			}
+		}
+	}
+
+	.forex-accountlist-total{
+		display: flex;
+
+		p{
+			color: #07338C;
+			text-align: right;
+			font-size: 50px;
+			font-weight: 600;
+			line-height: normal;
+
+			span{
+				color: #999;
+				font-size: 20px;
+				font-weight: 500;
+			}
+		}
+
+		.more{
+			padding-left: 3px;
+			a{
+				padding: 5px;
+				border-radius: 2px;
+				color: #342E59;
+
+				&:hover{
+					background-color: #f7f7f7;
+				}
+			}
+		}
+	}
+}
+
+.openAccount-formBtn{
+	padding-top: 30px;
+}
+
+.openAccount-tremBox{
+	border-radius: 10px;
+	border: 2px solid #9DAFBD;
+
+	h6{
+		color: #000;
+		font-size: 30px;
+		font-weight: 600;
+		line-height: normal;
+		padding-bottom: 35px;
+        width: 75%;
+	}
+
+    h4{
+		color: #07348F;
+		font-size: 46px;
+		font-weight: 600;
+		line-height: normal;
+		padding-bottom: 15px;
+	}
+
+	h5{
+		color: #07348F;
+		font-size: 22px;
+		font-weight: 700;
+		line-height: 1.2;
+		padding-bottom: 20px;
+	}
+
+    ul{
+        padding: 15px 0;
+    }
+
+	p, li{
+		display: block;
+		color: #999;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1.5;
+		padding-bottom: 10px;
+	}
+
+    .contacatAera{
+        a{
+            color: #999;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5;
+            padding-bottom: 10px;
+            padding: 0;
+            background-color: transparent;
+            &:hover{
+                color: #07338D;
+            }
+        }
+    }
+
+	b{
+		display: block;
+		color: #000;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 30px;
+		padding-bottom: 30px;
+	}
+
+    .inputSignature{
+        padding-bottom: 25px;
+        padding-top: 15px;
+        input{
+            border-radius: 10px;
+            border: 2px solid #9DAFBD;
+            background: #FFF;
+            width: 100%;
+            height: 75px;
+            padding: 20px 40px;
+            color: #556987;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1.2;
+        }
+
+        label{
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+    }
+
+	label{
+		color: #333;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 1.2;
+		display: inline-flex;
+		align-items: center;
+		column-gap: 10px;
+
+		margin-bottom: 30px;
+
+		input{
+			width: 14px;
+			height: 14px;
+			border-radius: 2px;
+		}
+	}
+}
+
+.internalTransferDetail-cont{
+	h6{
+		color: #342E59;
+		font-size: 40px;
+		font-weight: 400;
+		line-height: normal;
+		padding-bottom: 15px;
+	}
+
+	p{
+		color: #333;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: normal;
+	}
+}
+
+.depositwithdraw-card{
+	.icon{
+		width: 160px;
+		height: 160px;
+		margin: auto;
+		margin-bottom: 30px;
+		img{
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+			margin: auto;
+		}
+	}
+
+	h6{
+		color: #000;
+		font-size: 30px;
+		font-weight: 600;
+		line-height: 1.2;
+		padding-bottom: 20px;
+	}
+
+    p{
+        color: #666;
+        font-size: 16px;
+        padding-bottom: 15px;
+        line-height: 1.2;
+    }
+}
+
+.referral-system{
+	h6{
+		color: #342E59;
+		font-size: 30px;
+		font-weight: 600;
+		line-height: normal;
+		padding-bottom: 35px;
+	}
+	p, b, li{
+		color: #666;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 1.5;
+	}
+	b{
+		display: block;
+		font-weight: 600;
+		padding-top: 8px;
+	}
+
+	p{
+		padding-bottom: 30px;
+	}
+
+	ul{
+		padding-bottom: 30px;
+		list-style: disc;
+		padding-left: 30px;
+	}
+
+	.copylink{
+		position: relative;
+		display: flex;
+
+		input{
+			width: 100%;
+			border: 1px solid #A0A0A0;
+			background: #FFF;
+			height: 71px;
+			padding: 15px 39px;
+			border-radius: 0;
+			border-right: none;
+		}
+
+		button.sm{
+			border-radius: 0;
+			padding: 10px 100px;
+			white-space: nowrap;
+		}
+	}
+}
+
+.transactionHistory-header{
+	padding-bottom: 40px;
+
+	.transactionHistory-nav{
+		ul{
+			display: flex;
+			align-items: center;
+			column-gap: 12px;
+
+			li{
+				a{
+					border-radius: 10px;
+					border: 2px solid #9DAFBD;
+					background: #FFBF10;
+					padding: 20px 35px;
+					color: #333;
+					font-size: 24px;
+					font-weight: 400;
+					line-height: 1.2;
+
+					&:hover{
+						background-color: #eab31e;
+					}
+				}
+
+				&.current{
+					a{
+						background-color: #0342AB;
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+
+
+}
+.transactionHistory-search{
+	position: relative;
+	input{
+		border-radius: 10px;
+		border: 2px solid #9DAFBD;
+		background: #FFF;
+		height: 75px;
+		width: 100%;
+		font-size: 24px;
+		font-weight: 400;
+		padding: 15px 35px 15px 15px;
+	}
+
+	button{
+		position: absolute;
+		right: 8px;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		font-size: 20px;
+		color: #999999;
+	}
+}
+.transactionHistory-table{
+	background-color: #fff;
+	border-radius: 10px 10px 0px 0px;
+	width: 100%;
+	overflow: auto;
+
+	.table>:not(:first-child) {
+		border-top: none;
+	}
+	table{
+		width: 100%;
+
+		th, td{
+			border-bottom: 1px solid #E9ECFF;
+			padding: 20px;
+			vertical-align: middle;
+			text-align: center;
+		}
+
+		th{
+			color: #000;
+			font-size: 16px;
+			font-weight: 500;
+			line-height: normal;
+		}
+
+		td{
+			white-space: nowrap;
+			color: #000;
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 1.2;
+
+			.countid{
+				border-radius: 10px;
+				background: #DFDFDF;
+				padding: 15px;
+				color: #053C9E;
+				font-size: 18px;
+				font-weight: 600;
+				line-height: normal;
+			}
+
+			.bages{
+				border-radius: 10px;
+				background: #0342AB;
+				padding: 15px 18px;
+				color: #FFF;
+				font-size: 18px;
+				font-weight: 600;
+				line-height: normal;
+
+				&.padding{
+					color: #000000;
+					background: linear-gradient(137deg, #FEDC18 0%, #FFF7C5 100%);
+				}
+
+                &.danger{
+                    background-color: rgb(255, 36, 36);
+                    color: #fff;
+                }
+
+                &.success{
+                    background-color: rgb(28, 112, 11);
+                }
+			}
+
+			.detals{
+				max-width: 500px;
+				border-radius: 5px;
+				border: 1px solid #E9ECFF;
+				background: #F8F8F8;
+				padding: 15px 30px;
+				white-space: normal;
+				text-align: left;
+			}
+
+			.date{
+				white-space: normal;
+				color: #666;
+				text-align: center;
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 1.2;
+			}
+
+
+
+		}
+	}
+}
+
+
+.liveAccount-header{
+	h6{
+		color: #444;
+		font-size: 30px;
+		font-weight: 400;
+		line-height: 1.2;
+		padding-bottom: 40px;
+	}
+}
+
+.liveAccount-table{
+	width: 100%;
+	overflow: auto;
+	.table>:not(:first-child) {
+		border-top: none;
+	}
+	table{
+		border: 1px solid #EBEBEB;
+
+		tr:nth-child(odd){
+			td.acBalance{
+				background-color: #E0EAF3;
+			}
+		}
+
+		tr:nth-child(even){
+			td.acBalance{
+				background-color: #F8FBFF;
+			}
+		}
+
+		td, th{
+			border: 1px solid #EBEBEB;
+			vertical-align: middle;
+			text-align: center;
+			padding: 20px;
+			background-color: #fff;
+			min-width: 140px;
+
+			.mn-btn{
+				display: flex;
+				flex-direction: column;
+				a{
+					background-color: #FAC800;
+					width: 100%;
+					white-space: nowrap;
+					padding: 10px 25px;
+
+					&:hover{
+						background-color: #0342AB;
+						color: #fff;
+					}
+				}
+			}
+		}
+
+		td{
+			color: #000;
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 1.2;
+			white-space: nowrap;
+		}
+
+		th{
+			padding: 10px 20px;
+			color: #000;
+			font-size: 16px;
+			font-weight: 700;
+			line-height: normal;
+		}
+
+		tr{
+			td{
+				.acNo{
+					color: #000;
+					font-size: 20px;
+					font-weight: 700;
+					line-height: normal;
+				}
+
+				.acType{
+					color: #2BC155;
+					font-size: 14px;
+					font-weight: 500;
+					line-height: 1.1;
+					white-space: normal;
+				}
+
+				.currency{
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					column-gap: 5px;
+
+					p{
+						color: #000;
+						font-size: 20px;
+						font-weight: 700;
+						line-height: normal;
+					}
+				}
+
+				.acGroup{
+					color: #0378BC;
+					font-size: 14px;
+					font-weight: 500;
+					line-height: 1.2;
+					white-space: normal;
+				}
+
+				.acPassword{
+					display: inline-flex;
+					align-items: center;
+					justify-content: center;
+					column-gap: 5px;
+					border-radius: 12px;
+					background: #F4F4F4;
+					padding: 7px 9px;
+				}
+
+				.acInvestor{
+					display: inline-flex;
+					border-radius: 12px;
+					background: #F4F4F4;
+					padding: 7px 9px 7px 12px;
+					color: #999;
+					font-size: 16px;
+					font-weight: 500;
+					line-height: normal;
+					letter-spacing: 3.52px;
+				}
+
+				&.acBlod{
+					color: #000;
+					font-size: 20px;
+					font-weight: 500;
+					line-height: normal;
+				}
+			}
+			td.acBalance{
+				color: #333;
+				font-size: 16px;
+				font-weight: 500;
+				line-height: normal;
+				letter-spacing: 3.52px;
+			}
+		}
+	}
+}
+
+.footer-chat{
+	position: absolute;
+	bottom: 0;
+	right: 50px;
+	display: flex;
+	column-gap: 30px;
+
+	a{
+		border-radius: 30px 30px 0 0;
+		background: #DFDFDF;
+		padding: 30px 15px 25px;
+		text-align: center;
+		min-width: 130px;
+
+		.icon{
+			border-radius: 50%;
+			width: 40px;
+			height: 40px;
+			background-color: #fff;
+			padding: 5px;
+			margin: auto;
+			margin-bottom: 12px;
+
+			img{
+				width: 100%;
+				height: 100%;
+				object-fit: contain;
+			}
+		}
+
+		span{
+			color: #090F22;
+			font-size: 18px;
+			font-weight: 600;
+			letter-spacing: -0.63px;
+			transition: all 0.4s ease-in-out;
+		}
+
+		&:hover{
+			background-color: #07348F;
+
+			span{
+				color: #fff;
+			}
+		}
+	}
+}
+
+
+
+// LogIn & Signup Page
+.loginSection{
+	min-height: 100vh;
+
+}
+
+.login-main{
+	padding: 30px 12%;
+}
+
+.login-logo{
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+.login-heading{
+	padding-bottom: 30px;
+	text-align: center;
+
+	h6{
+		color: #555;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: normal;
+	}
+}
+
+.loginForm{
+
+}
+
+.loginForm-feild{
+	padding-bottom: 25px;
+	label{
+		color: #555;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: normal;
+		padding-bottom: 10px;
+	}
+
+	.feildInput{
+		position: relative;
+
+		input{
+			border-radius: 8px;
+			background: #F3F3F3;
+			height: 63px;
+			width: 100%;
+			padding: 20px 80px 20px 20px;
+		}
+
+		span{
+			border-radius: 8px;
+			background: #07338C;
+			width: 60px;
+			height: 60px;
+			padding: 16px;
+			color: #fff;
+			font-size: 28px;
+			position: absolute;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+		}
+	}
+}
+
+.loginForm-forgot{
+	text-align: right;
+	padding-bottom: 26px;
+
+	a{
+		color: #2258BF;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: normal;
+		text-decoration-line: underline;
+
+		&:hover{
+			transform: scale(1.05);
+			color: #000;
+		}
+	}
+}
+
+.loginForm-btn{
+	padding-bottom: 50px;
+
+	button{
+		transition: all 0.2s ease-in-out;
+		border-radius: 8px;
+		background: #FEDC18;
+		box-shadow: 0px 12px 24px 0px rgba(1, 11, 253, 0.12);
+		color: #090F22;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: normal;
+		width: 100%;
+		padding: 23px;
+
+		&:hover{
+			background-color: #0342AB;
+			color: #fff;
+		}
+	}
+}
+
+.loginForm-new{
+	padding-bottom: 30px;
+	p{
+		color: #000;
+		text-align: center;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: normal;
+
+		a{
+			color: #2258BF;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: normal;
+			text-decoration-line: underline;
+
+			&:hover{
+				transform: scale(1.05);
+				color: #000;
+			}
+		}
+	}
+}
+
+.loginForm-copyright{
+	p{
+		color: #9A9A9A;
+		text-align: center;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 1.3;
+	}
+}
+
+
+
+
+
+
+.login-sideImage{
+	font-size: 0;
+	img{
+		height: 100%;
+		min-height: 100vh;
+		width: 100%;
+		object-fit: cover
+	}
+}
+
+
+.signup-main{
+	padding: 30px 5%;
+
+	.signup-userId{
+		border-radius: 29px;
+		background: linear-gradient(137deg, #FEDC18 0%, #FFF7C5 100%);
+		width: 100%;
+		padding: 10px 30px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 35px;
+
+		h6{
+			color: #000E1F;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: normal;
+		}
+
+		p{
+			color: #012437;
+			font-size: 20px;
+			font-weight: 400;
+			line-height: normal;
+			letter-spacing: 10.8px;
+		}
+	}
+
+	.signupd-feild{
+		padding-bottom: 25px;
+		label{
+			color: #33457B;
+			font-size: 16px;
+			font-weight: 500;
+			line-height: normal;
+			padding-bottom: 10px;
+		}
+
+		input{
+			width: 100%;
+			border-radius: 8px;
+			background: #EEE;
+			height: 60px;
+			padding: 20px;
+		}
+	}
+
+	.signupd-agree{
+		display: flex;
+		align-items: center;
+		column-gap: 10px;
+		padding-bottom: 45px;
+
+		p{
+			color: #666;
+			text-align: center;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: normal;
+
+			a{
+				color: #666;
+				font-size: 14px;
+				font-weight: 700;
+				line-height: normal;
+
+				&:hover{
+					color: #FFBF10;
+				}
+			}
+		}
+
+		/* toggle in label designing */
+		.toggle {
+			position : relative ;
+			display : inline-block;
+			border-radius: 68px;
+			border: 1px solid #FFF;
+			background: #E7E7E7;
+			box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+			width: 50px;
+    		height: 26px;
+			flex-shrink: 0;
+		}
+
+		/* After slide changes */
+		.toggle:after {
+			content: '';
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			background-color: #D2D0D0;
+			top: 3px;
+			left: 3px;
+			transition:  all 0.5s;
+		}
+
+		/* Checkbox checked effect */
+		.checkbox:checked + .toggle::after {
+			left : calc(100% - 23px);
+			// top: 2px;
+			background-color: #0342AB;
+		}
+
+		/* Checkbox checked toggle label bg color */
+		.checkbox:checked + .toggle {
+			background: linear-gradient(137deg, #FEDC18 0%, #FFF7C5 100%);
+		}
+
+		/* Checkbox vanished */
+		.checkbox {
+			display : none;
+		}
+	}
+
+
+	.signup-navbar{
+		padding-bottom: 20px;
+		ul{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			column-gap: 5px;
+
+			li{
+				color: #000;
+				text-align: center;
+				font-size: 12px;
+				font-weight: 400;
+				line-height: normal;
+
+				a{
+					color: #000;
+					text-align: center;
+					font-size: 12px;
+					font-weight: 400;
+					line-height: normal;
+					padding: 2px;
+
+					&:hover{
+						background-color: #FEDC18;
+					}
+				}
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// DASHBOARD BODY END
+
+
+
+// FOOTER CSS INCLUDES
+@import 'footer';
+
+/* Custom CSS Styling */
+@media (min-width:1660px){
+	.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+		max-width: 1600px;
+	}
+}
+@media (max-width:1660px){
+
+}
+@media (max-width:1440px){
+
+}
+@media (max-width:1280px){
+
+}
+@media (max-width:992px){
+
+}
+@media (max-width:767px){
+
+}

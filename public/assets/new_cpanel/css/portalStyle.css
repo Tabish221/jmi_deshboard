@@ -1,0 +1,1432 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    padding-top: 50px;
+    padding-bottom-: 450px;
+    font-family: 'Open Sans';
+    background-color: #dae1e8;
+}
+
+.input-group-addon, .input-group-btn{display: contents;}
+
+::selection {
+    background: #00c0fc; /* WebKit/Blink Browsers */
+    color: white;
+}
+::-moz-selection {
+    background: #00c0fc; /* Gecko Browsers */
+    color: white;
+}
+
+a {
+    color: #00c0fc;
+}
+
+a:hover {
+    color: #646469;
+}
+.max-width-100{max-width:100%;}
+.nav > li > a{padding: 10px;}
+.progress {
+    height: 8px;
+}
+
+.scrollableButtonDropdown {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.scrollableButtonDropdown li a {
+    cursor: pointer;
+}
+
+.scrollableButtonDropdown li a img {
+    float: left;
+    padding-top: 4px;
+    margin-right: 5px;
+}
+
+.panelLoading .panel-body {
+    text-align: center;
+    font-size: 40pt;
+    line-height: 200px;
+}
+
+.form-control:focus {
+    border-color: #00c0fc;
+    box-shadow: inset 0 1px 1px rgba(0, 192, 252, 0.7), 0 0 8px rgba(0, 192, 252, 0.7);
+}
+.high{
+    height: 220px;
+
+}
+.langFlag {
+    display: inline;
+    padding-right: 10px;
+}
+
+.navbar-default {
+    background-color: #16191c;
+}
+
+.colLeftEdgeNo {
+    padding-left: 0px;
+}
+
+.colRightEdgeNo {
+    padding-right: 0px;
+}
+
+.greenBtn {
+    background: #5cb85c !important;
+    color: white !important;
+    border-color: #5cb85c;
+}
+
+.btnWhiteWithGreen {
+    color: #5cb85c ;
+    background-color: #fff;
+    border-color: #5cb85c ;
+}
+
+.btnWhiteWithGreen:hover {
+    color: #646469;
+    border-color: #646469;
+    background-color: white;
+}
+
+.greenBtn:hover {
+    background-color: #646469 !important;
+    color: white !important;
+    border-color: #646469;
+}
+
+a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
+    border-color: #00c0fc;
+    transition: background-color 200ms linear;
+}
+
+.pagination > .active > a {
+    background-color: #00c0fc;
+    border-color: #00c0fc;
+}
+.pagination > li > a {
+    color: #00c0fc;
+}
+
+.nav-tabs.nav-justified > li > a {
+    color: #00c0fc;
+}
+
+.nav-tabs.nav-justified > .active > a {
+    color: #333;
+}
+
+footer {
+    position-: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #12171a;
+    color: #82939c;
+    border-top: 1px solid #cccccc;
+}
+
+.progress .progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
+.progress-bar-success {
+    background-color: #5cb85c !important;
+}
+
+.rowHeader {
+    min-height: 80px;
+    height: 100%;
+    padding-top: 5px;
+    background: #f5f5f5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: #00c0fc;
+
+    font-size: 12pt;
+
+    margin-top: 40px;
+    /*margin-top: 40px;*/
+}
+
+.rowHeader h1 {
+    font-size: 24px;
+}
+
+.rowHeader .userName {
+    font-weight: bold;
+}
+
+#langSelectorForm {
+    /*
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    */
+}
+
+.sideBar {
+    padding-top: 15px;
+}
+
+.profilePercentageNo {
+    font-weight: bold;
+}
+
+.demoSuccess h2, .liveSuccess h2 {
+    margin-top: 0px;
+}
+
+.rowAccounts h1 {
+    margin-top: 0px;
+}
+
+.thumbAccountHolder {
+    padding-left: 0px;
+}
+
+.rowAccounts {
+    padding-left: 15px;
+}
+
+.rowAccounts .thumbAccount {
+    height: 150px;
+    width: 220px;
+    position: relative;
+
+}
+
+.rowAccounts .thumbAccount .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 25pt;
+    padding-top: 15px;
+}
+
+.rowAccounts .thumbAccount .captionPlus {
+    padding-top: 50px;
+}
+
+.rowAccounts .thumbAccount .captionCreateAccount {
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.rowAccounts .thumbAccountPlus {
+    color: #333;
+    background-color: #e7e7e7;
+}
+
+.rowAccounts .thumbAccountPlus .caption i {
+    font-size: 40pt;
+}
+
+.smallBalance {
+    font-size: 14pt;
+    margin-top: -15px;
+}
+
+.mainContent {
+    padding-top: 15px;
+}
+
+.redStar {
+    color: red;
+}
+
+.dobDay, .dobMonth {
+    /*width: 50px !important;*/
+}
+
+.dobYear {
+    width: 100px !important;
+}
+
+.AmmountRtlCurrency {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    margin-left: -1px;
+    border-left: 0px none !important;
+    border-right: 1px solid #CCC !important;
+}
+
+.AmmountRtl {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.navPayments a:hover, .navPayments a:focus {
+    color: #00c0fc;
+    transition: background-color 200ms linear;
+}
+
+.navPayments .active a {
+    background: #00c0fc !important;
+    color: white !important;
+    border: none;
+}
+
+.navPayments .active a:hover {
+    background-color: #3f3f4f !important;
+    color: white !important;
+    border: none;
+}
+
+.passwordChangeButtonRTL {
+    margin-right: 0px;
+    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+    margin-left: -3px;
+}
+
+.passwordChangeInputRTL {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
+/* Hiding the checkbox, but allowing it to be focused */
+.badgebox
+{
+    opacity: 0;
+}
+
+.badgebox + .badge
+{
+    /* Move the check mark away when unchecked */
+    text-indent: -999999px;
+    /* Makes the badge's width stay the same checked and unchecked */
+    width: 27px;
+}
+
+.badgebox:focus + .badge
+{
+    /* Set something to make the badge looks focused */
+    /* This really depends on the application, in my case it was: */
+
+    /* Adding a light border */
+    box-shadow: inset 0px 0px 5px;
+    /* Taking the difference out of the padding */
+}
+
+.badgebox:checked + .badge
+{
+    /* Move the check mark back when checked */
+    text-indent: 0;
+}
+
+.btnGroupWide {
+    display: inline-grid;
+    width: 100%;
+}
+
+.thumbnail {
+    height: 170px;
+}
+
+.thumbnail img.img-responsive {
+    height: 120px;
+    width: 100%;
+}
+
+.thumbnailDemo {
+    height: 100%;
+}
+
+.thumbnailDemo .caption {
+    padding-top: 30px !important;
+}
+
+.thumbnailDemo img.img-responsive {
+    height: 100%;
+    width: 100%;
+}
+
+.thumbnailCompetition {
+    height: 100%;
+}
+
+.thumbnailCompetition:hover {
+    cursor: pointer;
+}
+
+.thumbnailCompetition .title {
+    font-size: 20px;
+}
+
+.thumbnailCompetition .caption {
+    padding-top: 0px !important;
+}
+
+.thumbnailCompetition img.img-responsive {
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+
+    .pageTitleRight {
+        display: none;
+    }
+
+    .sideBar .btn-group {
+        width: 100%;
+    }
+
+    .sideBar .btn {
+        width: 100%;
+        white-space: normal;
+    }
+
+    .hideTabletText {
+        display: none !important;
+    }
+
+    .showTabletText {
+        display: inline !important;
+    }
+
+    .accountsTable {
+        display: none !important;
+    }
+
+    .accountsTiles {
+        display: inline !important;
+    }
+
+    .accountTile {
+        display: inline-block;
+        width: calc(50% - 22px);
+        max-width: calc(50% - 22px);
+    }
+
+    .sideMenu .list-group-item {
+        padding: 10px !important;
+    }
+
+    .sideMenu .sub-item {
+        padding-left: 40px !important;
+    }
+
+    .newAccountBtn {
+        width: 100%;
+        margin: 10px auto !important;
+        padding: 10px !important;
+    }
+
+    .twitterWall .twitter-timeline{
+        padding-right: 22px !important;
+    }
+
+}
+
+.promotions-bottom {
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    .promotions-row {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .promotions-panel {
+        height: 100%;
+        position: relative;
+    }
+
+    .promotions-bottom {
+        position: absolute;
+        bottom: 15px;
+        text-align: center;
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media(max-width: 768px) {
+    .twitterNoImages {
+        height: 300px;
+        /*
+        overflow-y: scroll;
+        */
+    }
+
+    .rowHeader {
+        padding-left: 15px;
+    }
+
+    .rowAccounts .thumbAccount {
+        width: 100%;
+        height: 230px;
+    }
+
+    .rowAccounts .thumbAccount img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .rowAccounts .thumbAccount .caption {
+        font-size: 30pt;
+        padding-top: 60px;
+    }
+
+    .rowAccounts .thumbAccount .captionPlus {
+        padding-top: 90px;
+    }
+
+    .dobDay, .dobMonth, .dobYear {
+        width: 100% !important;
+        margin-bottom: 5px;
+    }
+
+    .homeNoCountryCode, .homeNoAreaCode, .homeNoHomeNumber {
+        margin-bottom: 5px;
+    }
+
+    .homeNoCountryCode:parent, .homeNoAreaCode:parent {
+        padding-right: 0px !important ;
+    }
+
+    .thumbnail {
+        height: 230px !important;
+    }
+
+    .thumbnail img.img-responsive {
+        height: 200px !important;
+        width: 100%;
+    }
+
+    .thumbnailDemo {
+        height: 230px !important;
+    }
+
+    .thumbnailDemo img.img-responsive {
+        height: 220px !important;
+        width: 100%;
+    }
+
+    .thumbnailDemo .caption {
+        padding-top: 60px !important;
+    }
+
+    .thumbnailCompetition {
+        height: 230px !important;
+    }
+
+    .thumbnailCompetition img.img-responsive {
+        height: 220px !important;
+        width: 100%;
+    }
+
+    .thumbnailCompetition .caption {
+        padding-top: 30px !important;
+    }
+
+    .captionCreateAccount {
+        padding-top: 80px !important;
+    }
+
+    #navbar-1st .hideMobileText {
+        display: none;
+    }
+
+    #scoreBoardModal .modal-dialog {
+        width: calc(100% - 10px) !important;
+        height: calc(100% - 10px) !important;
+        margin: 5px;
+    }
+
+    .btnLinkToPlatform {
+        margin: 5px;
+    }
+
+    .hideTabletText {
+        display: inline !important;
+    }
+
+    .showTabletText {
+        display: none !important;
+    }
+
+    .accountsTable {
+        display: none !important;
+    }
+
+    .accountsTiles {
+        display: block !important;
+        margin: 0px auto !important;
+    }
+
+    .newAccountBtn {
+        width: 100%;
+        margin-right: 0px !important;
+        padding: 10px !important;
+    }
+
+    .contactChatButtons, .contactChatButtonsRTL {
+        position: relative !important;
+        margin: 0 0 !important;
+        width: 100% !important;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+
+    .accountTile {
+        margin: 10px auto !important;
+        padding: 5px 20px;
+        text-align: center;
+        border-style:solid;
+        border-width: 1px;
+        border-color: #00c0fc;
+        border-radius: 4px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .accountTile .btn {
+        margin: 2px;
+    }
+
+    .twitterWall .twitter-timeline{
+        padding-right: 0px !important;
+    }
+
+}
+
+#navbar-1st {
+    height: 30px;
+    background-color: #e0e0e0;
+    font-size: 12px;
+    padding: 6px;
+    color: #555555;
+    min-height: 30px;
+    z-index: 4000;
+}
+
+#navbar-1st a {
+    color: #555555;
+}
+
+#navbar-2nd {
+    /*
+    margin-top: 30px;
+    */
+    z-index: 5000;
+    color: #ffffff;
+}
+
+#navbar-2nd .dropdown-menu {
+    color: #ffffff;
+    background-color: #16191c;
+}
+
+#navbar-2nd .dropdown-menu > li > a {
+    color: #ffffff;
+    background-color: #16191c;
+}
+
+#navbar-2nd .dropdown-menu > li > a:hover, #navbar-2nd .dropdown-menu > li > a:focus {
+    background-color: #00c0fc;
+    transition: background-color 200ms linear;
+}
+
+.dropdown-menu > form > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+#navbar-2nd .dropdown-menu > form > li > a {
+    color: #ffffff;
+    background-color: #16191c;
+}
+
+#navbar-2nd .dropdown-menu > form > li > a:hover, #navbar-2nd .dropdown-menu > form > li > a:focus {
+    background-color: #00c0fc;
+    transition: background-color 200ms linear;
+}
+
+#internalpaymentsbutton .tooltip-inner {
+    width: 164px;
+    max-width: 164px;
+}
+
+#scoreBoardModal {
+    margin: auto;
+}
+
+#scoreBoardModal .modal-dialog {
+    width: 530px;
+}
+
+#scoreBoardModalBody {
+    height: 400px;
+    margin-top: -20px;
+    overflow-y: scroll;
+}
+
+#competitionModalLabels  {
+    margin-bottom: 0px;
+}
+
+.hideTabletText {
+    display: inline;
+}
+
+.showTabletText {
+    display: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: #00c0fc;
+    transition: background-color 200ms linear;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #00c0fc;
+    transition: background-color 200ms linear;
+}
+
+.panel-heading {
+    color: #00c0fc !important;
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+.panel {
+    padding: 20px;
+}
+
+.blueBtn {
+    background: #00c0fc !important;
+    color: white !important;
+    border: none;
+}
+
+.blueBtn:hover {
+    background-color: #646469 !important;
+    color: #ffffff !important;
+    border: none;
+}
+
+.sideMenu {
+    /*background-color: #3f3f4f;*/
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 0px;
+}
+
+.sideMenu a, .sideMenu a:hover, .sideMenu a:focus {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sideMenu .list-group-item {
+    padding: 20px;
+    background-color: #16191c;
+    color: #ffffff;
+    border-width: 0px;
+    margin: 1px 0px;
+}
+
+.sideMenu .list-group-item.active {
+    background-color: #ffffff !important;
+    /*color: #ed3038 !important;*/
+    color: #00c0fc !important;
+}
+
+.sideMenu .list-group-item.active:hover, .sideMenu .list-group-item.active:focus {
+    color: #ffffff !important;
+}
+
+.sideMenu .list-group-item:hover, .sideMenu .list-group-item:focus {
+    background-color: #00c0fc !important;
+    transition: background-color 200ms linear;
+}
+
+.sideMenu i {
+    padding: 5px;
+}
+
+.btnWhiteWithBlue {
+    color: #00c0fc ;
+    background-color: #fff;
+    border-color: #00c0fc ;
+}
+
+.btnWhiteWithBlue:hover {
+    color: #646469;
+    border-color: #646469;
+    background-color: white;
+}
+
+.lightRedBg {
+    background-color:rgba(255,230,230,0.5) !important;
+}
+
+.balanceZero {
+    color: red;
+}
+
+.accountsTiles {
+    display: none;
+}
+
+.accountTile {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #00c0fc;
+    border-radius: 4px;
+}
+
+.accountTileDemo {
+    background-color:rgba(0, 192, 252, 0.1);
+}
+
+.accountTile .btn {
+    margin: 2px;
+}
+
+.newAccountBtn {
+    margin-right: 12px;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+.list-group-horizontal {
+    display: table;
+    width: 100%;
+}
+
+.contactChatButtons {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 180px;
+    margin: 10px;
+    z-index: 3000;
+}
+
+.contactChatButtonsRTL {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 180px;
+    margin: 10px;
+    z-index: 3000;
+}
+
+.list-group-horizontal .list-group-item {
+    display: table-cell;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 50%;
+    vertical-align: middle;
+    text-align: center;
+    margin: 2px;
+    padding: 5px;
+}
+
+.list-group-horizontal .list-group-item:first-child {
+    border-top-right-radius:0;
+    border-bottom-left-radius:4px;
+}
+.list-group-horizontal .list-group-item:last-child {
+    border-top-right-radius:4px;
+    border-bottom-left-radius:0;
+}
+
+.contactChatButtons .list-group-item p, .contactChatButtonsRTL .list-group-item p {
+    font-size: 12px;
+}
+
+.chatOnline {
+    background-color: #00c0fc !important;
+}
+
+.chatOffline {
+    background-color: #16191c !important;
+    color: #a94442 !important;
+}
+
+.accountsTable {
+    overflow: hidden;
+}
+
+#sideMenuHamburger, #twitterWallHamburger {
+    text-align: center;
+    background-color: #16191c;
+}
+
+#sideMenuHamburger h4, #twitterWallHamburger h4 {
+    padding: 0px;
+    margin: 0px;
+}
+
+#sideMenuHamburger.collapsed, #twitterWallHamburger.collapsed {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#sideMenu.collapse.in .list-group-item:first-child:not(.sub-item) {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#sideMenu.hiddenHamburger .list-group-item:first-child:not(.sub-item) {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+}
+
+.dropdown-toggle.myaccount .fa {
+    color: #00c0fc !important;
+}
+
+.dropdown-toggle.myaccount:hover .fa, .dropdown-toggle.myaccount:focus .fa {
+    color: #ffffff !important;
+}
+
+#twitterWallHamburger {
+    background-color: white;
+}
+
+#sideMenu .sub-item {
+    padding-left: 40px;
+    background-color: #16191c;
+    border-radius: 0px !important;
+}
+
+#sideMenu .sub-item:hover, #sideMenu .sub-item:focus {
+    background-color: rgba(17, 17, 17, 0.8) !important;
+}
+
+.modal-dialog {
+    margin: 100px auto;
+}
+
+.accountsTable tr.selected, .table-striped tr.selected {
+    background-color:rgba(0, 192, 252, 0.5) !important;
+}
+
+.paymentApproved {
+    /*
+    background-color: rgba(0, 200, 0, 0.1) !important;
+    */
+}
+
+.paymentRejected {
+    background-color: rgba(200, 0, 0, 0.1) !important;
+}
+
+.dataSuccess {
+    color: #5cb85c !important;
+}
+
+.dataFail {
+    color: #a94442 !important;
+}
+
+.marquee-ticker {
+    width: 100%;
+    height: 22px;
+    overflow: hidden;
+    color: white;
+    background: #2f2f3f;
+    font-size: 14px;
+    padding: 20px;
+    box-shadow: 0px 20px 20px -18px white;
+    direction: ltr !important;
+
+    /*display: none;*/
+}
+
+.js-marquee {
+    margin-top: -8px !important;
+}
+
+.tick {
+    margin: 0px 5px;
+    width: 230px;
+    display: inline-flex;
+}
+
+span[data='tick-symbol'] {
+    margin-right: 5px;
+}
+
+.tick-up {
+    color: #5cb85c;
+}
+
+.tick-down {
+    /*color: #a94442;*/
+    color: #d83330;
+}
+
+.tweet-portal {
+    padding: 20px;
+}
+
+.btn.form-control {
+    white-space: normal;
+}
+
+#loadingIframe {
+    text-align: center;
+    padding: 30px;
+}
+
+footer .container {
+    background-color: #12171a;
+}
+
+.accountsFixedHeight {
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.accountsFixedHeightWithFilter {
+    overflow-y: auto;
+    max-height: 350px;
+}
+
+.balanceCredit {
+    color: #00c0fc;
+    font-size: 11px;
+    float: right;
+}
+
+.balanceCredit [data-toggle=tooltip] {
+    font-size: 6px;
+}
+
+.accountsTiles .balanceCredit {
+    float: none !important;
+}
+
+a.btn.disabled:hover {
+    cursor: not-allowed;
+}
+
+/*
+.accountsTable td {
+    word-break:break-all;
+}
+*/
+
+/* upload pictures page */
+.bottom-nav {
+    margin-bottom: 21px;
+}
+
+/* uploaded image preview */
+.file-back {
+    margin-top: 15px;
+}
+.prieviewImgInput {
+    margin-top: 10px;
+}
+.imageInput {
+    width: 100%;
+}
+.uploaded-pdf {
+    margin-top: 22px;
+    display: block;
+    margin-bottom: 5px;
+    color: red;
+    text-align: center;
+}
+.popPDF p {
+    text-align: center;
+}
+#imagemodal,
+#imagemodalPDF {
+    z-index: 9999;
+}
+.object-hidden {
+    display: none;
+}
+.date-dialog,
+#typeID,
+#typePassport,
+#POAFileInput,
+#groupUpload,
+#groupUpload1 {
+    display: none;
+}
+#chooseProofType {
+    margin-bottom: 25px;
+}
+.modal {
+    z-index: 9999;
+}
+.amountFormat {
+    white-space: pre;
+}
+
+#PaymentsTable_wrapper {
+    padding-bottom: 7px;
+}
+
+/* Banners */
+#bannerMain {
+    right: 0px;
+    position: fixed;
+    text-align: center;
+    top: 129px;
+    /* top: 50%;
+    transform: translateY(-50%); */
+    z-index: 999;
+    padding: 0;
+    margin-right: 5px;
+    /*visibility: hidden;*/
+}
+#bannerMain[banner-pos="left"] {
+    right: unset;
+    left: 0;
+}
+#bannerMainMobile {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+#bannerMainMobile > #bannerCloseButtonMobile {
+    position: fixed;
+    bottom: 54px;
+    right: 3px;
+    top: unset;
+    color: black;
+    background-color: white;
+    opacity: .5;
+}
+#bannerMain a:hover,
+#bannerMainMobile a:hover,
+#bannerMain a:visited,
+#bannerMainMobile a:visited,
+#bannerMain a:active,
+#bannerMainMobile a:active {
+    text-decoration: none !important;
+    color: #00bafc !important;
+}
+
+#bannerMainMobile img {
+    width: 100%;
+}
+#bannerMain img.content,
+#bannerMainMobile img.content {
+    display: block;
+}
+#bannerMain div.content,
+#bannerMainMobile div.content {
+    border: 2px solid #00c0fc;
+    background-color: black;
+    max-width: 250px;
+    padding: 8px;
+}
+#bannerMain div.content h2,
+#bannerMainMobile div.content h2 {
+    color: white;
+    margin: 20px 0;
+}
+#bannerMain div.content p,
+#bannerMainMobile div.content p {
+
+}
+#bannerCloseButtonMobile {
+    z-index: 99999;
+    font-size: 2em;
+}
+#bannerCloseButton {
+    z-index: 99999;
+        position: relative;
+        right: 3%;
+        top: 1%;
+        font-size: 1.5em;
+        /* visibility: hidden; */
+        color: black;
+        background-color: white;
+        top: 26px;
+}
+.langSelector form {
+    width: 615px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .langSelector > form > li > a {
+    min-width: 200px;
+    padding: 6px 20px;
+  }
+  .dropdown-menu.langSelector {
+    position: absolute;
+    right: 0;
+    top: 49px;
+  }
+  .langSelector[float-side="left"] a {
+      text-align: right;
+  }
+  .dropdown-menu[float-side="left"] a {
+      text-align: right;
+  }
+
+@media (max-width: 767px) {
+    .langSelector form {
+        width: 100%;
+    }
+    .langSelector > form > li > a {
+        min-width: 145px;
+    }
+    #bannerMain {
+        position: static;
+        display: none;
+        margin: 0 auto;
+        transform: unset;
+    }
+    #bannerMain div.content {
+        max-width: 100%;
+    }
+    #bannerCloseButton {
+        visibility: visible;
+        z-index: 999999;
+    }
+    #bannerMain img.content,
+    #bannerMainMobile img.content {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    #bannerCloseButton span,
+    #bannerCloseButtonMobile span {
+        color: black;
+        font-size: 2em;
+    }
+    #bannerCloseButtonMobile span {
+        visibility: visible;
+    }
+    #bannerMainMobile {
+        display: inherit;
+    }
+
+}
+/* @media (min-width: 768px) {
+    #bannerMain {
+        visibility: visible;
+    }
+} */
+@media (max-height: 780px) {
+
+    #bannerMain {
+        top: 35px;
+    }
+    #bannerCloseButton {
+        top: 60px;
+    }
+
+}
+
+.langSelector[float-side="left"] a {
+    text-align: right;
+}
+.dropdown-menu[float-side="left"] a {
+    text-align: right;
+}
+
+.accountsTable tbody td {
+    vertical-align: middle !important;
+}
+
+#charges {
+    font-weight: initial;
+    font-size: smaller;
+}
+
+@media (min-width: 300px) and (max-width: 575.98px) {
+    body {
+        padding-bottom-: 350px;
+    }
+
+    #navAccount {
+        border-color: #00c0fc;
+    }
+    #navbarAccount li.active a {
+        border-color: #00c0fc !important;
+        border-style: solid !important;
+        border-width: 1px !important;
+    }
+
+    .hideSmall {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        padding-bottom-: 250px;
+    }
+
+    #navAccount {
+        border-color: #00c0fc;
+    }
+    #navbarAccount li.active a {
+        border-color: #00c0fc !important;
+        border-style: solid !important;
+        border-width: 1px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        padding-bottom-: 250px;
+    }
+    .dropdown-menu.langSelector {
+        right: -77px;
+      }
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-bottom-: 200px;
+    }
+}
+
+/** side menu **/
+#sideMenu .nav-tabs.nav-justified > .active > a,
+#sideMenu .nav-tabs.nav-justified > .active > a:hover,
+#sideMenu .nav-tabs.nav-justified > .active > a:focus {
+    background-color: #16191c;
+    color: white;
+    font-weight-: bold;
+    -webkit-box-shadow: 0px 0px 32px -2px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 0px 32px -2px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 32px -2px rgba(0,0,0,0.7);padding: 10px 1px;
+}
+#sideMenu .nav-tabs.nav-justified > li {
+    float: left;
+    width: 50%;
+}
+.menu-down-arrow {
+    display: block;
+    margin-top: 10px;
+}
+
+.btnSmallPadding {
+    padding: 5px;
+}
+
+.navbar-home {
+    margin-left: 5px !important;
+    color: white !important;
+}
+
+.navbar-home:visited {
+    text-decoration: none !important;
+}
+
+.navbar-home:hover {
+    background-color: #00c0fc !important;
+}
+
+#piv-tooltip .tooltip-inner {
+    width: 600px !important;
+    max-width: 600px !important;
+    height: 600px !important;
+    max-height: 600px !important;
+}
+
+.alert-small {
+    font-size: 12px;
+}
+
+.lb-sm {
+    font-size: 8px;
+}
+
+.lb-sm {
+    font-size: 12px;
+}
+
+.lb-md {
+    font-size: 16px;
+}
+
+.lb-lg {
+    font-size: 20px;
+}
+
+#POASubtype {
+    max-width: 100%;
+}
+
+#amountCalculator {
+    font-size: 12px;
+    margin: 5px auto;
+}
+
+.fakeButton:hover {
+    cursor: pointer;
+}
+
+#phoneSmsTooltip .tooltip-inner {
+    width: 350px !important;
+    max-width: 350px !important;
+}
+
+#navAccountButton {
+    color: #00c0fc;
+    width: 100%;
+    margin: 0px auto;
+}

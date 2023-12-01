@@ -1,0 +1,128 @@
+
+.menu1 {
+    width: 1080px;
+    margin: 30px auto;
+}
+
+    .menu1 a {
+        width: 180px;
+        height: 180px;
+        display: block;
+        margin: 4px;
+        text-align: center;
+        float: left;
+        opacity: 0.3;
+    }
+
+.grey
+{
+    background: #e8e8e8;
+}
+.yellow {
+    background: #fdd22a;
+}
+
+.blue {
+    background: #009fe3;
+}
+
+.purple {
+    background: #574696;
+}
+
+.orange {
+    background: #ee7202;
+}
+
+.pink {
+    background: #e61c67;
+}
+
+.green {
+    background: #96c11f;
+}
+
+.bluelight {
+    background-color: #B9CFFF;
+}
+
+.Pnlrounded-corners {
+    margin: 5px;
+    padding: 4px;
+    border: 1px solid #808080;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 10px;
+    background-color: #B9CFFF;
+}
+
+.PnlGrdrounded-corners {
+    margin: 5px;
+    padding: 4px;
+    border: 1px solid #808080;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+}
+.hg400{
+    height:400px;
+}
+
+.Grid {
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+    font-family: Calibri;
+    color: #474747;
+}
+
+    .Grid td {
+        padding: 2px;
+        border: solid 1px #c1c1c1;
+    }
+
+    .Grid th {
+        padding: 4px 2px;
+        color: #fff;
+        background: #363670 url(Images/grid-header.html) repeat-x top;
+        border-left: solid 1px #525252;
+        font-size: 0.9em;
+    }
+
+    .Grid .alt {
+        background: #fcfcfc url(Images/grid-alt.html) repeat-x top;
+    }
+
+    .Grid .pgr {
+        background: #363670 url(Images/grid-pgr.html) repeat-x top;
+    }
+
+        .Grid .pgr table {
+            margin: 3px 0;
+        }
+
+        .Grid .pgr td {
+            border-width: 0;
+            padding: 0 6px;
+            border-left: solid 1px #666;
+            font-weight: bold;
+            color: #fff;
+            line-height: 12px;
+        }
+
+        .Grid .pgr a {
+            color: Gray;
+            text-decoration: none;
+        }
+
+            .Grid .pgr a:hover {
+                color: #000;
+                text-decoration: none;
+            }
+         

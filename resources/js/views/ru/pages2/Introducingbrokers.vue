@@ -1,0 +1,95 @@
+<template>
+
+<link rel="canonical" href="https://www.jmibrokers.com/ru/introducingbrokers " />
+<div class="row gray_bg">
+            <img src="/assets/img/Introducing_Broker2.jpg" alt="" class="img-responsive  picHeight" />
+        </div>
+
+        <div class="row gray_bg mrtb40">
+            <div class="container">
+                <h2>Представляющий Брокер</h2>
+
+                <p>JMI Brokers LTD предоставляет популярную программу «Представляющий брокер» (IB) для частных лиц и корпоративных клиентов по всему миру. Программа позволяет МБ собирать комиссионные, привлекая новый бизнес в JMI. Компенсационные IB могут накапливаться на основе торговой активности клиентов, представленных в JMI. Наши МБ работают в соответствии с правилами своего региона в дополнение к тем, которые применяются в ОАЭ, и стремятся постоянно генерировать прибыльный бизнес посредством устойчивого бизнес-плана.</p>
+
+
+                <h2>В качестве IB для JMI Brokers вы можете воспользоваться:</h2>
+
+                <div class="speacer10"></div>
+                <ul class="li1">
+                    <li> Специальная, дружелюбная и опытная многоязычная служба поддержки </li>
+                    <li> Конкурентные условия возврата, выплачиваемые в режиме реального времени * на ваш счет агента, когда ваши клиенты торгуют </li>
+                    <li> Специализированный сервис для удовлетворения ваших коммерческих потребностей </li>
+                    <li> Беззаботный и спокойный клиент при посадке </li>
+                    <li> 24/7 доступ к вашей учетной записи агента и онлайн-выпискам </li>
+                    <li> Персональная ссылка для облегчения идентификации клиентов, которых вы представляете в JMI. </li>
+                    <li> Полный еженедельный отчет, чтобы помочь вам отслеживать представленных клиентов </li>
+                    <li> Административная поддержка бэк-офиса </li>
+                    <li> Добавление в строку дохода без добавления в базу затрат. </Li>
+                </ul>
+
+
+                <h2>В зависимости от торговой платформы.</h2>
+                <p>Независимо от ваших бизнес-требований, JMI Brokers обязательно найдет для вас правильное решение. Чтобы узнать больше о нашей программе IB, позвоните нам по телефону +97144096705 </p>
+                <p> В качестве альтернативы, если у вас есть какие-либо вопросы и / или вы хотите с нами связаться, чтобы узнать больше о нашей программе IB, пожалуйста, <a href="/ru/callbackrequest/"> заказать обратный звонок </a> </p>
+
+                <div class="speacer20"></div>
+                 <div class="speacer20"></div>
+
+
+
+                <a href="/ru/become-partner"  class="become-partner slide-live-button">Стать партнером</a>
+
+
+                <div class="speacer20"></div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+</template>
+
+<script>
+import { useHead } from '@vueuse/head'
+import {computed, reactive, ref} from "vue";
+import axios from 'axios';
+import {useRouter} from "vue-router";
+const errors = ref()
+const router = useRouter();
+
+export default ({
+    data(){
+        return{
+            site_title: `Introducing Broker`,
+            site_description: ``,
+            site_keywords: '',
+
+        }
+    },
+    mounted() {
+        useHead({
+            // Can be static or computed
+            title: computed(() => this.site_title),
+            meta: [
+                {
+                    name: `description`,
+                    content: computed(() => this.site_description),
+                },
+                {
+                    name: `keywords`,
+                    content: computed(() => this.site_keywords),
+                },
+            ],
+
+        })
+    }
+});
+</script>

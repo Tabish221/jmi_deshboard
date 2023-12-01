@@ -1,0 +1,648 @@
+﻿
+.tPrices{
+    width: 100%; font-size: 10px;
+    background: #cecece;
+    font-family: arial;
+    font-size: 12px;
+}
+.tPrices table {
+    width: 100%;
+    border: 0;
+    border-collapse: collapse;
+    color: #555;
+    border: 1px solid #ccc;
+}
+.pricePoweredBy,
+.pricePoweredBy a{
+    color: #999999;
+    font-size: 11px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.tPrices tr{
+    border-top: 1px solid #ddd;
+    line-height: 160%;
+    cursor: pointer;
+}
+.tPrices tr:hover{
+    border-top: 1px solid #EC1B23;
+    border-bottom: 1px solid #EC1B23;
+}
+.tPrices tr td.box {
+    display:none;
+}
+.tPrices th, .tPrices td{
+    padding: 4px 5px;
+    background:rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #fefefe 0%, #e2e2e2 100%) repeat scroll 0 0;
+}
+.tPrices .box td,.tPrices .expanded td, .tPrices div.spread span {
+    background: #f6f6f6 !important;
+}
+.tPrices tr.expanded{
+    border-bottom: 0;
+}
+.tPrices tr.box {
+    border-top: 0;
+}
+.tPrices table th {
+    color: #444;
+    text-align: left;
+}
+.tPrices .up .bid, .tPrices .up .ask, .tPrices span.up {
+
+    color: #3C9BDE;
+}
+.tPrices .down .bid, .tPrices .down .ask, .tPrices span.down{
+    color: #F28900;
+}
+
+.tPrices tr.no-change .bid, .tPrices t.no-change .ask {
+    color: #666;
+}
+.tPrices .name {
+    font-weight: bold;
+    font-size: 11px;
+}
+.tPrices .last, .tPrices .spread {
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.tPrices tr.hide{display: none;}
+
+.tPrices .up td.bid:before {
+    content: "▲ ";
+    font-size: 9px;
+}
+.tPrices .down td.bid:before{
+    content: "▼ ";
+    font-size: 9px;
+}
+.tPrices tr.expanded {
+    vertical-align: top;
+    border-bottom: 0;
+}
+.tPrices tr.box td {
+    vertical-align: top;
+}
+.tPrices tr.box td:first-of-type {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.tPrices tr.expanded td.name, .tPrices tr.expanded td.spread {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.tPrices tr.expanded td.spread{
+    text-indent: -99999px;
+}
+.tPrices  table.boxTable {
+    border: 0;
+}
+.tPrices  input {
+    margin-bottom: 5px;
+    padding: 2px 10px;
+    margin-left: 5px;
+    border: 0;
+    margin-top: 5px;
+    font-style: italic;
+    width: 60px;
+    border-radius: 3px;
+}
+.tPrices table.boxTable tr{
+    border: 0;
+}
+.tPrices table.boxTable td{
+    padding: 0;
+}
+.tPrices table tr.ohl span {
+    display: block;
+    background: #dbdbdb;
+    border-radius: 5px;
+    margin:5px;
+    text-align: center;
+    font-size:10px;
+    padding: 2px;
+}
+.tPrices table.boxTable tr.down td.bid:before, .tPrices table.boxTable tr.up td.bid:before{
+    content: ""
+}
+.tPrices div.boxWrapper {
+    position: relative;
+    width: 100%;
+    float:left;
+}
+.tPrices div.bid,.tPrices  div.ask {
+    float:left;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+}
+.tPrices div.bid, .tPrices div.ask {
+    width: 49%;
+    height: 50px;
+    padding-top:12px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 1%;
+    position:relative;
+}
+.tPrices div.bid {
+    margin-right: 1%;
+}
+.tPrices div.bid small, .tPrices div.ask small {
+    font-size:11px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+.tPrices div.ask small{
+    top: 10px;
+    right: 10px;
+    text-align: right;
+}
+.tPrices div.spread{
+    position: absolute;
+    width: 100%;
+}
+.tPrices div.spread span {
+    background: #fff;
+    border-radius: 5px;
+    display: block;
+    height: 25px;
+    text-align:center;
+    line-height: 25px;
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    border-top-left-radius: 0;
+    font-size: 12px;
+    border-top-right-radius: 0;
+}
+.tPrices div.spread span .small{
+    font-size:  10px !important;
+    font-weight: normal;
+    display: block;
+    float:left;
+    position: absolute;
+}
+.tPrices tr div.bid ,.tPrices  tr div.ask {
+    background:#3C9BDE;
+    color: white !important;
+}
+.tPrices tr div.bid strong {
+    text-align: right;
+    display: block;
+    padding-right: 10px;
+    margin-top: 22px;
+}
+.tPrices tr div.ask strong {
+    text-align: left;
+    display: block;
+    padding-left: 10px;
+    margin-top: 22px;
+}           
+.tPrices .down div.bid:hover, .tPrices .down div.ask:hover {
+    background-color: #db7800;
+}
+.tPrices .up div.bid:hover, .tPrices .up div.ask:hover {
+    background-color: #328dc9;
+}
+.tPrices tr.up div.bid ,.tPrices  tr.up div.ask {
+    background: #3C9BDE;
+    color: white;
+}
+.tPrices tr.down div.bid , .tPrices tr.down div.ask {
+    background: #F28900;
+    color: white;
+}
+.tPrices tr.no-change div.ask {
+    background: #F28900;
+}       
+.tPrices tr.no-change div.bid {
+    background: #F28900;
+}               
+.tPrices tr.down div.ask, .tPrices tr.up div.ask {
+    background-position-x: 30%;
+    background-position-y: 10%;
+}
+.tPrices .prices tr.groupControl td.active:before {
+    content: "▼ ";
+    background: #fff;
+}
+.tPrices .prices tr.groupControl td:before {
+    content: "► ";
+    font-size: 14px;
+    background: #ddd;
+}   
+.tPrices tr.groupControl td {
+    background: #ddd;
+}
+.tPrices tr.groupControl td.active {
+    background: #fff;
+}       
+.tPrices table.prices{
+    position: relative;
+}
+.tPrices table.prices tbody{
+    height:auto;
+    overflow2: auto;
+    display: block;
+    width: 100%;
+    float: left;
+}
+.tPrices tr.box{
+    display:table;
+}
+.tPrices tr.box:hover{
+    border-bottom:0;
+}
+.tPrices tr.box,
+.tPrices tr.box > td{
+    width: 100%;
+}
+.tPrices table.prices tr.groupControl,
+.tPrices table.prices  > thead,
+.tPrices table.prices > thead tr,
+.tPrices table.prices tbody tr.item,
+.tPrices table.prices .boxTable{
+    display: table;
+    width: 100%;
+}
+.tPrices table.prices .boxTable tbody{
+    height: auto;
+    overflow: visible;
+    float: none;
+    display: table;
+}
+.tPrices table.prices tbody tr.hide{
+    display: none;
+}
+.tPrices tr.groupControl td{
+    text-align: left;
+    background: #ebedef;
+    font:14px/16px Arial, Helvetica, sans-serif;
+    color:#2988ca;
+}
+.tPrices tr.groupControl td.active{
+    color:#ed1c24;
+    background: #ebedef;
+}
+.tPrices tr.groupControl td:before,
+.tPrices tr.groupControl td.active:before{
+    background: transparent;
+}
+.tPrices tr.groupControl:hover{
+    border-bottom:0;
+    border-color:#ddd;
+}
+.tPrices{
+    position: relative;
+    border2: 1px solid #9caebe;
+    background: none;
+}
+.tPrices table thead tr:hover,
+.tPrices table{border:0;}
+.tPrices thead tr{border-top:0;}
+.tPrices tr{
+    font:16px Arial, Helvetica, sans-serif;
+}
+.tPrices table th,
+.tPrices table td{
+    text-align: center;
+    width: 35%;
+}
+.tPrices table th{
+    color: #fff !important;
+    background: #a8c45e;
+}
+.tPrices .name{
+    font:15px Arial, Helvetica, sans-serif;
+    color:#000;
+    padding: 9px;
+    text-align: left;
+}
+.tPrices .down .ask,
+.tPrices .down .pips,
+.tPrices span.down,
+.tPrices .down .bid:before{color:#ff960e;}
+
+.tPrices .down .bid,
+.tPrices .up .bid{
+    color:#474d52;
+    white-space: nowrap;
+}
+.tPrices .up .pips,
+.tPrices span.up,
+.tPrices .up .bid:before,
+.tPrices .up .ask{
+    color:#29a643;
+}
+.tPrices input{
+    font:12px/14px Arial, Helvetica, sans-serif;
+    color: #474d52;
+    border-radius:0;
+    margin: 0;
+    border:1px solid #9caebe;
+    width: 100px;
+    width: 21%;
+    padding: 5px 3%;
+    position: absolute;
+    bottom:-27px;
+    left:-1px;
+} 
+.tPrices .pricePoweredBy{
+    font:12px/25px Arial, Helvetica, sans-serif;
+    color:#fff;
+    text-align:right;
+    width:71%;
+    position: absolute;
+    bottom:-27px;
+    right:-1px;
+    background: #415260;
+    padding: 0 2% 0 0;
+    border-top:1px solid #9caebe;
+    border-bottom:1px solid #9caebe;
+}
+.tPrices .pricePoweredBy a {
+    color:#fff;
+}
+.tPrices tr.expanded{
+    border-top:1px solid #EC1B23;
+}
+.tPrices .last, .tPrices .spread,
+.tPrices tr.box td:first-of-type{
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+    border-top-right-radius:0;
+}
+.tPrices div.spread span,
+.tPrices tr div.bid,
+.tPrices tr div.ask{border-radius:0;}
+.tPrices div.bid small,.tPrices div.ask small{
+    font:bold 14px/16px Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    top:5px;
+}
+.tPrices tr div.bid strong{text-align:left;}
+.tPrices tr div.ask strong{text-align:right;}
+.tPrices table tr.ohl span{
+    border-radius:0;
+    background: none;
+    border-left:1px solid #f9b5b7;
+    border-top:1px solid #f9b5b7;
+    margin: 0;
+    font:12px/14px Arial, Helvetica, sans-serif;
+    background: #fde8e9;
+    padding: 7px 0 7px 0;
+}
+.tPrices table tr.ohl td:first-child span{border-left:0;}
+.tPrices table.boxTable .askbid{
+    background: #fde8e9;
+}
+.tPrices div.bid{
+    width: 49%;
+    margin-right:1%;
+}
+.tPrices div.ask{
+    width: 50%;
+    margin: 0;
+}
+.tPrices div.spread span,
+.tPrices tr.box td{
+    padding: 0;
+    background: #fde8e9 !important;
+}
+.tPrices div.spread span{
+    width: 18%;
+}
+.tPrices tr div.ask strong,
+.tPrices tr div.bid strong{
+    margin-top: 25px;
+    padding: 0 0 0 7px;
+}
+.tPrices tr div.ask strong{
+    padding: 0 7px 0 0;
+}
+.tPrices .box td, .tPrices .expanded td{
+    background: #fff !important;
+}
+.tPrices tr.item:hover{
+    border-top:1px solid #ed1c24;
+    border-bottom:0;
+}
+.tPrices tr.item:hover + tr.item{
+    border-top:1px solid #ed1c24;
+}
+.tPrices .expanded.no-change + .box  .no-change .boxWrapper  .bid,
+.tPrices .expanded.no-change + .box  .no-change .boxWrapper  .ask{
+ background: #415260 !important;
+}
+.tPrices .expanded.down + .box  .no-change .boxWrapper  .bid,
+.tPrices .expanded.down + .box  .no-change .boxWrapper  .ask{
+ background: #ff960e !important;
+}
+.tPrices .expanded.up + .box  .no-change .boxWrapper  .bid,
+.tPrices .expanded.up + .box  .no-change .boxWrapper  .ask{
+ background: #29a643 !important;
+}
+
+
+.scrollWrapper {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+#priceTickerLine{
+    border:1px solid #9caebe;
+    width: 100%;
+    overflow: hidden;
+    position:relative;
+    font:12px/34px Arial, Helvetica, sans-serif;
+    color:#474d52;
+    height: 34px;
+}
+#priceTickerLine p{
+    display:inline-block;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 10px;
+    position: relative;
+    margin:0;
+    width: 200px;
+}
+#priceTickerLine .name{
+    font:bold 14px/16px Arial, Helvetica, sans-serif;
+    color:#000;
+}
+#priceTickerLine .up .ask{
+    color:#29a643;
+    background: url(../img/up.png) 0 15px  no-repeat;
+    padding: 0 0 0 15px;
+}
+#priceTickerLine .down .ask{
+    color:#ff960e;
+    background: url(../img/down.png) 0 15px  no-repeat;
+    padding: 0 0 0 15px;
+}
+#priceTickerLine .left-shadow{
+    position: absolute;
+    top:0;
+    left:0;
+    background: url(../img/left-shadow.png) 0 0  no-repeat;
+    width: 20px;
+    height: 34px;
+}
+#priceTickerLine .right-shadow{
+    position: absolute;
+    top:0;
+    right:68px;
+    background: url(../img/right-shadow.png) 0 0 no-repeat;
+    width: 20px;
+    height: 34px;
+}
+#priceTickerLine .logo{
+    position:absolute;
+    top:0;
+    right:0;
+    background: #415260;
+    font:12px/14px Arial, Helvetica, sans-serif;
+    color:#fff;
+    width: 58px;
+    text-decoration:none;
+    text-align:center;
+    z-index:100;
+    padding:3px 5px;
+}
+#priceTickerLine .ask,
+#priceTickerLine .bid{
+    display:inline-block;
+    margin:0 0 0 5px;
+}
+
+/*small*/
+.size-2 .tPrices{width: 270px;}
+.size-2 .tPrices tr td{font-size:11px;}
+.size-2 .tPrices .name,
+.size-2 .tPrices tr th{font-size:12px;}
+.size-2 .tPrices .name{
+    padding: 4px 0;
+    width: 70px;
+}
+.size-2 .tPrices .down .bid:after{color: #ff960e;}
+.size-2 .tPrices .down td.bid:after {
+    content: " ";
+    width: 11px;
+    height: 6px;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAGCAYAAAFiNVRuAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDA0RENBQzYxM0M0MTFFNDgwRTNFMUE2OTQ2OTAxODgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDA0RENBQzcxM0M0MTFFNDgwRTNFMUE2OTQ2OTAxODgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0MDREQ0FDNDEzQzQxMUU0ODBFM0UxQTY5NDY5MDE4OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0MDREQ0FDNTEzQzQxMUU0ODBFM0UxQTY5NDY5MDE4OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pu/3QNQAAACPSURBVHjaYvw/ja+bgYGhBCCAGICM/wABxAgkgByGS0CsBxBAIM5/BgjoZQISjEB8GaQWIIBgyjYCsR9UxSYg9gcIIGQtcADSyoImxgIS/AvEAlABEP0XIMBA2kGWLALiGAbcYCkQx4JMANkVC8TcQHwYTdERqDjIoP9MSBLfgNgOiKWAeAcQSwOxLVQcDADEnyAiPgFq5gAAAABJRU5ErkJggg==);
+    top: 9px;
+    right: -2px;
+    position: absolute;
+}
+.size-2 .tPrices .up td.bid:after {
+    content: "";
+    width: 11px;
+    height: 6px;
+    top: 9px;
+    right: -2px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAGCAYAAAFiNVRuAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzZDNTYxOEMxM0M0MTFFNDlEODJBQzY0NUFEMzkxNTUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzZDNTYxOEQxM0M0MTFFNDlEODJBQzY0NUFEMzkxNTUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNkM1NjE4QTEzQzQxMUU0OUQ4MkFDNjQ1QUQzOTE1NSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNkM1NjE4QjEzQzQxMUU0OUQ4MkFDNjQ1QUQzOTE1NSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PnJL+9AAAACSSURBVHjaYtRc5swAAgABxABkSAIEECOQYARy/oEEAAKIESolBcTPWIDEf4hCBiaAAILJcAHxV6ggNxB/AwggRrhpDAzbgdgTrBwqcBCIPYD4EExwERDbQSVtgXgxQIAhawcBfiA+DMS6QHwZqugjTBJmLDMQbwTiD1CFDFD6A1ScGaa4E4j/ALEfA3bgB5XvAgCabBt+ab+8OAAAAABJRU5ErkJggg==);
+}
+.size-2 .tPrices .up .bid:after {color: #29a643;}
+.size-2 .tPrices .up td.bid:before,
+.size-2 .tPrices .down td.bid:before {display: none;}
+.size-2 .tPrices input{
+    width: 94%;
+    background: #d7dce0;
+    color: #474d52;
+    display: none;
+}
+.size-2  .tPrices table.prices tbody{height: 234px;}
+.size-2 .tPrices .down .bid, 
+.size-2 .tPrices .up .bid{position: relative;}
+.size-2 .tPrices td.bid,
+.size-2 .tPrices td.ask{
+    text-align: right;
+    width: 40px;
+}
+.size-2 .tPrices td.bid{
+    text-align: left;
+    width: 60px;
+}
+.size-2 .tPrices table th{text-align: left; width: auto;}
+
+/*prices-wrapper-line*/
+.prices-wrapper-line {
+    bsorder: 1px solid #9caebe;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    font: 12px/34px Arial, Helvetica, sans-serif;
+    color: #474d52;
+    height: 65px;margin-top:10px;
+}
+.prices-wrapper-line .logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #415260;
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    color: #fff;
+    width: 58px;
+    text-decoration: none;
+    text-align: center;
+    z-index: 100;
+    padding: 3px 5px;
+}
+.prices-wrapper-line p{
+    display: inline-block;
+    height: 120px;
+    padding: 0 10px;
+    margin: 0;
+    width: 160px;
+    font:14px/34px Arial, Helvetica, sans-serif;
+}
+.prices-wrapper-line p span{
+    font: 12px/16px Arial, Helvetica, sans-serif;
+}
+.prices-wrapper-line .name{
+    font:bold 14px/16px Arial, Helvetica, sans-serif;
+    color:#fff;
+}
+.prices-wrapper-line .up .ask{
+    color:#29a643;
+    background: url(../img/up.png) 0 6px  no-repeat;
+    padding: 0 0 0 15px;
+}
+.prices-wrapper-line .down .ask{
+    color:red;
+    background: url(../img/down.png) 0 3px  no-repeat;
+    padding: 0 0 0 15px;
+}
+.prices-wrapper-line .ask,
+.prices-wrapper-line .bid{
+    display:inline-block;
+    margin:0 0 0 5px;
+}
+.prices-wrapper-line .left-shadow {
+    left: 0;
+    height: 34px;
+}
+.prices-wrapper-line .right-shadow {
+    right: 68px;
+    height: 34px;
+}
+.pq-powered a{
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    color: #ed1c24;
+}
+.pq-powered a:hover{
+    text-decoration: none;
+}

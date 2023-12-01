@@ -1,0 +1,90 @@
+<template>
+
+     <div class="row gray_bg">
+            <img src="/assets/img/Introducing_Broker.jpg" alt="" class="img-responsive center-block picHeight" />
+        </div>
+
+        <div class="row gray_bg mrtb40">
+            <div class="container">
+                <h2>Introducing Broker Services</h2>
+
+             <p>We have built up a strong  reputation for fairness, efficiency and responsiveness with IBs from around the  world. We are constantly looking to forge partnerships with new, reputable  Introducing Brokers who are looking to grow their business. We offer a fast and  cost-efficient route to market,
+                 flexible commercial terms and superior personalized  service from a team who know the business well. <br/>
+        We offer partners the broadest range  of forex, equity and derivatives products, both exchange-traded and  over-the-counter (OTC).<br/>
+        <br/>
+        Our specialist IB Team has many  years experience in servicing the precise needs of IBs and they understand the  global FX market. They are approachable and easily contactable day or night.
+        As  an appointed IB you will have your own account manager. Their role is to help  you develop your business and to ensure we provide the highest levels of  service - and also to make sure your customers' needs are met.
+        </p>
+              <div class="speacer20"></div>
+
+                <h2> How it works - in outline</h2>
+               <p> Our Introducing Broker (IB) Service  allows you to be remunerated for introducing new clients to us. As an IB you  can introduce your clients to JMI Brokers and will receive commission on an ongoing  basis via volume rebates or spreads. <br/>
+                We offer a total solution, from  provision of the trading platforms, account opening, to execution and  settlement of transactions, to issuing trading statements to your clients.  Under this arrangement, for administrative purposes,
+                  your clients would be  disclosed to JMI Brokers and deal directly with us, although we would not approach your  clients directly. This leaves you free to concentrate on customer acquisition  and the management of your own business.
+               </p>
+
+                <h2> Other types of partner</h2>
+
+                 <div class="speacer10"></div>
+
+                 <h4>Introducing Agents</h4>
+                <p> Under this arrangement your clients would be introduced to JMI Brokers and trade our  products in exchange for a fee.
+                     The client would become a customer of JMI. This  method allows financial intermediaries to efficiently offer on exchange and off  exchange (OTC) products to their client base.  </p>
+
+                 <div class="speacer20"></div>
+
+                <h4>Fund Managers</h4>
+                <p> We welcome partnerships with Fund Managers. After necessary appraisal of your  fund we will be happy for you to trade on behalf of your clients on an  undisclosed or disclosed basis and
+                     recommend your services to suitable existing  clients of JMI Brokers .</p>
+
+                <div class="speacer20"></div>
+                 <div class="speacer20"></div>
+
+
+
+                <a href="/en/become-partner"  class="become-partner slide-live-button">Become Our Partner</a>
+
+
+                <div class="speacer20"></div>
+
+            </div>
+        </div>
+
+</template>
+
+<script>
+import { useHead } from '@vueuse/head'
+import {computed, reactive, ref} from "vue";
+import axios from 'axios';
+import {useRouter} from "vue-router";
+const errors = ref()
+const router = useRouter();
+
+export default ({
+    data(){
+        return{
+            site_title: `Partnership and White label`,
+            site_description: ``,
+            site_keywords: '',
+
+        }
+    },
+    mounted() {
+        useHead({
+            // Can be static or computed
+            title: computed(() => this.site_title),
+            meta: [
+                {
+                    name: `description`,
+                    content: computed(() => this.site_description),
+                },
+                {
+                    name: `keywords`,
+                    content: computed(() => this.site_keywords),
+                },
+            ],
+
+        })
+    }
+});
+</script>

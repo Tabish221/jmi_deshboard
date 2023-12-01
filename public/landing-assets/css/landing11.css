@@ -1,0 +1,478 @@
+.desktop {
+	display: block;
+}
+.mobile {
+	display: none;
+}
+body {
+	width: 100%;
+	min-width: 320px;
+	max-width: 1920px;
+	margin: auto;
+	background: #171415;
+	font-family: Arial, Helvetica, sans-serif;
+	direction: rtl;
+	text-align: right;
+}
+header {
+	width: 100%;
+	background: #171415;
+	border-bottom: 1px solid #ad9245;
+}
+header nav {
+	max-width: 1000px;
+	margin: auto;
+	padding: 15px 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#logo
+{
+    width:128px;
+	height:65px;
+    
+    background: url("https://www.jmibrokers.com/assets/img/JMI_logo.png") no-repeat;
+    text-indent: -9999px;
+    background-size: 200px 70px;
+    width: 200px;
+    height: 70px !important;
+    
+}
+main {
+	width: 100%;
+	height: 630px;
+	background: url('https://jmibrokers.com/landing-assets/img/landing11/ar_mainImg.jpg') center no-repeat;
+}
+
+.label {
+	float:right;
+	width:100%;
+	height:131px;
+	margin: -150px 20px;
+	background:url('https://jmibrokers.com/landing-assets/img/landing11/label.png') center no-repeat;
+	animation-delay:2s;
+	animation-duration:1s;
+	animation-iteration-count:5;
+	animation-name:scale_label;
+	animation-timing-function:linear;
+	-webkit-animation-delay:2s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-iteration-count:5;
+	-webkit-animation-name:scale_label;
+	-webkit-animation-timing-function:linear;
+}
+
+main section {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 0px 20px;
+	padding-top: 40px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+main section h1 {
+	color: #be9244;
+	font-family: 'simpo_0' sans-serif;
+	font-size: 42px;
+	font-weight: bold;
+	margin-right: 10px;
+	width:65%;
+	text-shadow: 1px 1px #000;
+	  line-height: 50px;
+}
+main section h2 {
+	position: relative;
+	color: #f4f4f4;
+	font-family: 'simpo_0' sans-serif;
+	font-size: 30px;
+	line-height: 40px;
+	width:60%;
+	margin-right: 10px;
+    margin-top: 20px;
+	text-shadow: 1px 1px #000;
+}
+
+main section p {
+  width: 450px;
+  margin: 20px 0px;
+  color: #eaae3a;
+  font-family: 'simpo_0' sans-serif;
+  font-size: 25px;
+  line-height: 36px;
+  margin-right: 10px;
+}
+
+main section strong {
+	display: block;
+	margin-top: 40px;
+	color: #be9244;
+	font-family: 'simpo_0' sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	text-shadow: 1px 1px #000;
+}
+main section ul {
+	margin: 20px 0px;
+	list-style: none;
+}
+main section ul li {
+	display: block;
+	margin: 5px 0px;
+	padding-right: 30px;
+	padding-left: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url('https://jmibrokers.com/landing-assets/img/landing11/bullet.png') right no-repeat;
+	color: #f4f4f4;
+	font-family: 'simpo_0' sans-serif;
+	font-size: 22px;
+	text-shadow: 1px 1px #000;
+}
+main section ul li b {
+	font-family: RobotoRegular;
+	font-weight: normal;
+}
+
+/**STEPS START**/
+
+#steps_wraper {
+	width:100%;
+	float:right;
+	position:relative;
+	margin-top: 25px;
+    padding-bottom: 30px;
+}
+
+.colom {
+  width: 150px;
+  float: right;
+}
+
+.step-1 {
+	padding: 60px 0 0 0;
+	background-image: url('https://jmibrokers.com/landing-assets/img/landing11/step1.png');
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-size: initial;
+}
+.step-2 {
+	padding: 60px 0 0 0;
+	background-image: url('https://jmibrokers.com/landing-assets/img/landing11/step2.png');
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-size: initial;
+}
+.step-3 {
+	padding: 60px 0 0 0;
+	background-image: url('https://jmibrokers.com/landing-assets/img/landing11/step3.png');
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-size: initial;
+}
+
+.step-1_text {
+  font-family: 'simpo_0' sans-serif;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 1px 1px #000; 
+  text-align: center;
+  text-shadow: 1px 1px #000;
+}
+
+.step-2_text {
+  font-family: 'simpo_0' sans-serif;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 1px 1px #000; 
+  text-align: center;
+}
+
+.step-3_text {
+  font-family: 'simpo_0' sans-serif;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 1px 1px #000; 
+  text-align: center;
+}
+
+.arrow_step {
+	padding: 40px 0 0 0;
+	background-image: url('https://jmibrokers.com/landing-assets/img/landing11/arrow_step.png');
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-size: initial;
+	float: right;
+  	width: 40px;
+  	margin-top: 10px;
+}
+
+ @media all and (max-width:1000px) {
+
+.label {
+	display:none;
+}
+
+header nav a {
+	width: 160px;
+	height: 30px;
+}
+main {
+  width: 100%;
+  height: 640px;
+  background-size: auto 640px;
+}
+main section {
+	padding-top: 30px;
+}
+main section h1 {
+	font-size: 24px;
+	width:70%;
+}
+main section h2 {
+	font-size: 	22px;
+	line-height: 40px;
+	width:80%;
+}
+
+main section p {
+	font-size: 20px;
+	width: 350px;
+}
+main section strong {
+	font-size: 22px;
+}
+
+main section ul  {
+	display: block;
+}
+
+
+.colom {
+	width:110px;
+}
+
+.step-1_text, .step-2_text, .step-3_text {
+	font-size:17px;
+}
+
+
+}
+ @media all and (max-width:750px) {
+.desktop {
+	display: none;
+}
+.mobile {
+	display: block;
+}
+body {
+	background: #171415;
+}
+header nav {
+	padding: 5px 10px;
+}
+header nav a {
+	margin: auto;
+}
+main {
+	height: 550px;
+	background-size: auto 550px;
+}
+main section h1 {
+	padding-left: 25%;
+	padding-right:0px;
+	color: #be9244;
+	font-size: 28px;
+	font-weight: bold;
+	width:55%;
+}
+main section h2 {
+	right: 0;
+	left:inherit;
+	display: block;
+	padding: 0;
+	padding-left: 50%;
+	background: none;
+	color: #fff;
+	text-shadow: none;
+	font-size: 21px;
+	line-height: normal;
+	text-align: right;
+	text-transform: none;
+	width: 60%;
+	margin-right: 10px;
+	
+}
+
+.colom {
+  width: 110px;
+}
+
+.label {
+	display:none;
+}
+
+
+@media all and (max-width:610px) {
+  
+  main {
+  height: 580px;
+  background-size: auto 580px;
+}
+  
+  main section h1 {
+	width: 60%;
+	font-size:25px;
+}
+
+ main section h2 {
+	line-height: 40px;
+	font-size:19px;
+}
+
+.colom {
+  width: 90px;
+}
+
+main section strong {
+  font-size: 20px;
+}
+
+main section ul li {
+	font-size:18px;
+}
+
+.step-1_text, .step-2_text, .step-3_text {
+	font-size:14px;
+	font-weight:bold;
+}
+
+}
+
+@media all and (max-width:560px) {
+  
+  main {
+  height: 560px;
+  background-size: auto 560px;
+}
+  
+  main section h1 {
+	width: 80%;
+	font-size:24px;
+}
+
+ main section h2 {
+	line-height: 35px;
+	font-size:18px;
+}
+
+main section strong {
+  font-size: 18px;
+}
+
+main section ul li {
+	font-size: 17px;
+}
+
+.colom {
+  width: 80px;
+}
+
+
+}
+
+ @media all and (max-width:480px) {
+main {
+	height: 320px;
+	background-size: auto 320px;
+}
+main section {
+	padding-top: 10px;
+}
+main section h1 {
+	padding-left: 25%;
+	font-size: 23px;
+	line-height: 30px;
+	  width: 70%;
+}
+main section h2 {
+	display: none;
+}
+
+main section strong {
+  display: none;
+}
+
+main section ul {
+  display: block;
+    margin-top: 24px;
+}
+
+main section ul li {
+	font-size:16px;
+	font-weight:bold;
+	
+}
+
+#steps_wraper {
+  display: none;
+}
+
+
+
+}
+
+
+ @media all and (max-width:380px) {
+	
+main section h1 {
+	padding-left: 15%;
+	margin-right:0px;
+	  font-size: 18px;
+}
+
+	 
+	main section h2 {
+		display:none;
+}
+
+main section ul li {
+	font-size:15px;
+	font-weight:bold;
+	
+}
+
+
+ }
+ 
+ @media screen and (max-width: 970px) {
+.desktop_text {
+    display: none;
+}
+
+form {
+    background-color: #338f9f;
+    color: #000;
+    padding: 0 51px 20px;
+    position: relative;
+}
+form #form_text {
+    color: #fff;
+    font-size: 37px;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 29px;
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+@media screen and (max-width: 380px) {
+form #form_text {
+    font-size: 32px;
+}
+}
+
+

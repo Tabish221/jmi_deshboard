@@ -1,0 +1,500 @@
+<template>
+<link rel="canonical" href="https://www.jmibrokers.com/ru/faq" />
+
+
+         <div class="row  " style="margin: auto;">
+            <img src="/assets/img/FAQ.jpg" alt="" class="img-responsive center-block picHeight" />
+        </div>
+
+
+    <div class="row gray_bg">
+        <div class="container mrtb40">
+            <h2> Часто задаваемые вопросы</h2>
+
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Какова процедура открытия счета в JMI? </h3>
+                    </li>
+
+                    <li class="a" ><div>
+                        <h4>Два способа открыть свой торговый счет JMI Brokers</h4>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <p>Самый быстрый и простой способ открытия счета. Заполните заявку онлайн. (Рекомендуемые)</p>
+                            <a href="/ru/signup/"><img src="/assets/img/content_img/FAQ_clip_image004_0000.jpg/" alt="" class="img-responsive" /></a>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <p>Откройте реальный счет (необходимые документы) :</p>
+                            <a href="/assets/Downloads/customer_account_agreement.pdf/" ><img src="/assets/img/content_img/FAQ_clip_image005.jpg/" alt="" class="img-responsive" /></a>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <div class="speacer20"></div>
+
+                        <ol  start="1" type="1">
+                            <li> <a href="/assets/Downloads/customer_account_agreement.pdf/" target="_blank">Загрузите соглашение об учетной записи клиента.</a> </li>
+                            <li>Прочитайте полностью и подпишите Соглашение, гарантируя, что вы полностью поняли все условия.</li>
+                            <li>Пожалуйста, отправьте следующие страницы по факсу+971 <span lang="en-us">2</span>
+                                <span lang="en-us">6594</span> <span lang="en-us">258</span> Или отсканируйте документы и отправьте их по электронной почте<a href="mailto:support@jmibrokers.com"> support@jmibrokers.com </a> Страницы 3, 4,5, 6,7,10, 19 и 24 из соглашения об учетной записи клиента. Для индивидуальных счетов вам необходимо приложить четкую копию вашего действительного паспорта и счет за коммунальные услуги (например, телефон или электричество) в качестве доказательства проживания. ,</li>
+                            <li>Когда мы получим запрошенные документы, мы проверим ваши заявки, после принятия наши сотрудники создадут для вас учетную запись и отправят вам подтверждающее письмо, содержащее ваше имя пользователя и ваш пароль, вы должны подписать его и отправить по факсу.+971
+                                <span lang="en-us">26594</span> <span lang="en-us">258</span> или отсканируйте его и отправьте по электронной почте<a href="mailto:support@jmibrokers.com"> support@jmibrokers.com </a> </li>
+                            <li>Как только мы получим подписанное письмо-подтверждение, ваш счет будет готов, и вы сможете перевести средства на наш банковский счет.</li>
+                        </ol>
+
+                    </div></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>КОГДА Я МОГУ СТАТЬ ТОРГОВЛЕЙ?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+                        <ol class="pd_l20" start="1" type="1">
+                            <li>После получения вашего заявления наш отдел соответствия проверяет и проверяет его на предмет одобрения. Процесс утверждения и настройки требуется ок. 2 рабочих дня для индивидуальных счетов и ок. 3 дня для завершения корпоративных счетов. </Li>
+                                             <li> После подтверждения наш бэк-офис настроит вашу учетную запись и свяжется с вами, указав номер вашей учетной записи (логин и пароль) и инструкции по подключению для пополнения вашей учетной записи. </li>
+                                             <li> Прежде чем вы сможете начать торговлю, вам необходимо пополнить свой торговый счет, перечислив в наш банк необходимые средства. Переводы третьих лиц не принимаются. Узнайте, как пополнить свой счет. </Li>
+                                             <li> Как только мы получим ваш банковский перевод, мы сразу же зачислим на ваш Торговый счет. Этот процесс может занять до 2-3 дней в зависимости от того, сколько времени займет банковский перевод. </Li>
+                                             <li> Вы можете начать торговать, как только ваш торговый счет будет зачислен.</li>
+                        </ol>
+
+                        <div class="speacer20"></div>
+
+                    </div></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Как я могу перевести свои средства?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+                        JMI Brokers могут принимать денежные средства только со счета, на котором указано имя клиента. В соответствии с законами Дубая о борьбе с отмыванием денег
+
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Могу ли я перевести средства со своего торгового счета на торговый счет другого клиента?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        Нет, это предотвращает перевод средств между счетами разных клиентов, а также предотвращает конвертацию любой третьей стороны.
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Можно ли открыть более одной учетной записи в JMI?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        Да, на самом деле вы можете открыть несколько дополнительных учетных записей, принадлежащих к основной учетной записи, и открыть дополнительную учетную запись, просто распечатать и заполнить форму заявки на дополнительную учетную запись и отправить ее нам по факсу или электронной почте.
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Вы управляете деньгами?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        JMI Brokers выполняет только онлайн-сервис, мы не предоставляем сервис управления аккаунтом.
+
+                    </div></li>
+                </ul>
+            </div>
+
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Доступны ли документы для открытия счета в JMI Brokers на разных языках?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+                        В настоящее время типовое соглашение об учетной записи доступно только на английском языке, эта услуга будет доступна в ближайшее время на немецком, испанском, португальском, итальянском, русском, китайском, японском и арабском языках.
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Взимаете ли вы какую-либо комиссию или комиссию при открытии счета в JMI?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        JMI в настоящее время не взимает комиссию, но за фьючерсы будет взиматься плата.
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3> Почему я должен предоставить вам документально подтвержденную копию моего паспорта? </h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        Это контрольная мера, требуемая Управлением по борьбе с отмыванием денег в Дубае, чтобы убедиться, что человек, который хочет открыть счет, и серьезность в нем.
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Могу ли я открыть счет, если у меня нет паспорта?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        Да, вы можете предоставить любой документ, удостоверяющий личность, с фотографией и подписью, если это считается приемлемым.
+
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Могу ли я снять свои деньги, когда вы этого хотите?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+                        Да! Просто отправьте нам запрос на снятие денег по факсу, и мы переведем средства на ваш банковский счет.
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Приняты ли JMI Brokers стратегии входа и выхода сделки в короткие сроки (скальпинг)?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        JMI не принимает (скальпинг) стратегии.
+
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Принимает ли JMI Brokers арбитражные стратегии (арбитраж)?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        JMI не принимает арбитражные стратегии (арбитраж), и любой аккаунт, использующий эти стратегии, приведет к приостановке аккаунта.
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Принимает ли JMI Brokers высокочастотную торговлю?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        JMI не принимает высокочастотную торговлю, и любой аккаунт, использующий эти стратегии, приведет к приостановке аккаунта.
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Есть ли какие-либо гарантии с вашей стороны в отношении отложенных или убыточных ордеров?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        Yes , your will take it into account when the price referred to before, except when the market opened after the weekend , or any other holiday , or in the period of the usual market break , then you will take your order at the opening price .
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Какой минимум открыть счет в JMI?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+                        Минимальная сумма для открытия счета в JMI Brokers составляет 100 долларов США.
+
+                    </div></li>
+                </ul>
+            </div>
+
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Могу ли я торговать сделками с мелкой процедурой JMI Brokers?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        Да, JMI Brokers разрешает небольшие торговые транзакции для всех учетных записей. Минимум 0,1 балла, а сделка (10 000 долларов).
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Влияет ли JMI Brokers наложить проценты на непогашенный остаток на моем счете? </h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        Нет, на вашем счету нет интереса.
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Какова политика «не экономьте на марже»? </h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        Намерено не сохранять нашу собственную политику маржи, чтобы наши клиенты могли пойти ниже маржинальных требований и без брокеров JMI закрыть свои позиции. На этой неделе эти центры могут колебаться и работать с JMI Brokers, не предпринимая никаких действий с его стороны, мы только просим вас сохранить маржинальные требования для счетов на сумму более 500 000 долларов США к вечеру пятницы. Политика «Не сохранять маржу» также означает, что мы не делаем маржинальный колл, поскольку мы не закрываем центры автоматически, если вы опускаетесь ниже маржинальных требований ваших позиций, однако, если ваша акция достигла нуля, вы должны остановиться и ваши позиции будет закрыт. Реализация приостановки будет только тогда, когда это требуется от заброшенных акций на уровне менее 1% маржинального счета.
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Когда стало без наценки? </h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        Когда уровень маржи до 1% или менее с нуля.
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Вы принимаете клиентов только из определенных стран? </h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        Нет, клиенты со всего мира могут открыть счет в JMI.
+
+                    </div></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Если я покрыл свою позицию по определенной паре, будет ли моя маржа равной нулю по этой паре?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        Да! При освещении по центру ваша пара обнулится на этой паре.
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3> Платформа позволяет покрытие?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        Да (вы можете использовать длинные и короткие позиции одной пары)
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Вы увеличиваете маржу на волатильном рынке? </h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        Нет! JMI Brokers не увеличивает маржу на волатильном рынке, мы предлагаем нашим клиентам последовательную политику для сторонних компаний.
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <ul class="faq">
+                    <li class="q">
+                        <span class="fa fa-arrow-circle-right"></span>
+                        <h3>Какое кредитное плечо обеспечено соотношением JMI Brokers?</h3>
+                    </li>
+
+                    <li class="a" ><div>
+
+                        Счета до 10 000 долл. США предлагают кредитное плечо 1: 200, что составляет до 1 000 000 долл. США, предлагают кредитное плечо 1: 100, а для счетов свыше 1 000 000 долл. США - 2: 100.
+
+
+                    </div></li>
+                </ul>
+            </div>
+
+
+      </div>
+
+        </div>
+
+
+
+</template>
+
+<script>
+import { useHead } from '@vueuse/head'
+import {computed, reactive, ref} from "vue";
+import axios from 'axios';
+import {useRouter} from "vue-router";
+const errors = ref()
+const router = useRouter();
+
+export default ({
+    data(){
+        return{
+            site_title: `Frequently Asked Questions JMI Brokers`,
+            site_description: ``,
+            site_keywords: '',
+
+        }
+    },
+    mounted() {
+        useHead({
+            // Can be static or computed
+            title: computed(() => this.site_title),
+            meta: [
+                {
+                    name: `description`,
+                    content: computed(() => this.site_description),
+                },
+                {
+                    name: `keywords`,
+                    content: computed(() => this.site_keywords),
+                },
+            ],
+
+        })
+    }
+});
+</script>
+<style>
+.item .faq .q h3{display:inline-block;cursor: pointer;}
+ul{list-style-type: none;}
+ul li.a{display: none;}
+.item .faq .q span.rotate{transform: rotate(90deg);}
+</style>

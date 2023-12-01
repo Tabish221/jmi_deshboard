@@ -1,0 +1,97 @@
+<template>
+
+                  <div class="row gray_bg mrtb40">
+            <div class="container">
+
+
+        <br />
+<table width="680" border="0" align="center">
+  <tr>
+    <td>
+
+     <table width="680" height="37" border="0" background="/assets/cimages/bg_1.jpg">
+        <tr>
+          <td><span ><strong>&nbsp;&nbsp;&nbsp;&nbsp;What is Technical Analysis?</strong></span></td>
+        </tr>
+      </table>
+      <br />
+
+
+      <p><strong>"Technical analysis":-</strong> is an industry term that more often than not sounds much  more complicated than the actual process is. Really, it ought to be referred to  as "price analysis", as this would be a more accurate description. Through the  use of charted data traders around the world analyze their market of choice.  The objective: determine future price movement. The means: understanding price  movement patterns of the past. <strong><u> </u></strong><br />
+The <strong>charting </strong>of price  movements creates a visual tug-of-war between buyers and sellers. The large  majority of Technical traders in the Forex market focus their attention on candlestick data, a method of  charting that offers a visual interpretation of the high, low, open and close  of a currency price within a certain time frame. <br />
+Combined with various forms of pattern  recognition (which will be covered later in the course) candlestick charting offers traders a visual look at the  market's past prices and trends. Analyzing this historical data in order to  predict the movements of future prices is the process known as "technical analysis". Notice how  price patterns formed on the following chart tend to repeat; technical traders  attempt to identify patterns of these nature, and base their trades accordingly. <u> </u></p>
+    <p align="center"><img src="/assets/cimages/untitledwsdwd.jpg" /></p>
+
+
+    <table width="680" height="37" border="0" background="/assets/cimages/bg_1.jpg">
+        <tr>
+          <td><span ><strong>&nbsp;&nbsp;&nbsp;&nbsp;Why Does Technical Analysis Work?</strong></span></td>
+        </tr>
+      </table>
+      <br />
+
+
+    <p>Technical analysis is often  dispelled as a myth, even a fool's errand. There are those who believe that  price movement is completely random and completely unpredictable. True,  technical analysis is never an exact science (predicting the future never is).  However, the true fool would be he or she that ignores the power of technical analysis, particularly in  the Forex market. <br />
+      Analyzing price patterns is actually very similar to analyzing human  behavior. While humans can at times be unpredictable in nature, humans are  typically considered to be creatures of habit. The average human adheres to  certain paradigms, paradigms that are rarely broken. Do you brush your teeth or  shower first? Do you comb your hair before or after you shave? The point: if  one were to observe an average person's daily routine before leaving the house  for work their behavior may seem random or without purpose. However, if one  were to observe the same human day after day, within a relatively short amount  of time it would not be hard to outline that person's morning routine. In fact,  nine times out of ten you would probably be able to predict with impressive  accuracy how your observed creature would prepare for their day, perhaps even  down to the minute. <br />
+    The Forex market is also a creature of  habit. Analyzing price movement  is effective because the past can teach us how human beings (the real living  and breathing organism of this market) will react to certain situations.  History does repeat itself. Technical  analysis offers the Forex trader a certain level of expectancy when  considering future price movements. In a sense, accurate technical analysis is  a trader's true edge. There is no crystal ball for predicting the future of the  market, though there are keys to understanding patterns, past, present and  future. </p>
+
+     <table width="680" height="37" border="0" background="/assets/cimages/bg_1.jpg">
+        <tr>
+          <td><span ><strong>&nbsp;&nbsp;&nbsp;&nbsp;When  Does Technical Analysis Fail?</strong></span></td>
+        </tr>
+      </table>
+      <br />
+
+    <p>Technical  analysis fails when traders fail to consider  the fundamentals. Why mention fundamental analysis when explaining technical  analysis? Simple, the one just doesn't work without the other. Fundamental factors such as political  events, a hike in interest rates, unemployment rates and so on will impact the  Forex market more substantially than perhaps any other market. Fundamental  factors are often the driving force of major price movements. A trader focused  on technical analysis cannot ignore Nonfarm Payroll on the first Friday of the  month and expect his or her technical indications to be as accurate as the day  prior. Notice the price movement shown in the following image; shortly after  Nonfarm Payroll price reactions were wild; during such times technical analysis cannot be counted  on. </p>
+    <div align="center"><img src="/assets/cimages/untitledasd.jpg" /></div>
+    <p>Purely technical traders understand that  certain political factors throw all other price forecasts out the window. </p>
+    <div align="left"></div>
+  </td>
+  </tr>
+</table>
+
+</div></div>
+
+
+
+</template>
+
+<script>
+import { useHead } from '@vueuse/head'
+import {computed, reactive, ref} from "vue";
+import axios from 'axios';
+import {useRouter} from "vue-router";
+const errors = ref()
+const router = useRouter();
+
+export default ({
+    data(){
+        return{
+            site_title: `What is Technical Analysis?`,
+            site_description: ``,
+            site_keywords: '',
+
+        }
+    },
+    mounted() {
+        useHead({
+            // Can be static or computed
+            title: computed(() => this.site_title),
+            meta: [
+                {
+                    name: `description`,
+                    content: computed(() => this.site_description),
+                },
+                {
+                    name: `keywords`,
+                    content: computed(() => this.site_keywords),
+                },
+            ],
+
+        })
+    }
+});
+</script>
+<style type="text/css">
+.style72 {color: #FFFFFF}
+</style>

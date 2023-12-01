@@ -1,0 +1,332 @@
+html{height: 100%;width:100%;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block; }
+body {line-height: 1; }
+ol, ul {list-style: none; }
+blockquote, q {quotes: none; }
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none; }
+table {border-collapse: collapse;border-spacing: 0; }
+
+.clearfix:before,.clearfix:after{content: '\0020';display: block;overflow: hidden;visibility: hidden;width: 0;height: 0; }
+.clearfix:after {clear: both; }
+.clearfix {zoom: 1; }
+
+.clear {clear: both;display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}
+
+* {  font-family: Arial, Helvetica, sans-serif; }
+/**** General  ***/
+body{
+font-size: 33px;
+margin: 0;
+padding:0;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+direction: rtl;
+line-height: 1;
+background: url(https://jmibrokers.com/landing-assets/img/landing9/bg.jpg) no-repeat center 96px;
+}
+.only-mobile{display: none;}
+.container{
+margin:0 auto;
+width:965px;
+padding:0;
+position: relative;
+}
+header{
+height: 96px;
+position: relative;
+z-index: 10;
+background:#000;
+}
+#logo{
+position: absolute;
+top:22px;
+right:20px;
+width:171px;
+height: 65px;
+background: url(https://www.jmibrokers.com/assets/img/JMI_logo.png) no-repeat left top;
+text-indent: -9999px;
+overflow: hidden;
+    background-size: 200px 70px;
+    width: 200px;
+    height: 70px !important;
+}
+#logo a{
+display: block;
+width:100%;
+height: 100%;
+}
+
+#main{
+padding:50px 0px 0px 0px;
+line-height: 1.4;
+height: 535px;
+}
+#main-inner{
+	float: right;
+	width:600px;
+	padding:0 15px 0 0;
+}
+#main h2{
+font-size: 44px;
+font-weight: normal;
+margin:0 0 10px 0;
+line-height: 1.2;
+}
+#main h2 .en{font-family: Arial, Helvetica, sans-serif;font-size: 29px;}
+#main h3{
+font-size: 43px;
+font-weight: normal;
+margin:0 0 0px 0;
+line-height: 1;
+}
+#main h3 .en{font-family: Arial, Helvetica, sans-serif;font-size: 25px;}
+#main-inner ul{
+	list-style:none;
+	margin:15px 0 10px 0px;
+}
+#main-inner li{
+	padding-bottom: 5px;
+	padding-right: 25px;
+	background: url(https://jmibrokers.com/landing-assets/img/landing9/dot.jpg) no-repeat right 10px;
+	line-height: 1;
+}
+
+footer{
+padding:30px 0;
+border-top: solid 4px #01376e;
+}
+#footer-text{
+font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+color: #227b2f;
+text-align: center;
+line-height: 16px;
+}
+#footer-logos{
+	margin-top:20px;
+	text-align: center;
+}
+
+#form{
+	float: left;
+	width:195px;
+	padding:30px 0px 0 20px;
+}
+#form h2{
+font-size: 32px;
+color: white;
+font-weight: normal;
+margin:0;
+line-height: 1;
+}
+#form-inner,#form-inner a{font-size: 10px;color: white;font-family: Arial, Helvetica, sans-serif;text-decoration: none;}
+#form-inner{padding:0;vertical-align: middle;}
+
+/** form css **/
+#divFullName, #divEmail, #divCountry, #divPhone, #divSubmit{display: block;margin-top: 15px;vertical-align: middle;}
+#form-inner input[type=text],#form-inner select{
+width: 155px;
+height: 28px;
+background-color: white;
+border: solid 1px #e3e3e3;
+padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+color: #55534a;
+font-size: 15px;	
+}
+
+.fullName,.fullName_invalid{
+background-image: url(https://jmibrokers.com/landing-assets/img/landing9/icon-name.png);
+background-repeat: no-repeat;
+background-position: 163px center;
+}
+.fullName_invalid{border: solid 1px red !important;}
+
+#divPhone{height: 42px;}
+
+.phoneText,.phoneText_invalid{
+width: 85px !important;
+float: left;
+background-image: url(https://jmibrokers.com/landing-assets/img/landing9/icon-phone.png);
+background-repeat: no-repeat;
+background-position: 96px center;
+}
+.phoneText_invalid{border: solid 1px red !important;}
+
+.countryCode,.countryCode_invalid{
+width: 46px !important;
+float: left;
+margin-right: 10px;
+margin-left: 8px;
+padding-right: 10px !important;
+}
+.countryCode_invalid{border: solid 1px red;}
+
+.email,.email_invalid{
+background-image: url(https://jmibrokers.com/landing-assets/img/landing9/icon-email.png);
+background-repeat: no-repeat;
+background-position: 163px center;
+}
+.email_invalid{border: solid 1px red;}
+
+.CountryList,.CountryList_invalid{
+width: 187px !important;
+height: 32px !important;
+background-image: url(https://jmibrokers.com/landing-assets/img/landing9/icon-country.png);
+background-repeat: no-repeat;
+background-position: 162px center;
+}
+.CountryList_invalid{border: solid 1px red;}
+
+.submitButtonMedium{
+width: 191px;
+height: 48px;
+background: url(https://jmibrokers.com/landing-assets/img/landing9/button.png) no-repeat;
+border: none;
+cursor: pointer;
+margin-right: -2px;
+vertical-align: middle;
+margin-bottom: 10px;
+}
+.submitButtonMedium:hover{opacity: 0.9;}
+
+#AccountButtonPanel{display:none;}  
+#RegisterLabel{display:none;}
+
+
+#errorBox {
+    z-index: 999;
+    font-size: 14px;
+    /* width: 244px; */
+    display:none;
+    color:#000;
+    position: absolute;
+    left: 5px;
+    margin-top: 7px;
+    text-align: center;
+}
+#errorBox ul{
+    list-style-type: square;
+    background-color: #fff;
+
+}
+#errorBox ul li{
+    border:1px solid red;
+    background-color: #ffbebc;
+    padding:4px;
+    margin: 5px 0;
+    list-style-type: none;
+}
+.rel {
+    position:relative;
+}
+#form .container
+{
+    position: relative;
+}
+
+
+@media screen and (min-width : 641px) and (max-width : 1130px) {	
+	body{font-size: 27px;background:url(https://jmibrokers.com/landing-assets/img/landing9/bg1.jpg) no-repeat center 77px;}
+	.container{width:790px;}
+	header{height: 77px;}
+	#logo{top:20px;}
+	#main{padding:45px 0px 0px 10px;height: 435px;}
+	#main-inner{float: right;width:520px;padding:0 15px 0 0;}
+	#main h2{font-size: 34px;margin:0 0 0px 0;/* line-height: 0.8; */}
+	#main h2 .en{font-family: Arial, Helvetica, sans-serif;font-size: 25px;}
+	#main h3{font-size: 34px;margin:0 0 0px 0;}
+	#main h3 .en{font-family: Arial, Helvetica, sans-serif;font-size: 22px;}
+	#main-inner ul{/* margin:5px 0px; */}
+	#main-inner li{padding-bottom: 3px;background-position: right 7px;}
+
+	footer{margin:20px 0 0 0;}
+	#footer-text{font-size: 10px;}
+
+	#form{float: left;width:170px;padding:20px 0px 0 0px;}
+	#form h2{font-size: 29px;margin: 0px 0 10px 0px;}
+	#form-inner{padding:0;}
+	#divFullName, #divEmail, #divCountry, #divPhone, #divSubmit{margin-right: 0px;margin-top: 10px;}
+	#form-inner input[type=text],#form-inner select{width:125px;}
+	.fullName,.fullName_invalid{background-position: 135px center;}
+	.email,.email_invalid{background-position: 135px center;}
+	.CountryList,.CountryList_invalid{width: 158px !important;background-position: 135px center;}
+	.countryCode,.countryCode_invalid{margin-right: 5px;width:35px;margin-left: 14px;}
+	.phoneText,.phoneText_invalid{width: 59px !important;background-position: 73px center;}
+	.submitButtonMedium{width: 160px;background-size:100% 100%;margin-top:0px;}
+	#errorBox
+    {
+        margin-top:0 !important;
+        left:-15px;
+    }
+}
+@media screen and (min-width : 294px) and (max-width : 827px) {
+	body{font-size: 23px;background: white url(https://jmibrokers.com/landing-assets/img/landing9/bg2.jpg) no-repeat center 54px;}
+	.container{width: 100%;/* padding:0 10px; */}
+	.hide-mobile{display: none;}
+	.only-mobile{display: block;}
+	header{height: 54px;border-bottom: none;width: 300px;margin: auto;}
+	#logo{top:10px;right:20px;width:117px;height: 62px;background:url(https://jmibrokers.com/landing-assets/img/landing9/logo2.png) no-repeat;margin-left: -58px;}
+	#main{padding:25px 0px 0px 0px;height: 640px;background: none;}
+	#main-inner{float: none;width: 300px;padding:0;height: 270px;margin: auto;}
+	#main h2{font-size: 18px;margin:0 0 0px 0px;/* line-height: 1; */}
+	#main h2 .en{font-family: Arial, Helvetica, sans-serif;font-size: 14px;}
+	#main-inner li{font-size: 18px;padding-bottom: 5px;padding-right: 20px;background: url(https://jmibrokers.com/landing-assets/img/landing9/dot1.jpg) no-repeat right 5px;}
+	
+	#form{float: none;width: 253px;height: auto;padding:0px 0px;background: none;border:none;margin: auto;}
+	#form h2{
+	font-size: 16px;
+	line-height: 1.1;
+	background: none;
+	padding:0;
+	margin:10px 0px 10px 0;
+	text-align: center;
+	}
+	#form-inner{/* padding:0 5px 0 0; */ }
+	.text-b{font-size: 12px;font-family: Arial, Helvetica, sans-serif;text-align: center;margin:5px auto;/* width: 250px; */color: #000;}
+	#divFullName, #divEmail, #divCountry, #divPhone, #divSubmit{/* display: inline-block; */width: 237px;margin-top: 0px;/* margin-left: 5px; */vertical-align: middle;margin: auto;}
+	#form-inner input[type=text],#form-inner select{
+	width: 207px;
+	height: 29px;
+	background-color: #fff;
+	border: solid 1px black;
+	margin-bottom: 10px;
+	padding-right: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+	color: #141c2e;
+	font-size: 14px;	
+	}
+	.fullName,.fullName_invalid{background-position: 216px center;}
+	.email,.email_invalid{background-position: 215px center;}
+	.CountryList,.CountryList_invalid{
+	width: 238px !important;
+	height: 34px !important;
+	background-position: 217px center;
+	}
+	.countryCode,.countryCode_invalid{margin-right: 5px;width: 82px !important;padding: 1px 3px !important;margin-left: 0px !important;}
+	.phoneText,.phoneText_invalid{width: 107px !important;/* padding-right: 20px !important; */background-position: 116px center  !important;}
+	.submitButtonMedium{
+	width: 223px;
+	height: 57px;
+	background: url(https://jmibrokers.com/landing-assets/img/landing9/button2.png) no-repeat;
+	margin: 5px 16px 0 0;
+	}
+
+    #errorBox ul
+    {
+        padding-right:35px;
+        background-color: initial !important;
+    }
+    #errorBox
+    {
+        margin-top:0 !important;
+        left:initial;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,272 @@
+<template>
+<link rel="canonical" href="https://www.jmibrokers.com/en/advofjmi " />
+
+
+
+
+         <div class="row gray_bg">
+            <img src="/assets/img/fx_header_2.jpg" alt="" class="img-responsive center-block picHeight" />
+        </div>
+
+
+        <div class="row gray_bg bestproductspages">
+            <div class="container mrtb40">
+                <h2 >  Advantages Of Trading With Us</h2>
+
+
+      <div class="item">
+          <ul class="faq">
+            <li class="q">
+            <span class="fa fa-arrow-circle-right"></span>
+              <h3>Why JMI Brokers LTD should be your preferred FX Broker? </h3>
+            </li>
+            <li class="a" >
+              <div>
+                <p align="left"><strong>Trade  FX on tight spreads &amp; low margins with 24 hour support </strong></p>
+
+            </div>
+          </li>
+          </ul>
+      </div>
+
+      <div class="item">
+          <ul class="faq">
+            <li class="q">
+            <span class="fa fa-arrow-circle-right"></span>
+              <h3>Why JMI Brokers ? </h3>
+            </li>
+                       <li class="a" ><div>
+   <p align="left"><strong>1. 24-hour online, telephone and Reuters trading</strong><br />
+        Access Interbank FX, spot gold and  silver prices ensuring price integrity, transparency and consistent liquidity.</p>
+
+        <hr size="2" width="100%" align="left" />
+      <p align="left"><strong>2. Transparent competitive two-way pricing</strong><br />
+        We offer very competitive spreads on  over 80 currency pairs, Starting from 0.1 PIP spreads on the major currency  pairs.</p>
+
+        <hr size="2" width="100%" align="left" />
+      <p align="left"><strong>3. Instantaneous auto trade executions</strong><br />
+        JMI Brokers Markets are committed to ensuring you deal on the prices you see. At a glance you can see where the  market can be bought and sold (under normal market conditions).</p>
+
+        <hr size="2" width="100%" align="left" />
+      <p align="left"><strong>4. Low FX margin requirements</strong><br />
+        Access FX, spot gold &amp; silver  with margin requirements that start at just 0.5% or leverage of<br />
+        200-to-1.</p>
+      <p align="left">&nbsp;</p>
+
+        <hr size="2" width="100%" align="left" />
+      <p align="left"><strong>5. State-of-the-art FX trading platforms</strong><br />
+        Free easy-to-use Windows-based click  and deal mini and maxi FX trading platforms which are fully customizable and  offer multiple stored layouts. Our FX platforms offer a wide variety of order  types - MARKET, LIMIT, STOP and OCO. JMI Brokers Markets aim to make it as easy and  seamless as possible to access demonstration and live FX trading platforms and  to open and fund your FX trading accounts.</p>
+
+        <hr size="2" width="100%" align="left" />
+      <p align="left"><strong>6. Flexible lot sizes</strong><br />
+        You are not restricted to trading in  standard lot sizes. Take advantage of our wide range of trading sizes from 0.01  million - 100 million <br />
+        (equivalent to $1 / point - $10,000 / point).</p>
+
+        <hr size="2" width="100%" align="left" />
+      <p align="left"><strong>7. Risk management in real time</strong><br />
+        Our platform monitors and controls  risk exposure in real time. Based on your FX margin requirement, it calculates  funds needed to retain current open positions and resources available for new  positions or for adding to existing open positions.</p>
+
+        <hr size="2" width="100%" align="left" />
+      <p align="left"><strong>8. Hedging capability</strong><br />
+        You have complete control over whether you close or hedge your positions to reduce risk. You can run multiple  positions for each currency pair which can be individually selected for  closing.</p>
+
+
+
+        <hr size="2" width="100%" align="left" />
+      <p align="left"><strong>9. 24 hour personalized customer service</strong><br />
+        Our experienced and knowledgeable  people are available 24 hours a day to answer questions and provide assistance.  Our professional dealers can be accessed at all times via live chat and  telephone, and our technical and administrative support is second to none.</p>
+
+        <hr size="2" width="100%" align="left" />
+      <p align="left"><strong>10. A fast and efficient back office system</strong><br />
+        When you fund your FX account and  start trading, you receive straight-through-processing of your trades offering  live position keeping, margining, statements, unrealized and realized profit  &amp; loss.</p>
+
+            </div></li>
+          </ul>
+      </div>
+
+
+      <div class="item">
+          <ul class="faq">
+            <li class="q">
+            <span class="fa fa-arrow-circle-right"></span>
+              <h3>Advantages of JMI Brokers LTD </h3>
+            </li>
+
+
+      <li class="a" ><div>
+        <ul type="disc">
+          <li style="margin-bottom:5px;">Ability to trade on margin. Access to the FX market can be made using small capital outlays by taking advantage of superior leverage</li>
+          <li style="margin-bottom:5px;">The FX market is the largest and most liquid in the world</li>
+          <li style="margin-bottom:5px;">24 hour seamless trading. The FX market is open for a continual 5 1/2 day period allowing you to enter and exit the market at any time</li>
+          <li style="margin-bottom:5px;">Ability to establish long (opening purchase) and short (opening sale) positions</li>
+          <li style="margin-bottom:5px;">Superior market transparency. There are no multiple exchange listings of the same instrument</li>
+          <li style="margin-bottom:5px;">No standard trade sizes exist</li>
+          <li style="margin-bottom:5px;">No delivery or contract expiry to consider</li>
+        </ul></div>
+            </li>
+          </ul>
+
+
+
+      <div class="item">
+          <ul class="faq">
+            <li class="q">
+            <span class="fa fa-arrow-circle-right"></span>
+              <h3>Advantages of trading FX using technical analysis </h3>
+            </li>
+
+      <li class="a" >
+        <ul type="disc">
+          <li style="margin-bottom:5px;">Strong persistent trend</li>
+          <li style="margin-bottom:5px;">No directional bias</li>
+        </ul>
+            </li>
+          </ul>
+      </div>
+
+      <div class="item">
+          <ul class="faq">
+            <li class="q">
+            <span class="fa fa-arrow-circle-right"></span>
+              <h3>Advantages of trading FX using fundamental analysis </h3>
+            </li>
+
+      <li class="a" ><div>
+      <div align="left">
+        <ul type="disc">
+          <li style="margin-bottom:5px;">Global economic information readily available</li>
+          <li style="margin-bottom:5px;">Considerably less complicated than stock investing</li>
+        </ul>
+      </div>
+            </div></li>
+          </ul>
+      </div>
+
+            <div class="item">
+                <ul class="faq">
+                  <li class="q">
+                    <span class="fa fa-arrow-circle-right"></span>
+                    <h3>Trade FX in a Lot Size that's right for you </h3>
+                  </li>
+
+                  <li class="a" ><div>
+
+
+              <p align="justify"><br />
+              Trade (or Lot) sizes start at 0.1 (a  10,000 unit trade or 10,000 base currency size) up to lot sizes of 1 (a 100,000  unit trade or 100,000 base currency size) per one lot.<br />
+              Here are some examples of what this  means:<br />
+              U.S. Dollar/Japanese Yen (100,000 U.S. Dollars)<br />
+              Euro/U.S. Dollar (100,000 Euros)<br />
+              Euro/Great Britain Pound (100,000 Euros)<br />
+              Euro/Japanese Yen (100,000 Euros)</p>
+            <hr size="2" width="100%" align="JUSTIFY" />
+
+
+
+                  </div></li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <ul class="faq">
+                  <li class="q">
+                    <span class="fa fa-arrow-circle-right"></span>
+                    <h3>Trading FX on Margin - 100 : 1</h3>
+                  </li>
+
+                  <li class="a" ><div>
+
+
+       <p align="justify"><br />
+              Put simply, margin serves as  collateral to cover any losses that you might incur. Since nothing is actually  being purchased or sold for delivery, the only requirement, and indeed the only  real purpose for having funds in your FX account, is for sufficient margin.<br />
+              Essentially when you trade on margin  you are using a free short-term credit allowance from JMI Brokers LTD. This  short-term credit allowance is used to purchase an amount of currency that  greatly exceeds your account value. <br />
+                <strong><br />
+                <span >Let's  take the following FX example:</span></strong><br />
+              You have an account with $10,000  with JMI. You trade ticket sizes of 1,000,000 GBP/USD. This equates to a margin  ratio of 1% ($10,000 is 1% of $1,000,000). How can you trade 100 times the  amount of money you have at your disposal? The answer is that JMIS temporarily  gives you the necessary credit to make the transaction you are interested in  making. Without margin, you would only be able to buy or sell tickets of  $10,000 at a time. On standard accounts JMI Brokers applies a minimum 1% margin. <br />
+              This margin facility allows you to  potentially make large profits from a relatively small initial investment but  it must be pointed out that any losses are equally multiplied.<br />
+              Customers who hold FX positions may  become liable to pay margin as detailed in our terms and conditions. All FX  positions have an initial margin and you are required to keep this over and  above any unrealized losses. Margin calls can be made at any time and it is  therefore important for you to familiarize yourself with our terms and  conditions especially the section relating to margin calls. Be aware that it is  your responsibility, not JMIS, to monitor your positions and make any margin  payments as they become due.</p>
+            <hr size="2" width="100%" align="JUSTIFY" />
+
+                  </div></li>
+                </ul>
+            </div>
+
+              <div class="item">
+                <ul class="faq">
+                  <li class="q">
+                    <span class="fa fa-arrow-circle-right"></span>
+                    <h3>Monitoring Risk Exposure</h3>
+                  </li>
+
+                  <li class="a" ><div>
+
+
+                      <p align="justify"><br />
+              Our FX trading platforms have been  designed to effectively monitor and allow you to control risk exposure in real  time. Based on each clients margin requirement, the FX trading platform system  calculates both the funds needed to retain current open FX positions and the  trading resources available for entering into new positions or for adding to  existing open FX positions.<br />
+              If the equity in your account drops  below the margin required to maintain your open positions, we may close all  open positions. Once usable margin reaches zero, a margin call will ensue, and  all open positions may be closed by us. This limits your risk to usable margin.</p>
+
+            <br />
+
+
+
+
+
+                  </div></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+
+
+
+            </div>
+        </div>
+
+
+</template>
+
+<script>
+import { useHead } from '@vueuse/head'
+import {computed, reactive, ref} from "vue";
+import axios from 'axios';
+import {useRouter} from "vue-router";
+const errors = ref()
+const router = useRouter();
+
+export default ({
+    data(){
+        return{
+            site_title: `Advantages Of JMI Brokers`,
+            site_description: ``,
+            site_keywords: '',
+
+        }
+    },
+    mounted() {
+        useHead({
+            // Can be static or computed
+            title: computed(() => this.site_title),
+            meta: [
+                {
+                    name: `description`,
+                    content: computed(() => this.site_description),
+                },
+                {
+                    name: `keywords`,
+                    content: computed(() => this.site_keywords),
+                },
+            ],
+
+        })
+    }
+});
+</script>
+
+<style>
+.item .faq .q h3{display:inline-block;cursor: pointer;}
+ul{list-style-type: none;}
+ul li.a{display: none;}
+.item .faq .q span.rotate{transform: rotate(90deg);}
+</style>

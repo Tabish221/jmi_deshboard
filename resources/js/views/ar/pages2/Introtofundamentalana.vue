@@ -1,0 +1,86 @@
+<template>
+
+
+                         <div class="row gray_bg mrtb40">
+            <div class="container">
+
+       <br />
+<table width="680" border="0" align="center">
+  <tr>
+    <td>
+
+      <table width="680" height="37" border="0" background="/assets/cimages/bg_1.jpg">
+        <tr>
+          <td><span ><strong>&nbsp;&nbsp;&nbsp;&nbsp;Understanding Fundamental Analysis</strong></span></td>
+        </tr>
+       </table>
+      <br />
+
+
+      <p align="left">Fundamental analysis is the study of  the core underlying elements that influence the economy of a particular  currency. This method of study attempts to predict price action and market  trends by analyzing economic indicators, government policy and societal factors.  Imagine financial markets as a large clock, the gears inside this clock that  move the hands, or drive the clock would be these &quot;fundamentals&quot;.  Although you can look at the clock and know what time it is, only by looking at  the fundamentals can you truly understand how it became the time it is now. By  knowing this, you might better understand the movement of time and be better  able to predict what time it will be in the future. As a Forex investor you can  better understand why the market is where it is today and where it might be  tomorrow (or at a future point) based on studying these fundamentals. <br />
+      <br />
+Keep in mind that Fundamental  analysis is a very effective resource to forecast economic conditions, but not  exact currency prices. For example, you might get a clear understanding of the  health of the US economy by studying an economist's forecast of an upcoming  Employment Cost Index (ECI), but how does that translate into entry and exit  points? You need to develop a method that you use to decipher this raw data  into usable entry and exit points based on your personal unique trading  strategy. These methods are known as forecasting models. Forecasting models are  like fingerprints - unique to every trader. Every trader may look at the exact  same data, yet conclude completely different scenarios on how the market will  react. It is important to analyze the fundamentals and apply your findings to  your model. <br />
+Fundamentals for each currency might  include, but not limited to; interest rates, central bank policy, political  figures/events, unemployment/employment reports, and Gross Domestic Product  (GDP). These economic indicators are snippets of financial and economic data  published by various agencies of the government or private sectors for each  country. These statistics, which are made public on a regularly scheduled  basis, help market observers monitor the pulse of the economy. Therefore,  almost everyone in the financial markets religiously follows them. <br />
+With so many people poised to react  to the same information, economic indicators in general have tremendous  potential to generate volume and to move prices in the markets. While on the  surface it might seem that an advanced degree in economics would come in handy  to analyze and then trade on the glut of information contained in these  economic indicators, a few simple guidelines are all that is necessary to  track, organize and make trading decisions based on the data. </p>
+
+       <table width="680" height="37" border="0" background="/assets/cimages/bg_1.jpg">
+                <tr>
+                  <td><span ><strong>&nbsp;&nbsp;&nbsp;The Business Cycle</strong></span></td>
+                </tr>
+                </table>
+
+
+     <br /> <p>
+        Economic indicators are classified  according to how they related to the business cycle. An economic indicator will  do one of the following: <br />
+        - Reflect the current state of the  economy as coincident<br />
+        - Predict future conditions are  leading<br />
+        - Confirm a turning occurred and  conditions are lagging<br />
+        The organization responsible for an indicator  generally distributes its reports about an hour before the official release  time to the financial news outlets (Reuters, CNBC, Dow Jones Newswires,  Bloomberg). <br />
+        The reporters, who are literally  locked in a room and not permitted to have contact with anyone outside, ask  questions of the agency officials and prepare headlines and analyses of the  report contents. These stories are embargoed until the official release, at  which time they are transmitted over the newswires to be dissected by the Wall  Street community. Most Wall Street firms employ economists to provide live  broadcasts of the numbers as they run across the newswires, together with  interpretation and commentary regarding likely market reaction. This is known  as the hoot and &quot;holler&quot; or tape reading. The more an indicator  deviates from Street expectations, the greater its effect on the financial  markets.</p>      <p align="left">&nbsp;</p>
+    </td>
+  </tr>
+</table>
+
+
+
+</div></div>
+
+
+</template>
+
+<script>
+import { useHead } from '@vueuse/head'
+import {computed, reactive, ref} from "vue";
+import axios from 'axios';
+import {useRouter} from "vue-router";
+const errors = ref()
+const router = useRouter();
+
+export default ({
+    data(){
+        return{
+            site_title: `Understanding Fundamental Analysis`,
+            site_description: ``,
+            site_keywords: '',
+
+        }
+    },
+    mounted() {
+        useHead({
+            // Can be static or computed
+            title: computed(() => this.site_title),
+            meta: [
+                {
+                    name: `description`,
+                    content: computed(() => this.site_description),
+                },
+                {
+                    name: `keywords`,
+                    content: computed(() => this.site_keywords),
+                },
+            ],
+
+        })
+    }
+});
+</script>
