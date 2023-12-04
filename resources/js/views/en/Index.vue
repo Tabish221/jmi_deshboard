@@ -1,7 +1,5 @@
 <template>
-
     <main>
-
         <div class="slideshow-container" >
 
 
@@ -11,7 +9,6 @@
                     <h1 style="color:#ffc926; font-weight: bold;text-transform:uppercase;font-size: 50px;font-family: 'Roboto-Bold';display:none;">Scalping </h1>
                     <h1 style="color: #0059b2; font-weight: bold; text-transform: uppercase; font-size: 50px; font-family: 'Roboto-Bold'; margin-top: -18px;display:none;">For a living</h1>
                 </div>
-<!--                <link rel="preload" fetchpriority="high" as="image" href="/img/1.webp" type="image/webp">-->
                 <v-lazy-image src="/img/1.webp" style="width:100%;" alt="SlideShow" width="100%" height="auto"/>
 
                 <div class="buttons-overlay" >
@@ -87,8 +84,6 @@
             </div>
 
         </div>
-
-
         <div class="row" id="main-features">
 
             <div class="col-md-9 col-sm-12" id="main-features-left">
@@ -141,7 +136,6 @@
             </div>
 
         </div>
-
         <!-- section content begin -->
         <div class="uk-container in-wave-4uk-container in-wave-4">
             <div class="uk-grid uk-flex uk-flex-center">
@@ -236,10 +230,7 @@
             </div>
 
         </div>
-
         <!-- section content end -->
-
-
         <!-- section content begin -->
         <div class="alternative" id="main-section-6">
             <div class="uk-container in-wave-4" id="main-section-66">
@@ -339,10 +330,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
         <!-- section content begin -->
         <div id="main-section-5" class="uk-section uk-section-muted uk-padding-large in-wave-3 uk-background-contain uk-background-center" >
             <div class="col-sm-12">
@@ -396,8 +383,6 @@
             </div>
         </div>
         <!-- section content end -->
-
-
         <!-- section content begin -->
         <div class="" id="main-section-6">
             <div class="uk-container in-wave-4" >
@@ -510,8 +495,6 @@
                 </div>
             </div>
         </div>
-
-
         <div class="row" id="main-section-88">
             <div class=""  id="main-section-8">
                 <div class="col-md-3 col-xs-6">
@@ -536,9 +519,6 @@
                 </div>
             </div>
         </div>
-
-
-
         <div class="col-sm-12" id="main-section-7">
             <div class="col-md-6" style="position:absolute;bottom:20px;padding-left:0px;">
                 <v-lazy-image src="/elis/img/trading-platforms-bg5.jpg" id="responsive1-img-trading1" alt="Trading Platforms"/>
@@ -555,14 +535,7 @@
             <v-lazy-image src="/elis/img/trading-platforms-bg5.jpg" id="responsive1-img-trading2" alt="Trading Platforms"/>
 
         </div>
-
-
-
     </main>
-
-
-
-
 </template>
 
 <script>

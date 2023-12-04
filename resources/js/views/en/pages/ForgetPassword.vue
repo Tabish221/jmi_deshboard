@@ -39,7 +39,7 @@
                                 </div>
 
                                 <div class="loginForm-btn">
-                                    <button type="submit" name="resetpassword" id="resetpassword" class="btn btn-success submit" >Reset Password</button>
+                                    <button type="submit" name="resetpassword" id="resetpassword" class="submit" >Reset Password</button>
                                 </div>
 
                                 <div class="loginForm-new">

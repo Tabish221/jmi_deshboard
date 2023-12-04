@@ -39,11 +39,11 @@
 
                     <ul class="topHeader-btn">
                         <li class="dropdown tpBtn-language">
-                            <a href="#" class="dropdown-toggle" type="button" id="dropdownLanguage" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a href="#" class="" type="button" id="dropdownLanguage" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fa fa-flag" aria-hidden="true"></i> English
                                 <span class="caret"></span>
                             </a>
-                            <ul class="dropdown-menu langSelector-"  aria-labelledby="dropdownLanguage" float-side="right">
+                            {{-- <ul class="dropdown-menu langSelector-"  aria-labelledby="dropdownLanguage" float-side="right">
                                 <form id="langSelectorForm" method="get" action="#">
                                     <input type="hidden" value="langSelectorCode" name="langSelectorCode" id="langSelectorCode">
                                     <input type="hidden" value="dropdown" name="fromLangSelector" id="langSource">
@@ -59,7 +59,7 @@
                                         </a>
                                     </li>
                                 </form>
-                            </ul>
+                            </ul> --}}
                         </li>
                         <li class="dropdown tpBtn-myaccout">
                             <a href="#" class="dropdown-toggle myaccount" type="button" id="dropdownMyAccount" data-bs-toggle="dropdown" aria-expanded="false">

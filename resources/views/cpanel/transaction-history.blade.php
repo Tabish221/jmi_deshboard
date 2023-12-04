@@ -25,25 +25,21 @@
     <div class="row">
         <div class="col-md-12">
             <div class="transactionHistory-header">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="transactionHistory-nav">
-                            <ul>
-                                <li data-targetit="box-traall" @if ( Request::segment(4) =='') class="current" @else  @endif>
-                                    <a href="/en/cpanel/transaction-history">All</a>
-                                </li>
-                                <li data-targetit="box-tradeposit" @if ( Request::segment(4) =='deposit') class="current" @else  @endif>
-                                    <a href="/en/cpanel/transaction-history/deposit">Deposit</a>
-                                </li>
-                                <li data-targetit="box-trawhitdraw" @if ( Request::segment(4) =='withdraw') class="current" @else  @endif>
-                                    <a href="/en/cpanel/transaction-history/withdraw">Whitdraw</a>
-                                </li>
-                                <li data-targetit="box-trainternal" @if ( Request::segment(4) =='transfers') class="current" @else  @endif>
-                                    <a href="/en/cpanel/transaction-history/transfers">Internal Transfers</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="transactionHistory-nav">
+                    <ul>
+                        <li data-targetit="box-traall" @if ( Request::segment(4) =='') class="current" @else  @endif>
+                            <a href="/en/cpanel/transaction-history">All</a>
+                        </li>
+                        <li data-targetit="box-tradeposit" @if ( Request::segment(4) =='deposit') class="current" @else  @endif>
+                            <a href="/en/cpanel/transaction-history/deposit">Deposit</a>
+                        </li>
+                        <li data-targetit="box-trawhitdraw" @if ( Request::segment(4) =='withdraw') class="current" @else  @endif>
+                            <a href="/en/cpanel/transaction-history/withdraw">Whitdraw</a>
+                        </li>
+                        <li data-targetit="box-trainternal" @if ( Request::segment(4) =='transfers') class="current" @else  @endif>
+                            <a href="/en/cpanel/transaction-history/transfers">Internal Transfers</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
 

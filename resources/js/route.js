@@ -19,11 +19,11 @@ const router = createRouter({
             children:[
                 {
                     path:'/',
-                    component: () => import('./views/en/Index.vue')
+                    component: () => import('./views/en/pages/login.vue')
                 },
                 {
                     path:'/en',
-                    component: () => import('./views/en/Index.vue')
+                    component: () => import('./views/en/pages/login.vue')
                 },
                 {
                     path: '/en/logout',
