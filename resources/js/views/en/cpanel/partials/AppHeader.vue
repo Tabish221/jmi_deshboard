@@ -2,13 +2,13 @@
 
 
     <!-- Bootstrap 3.3.4 -->
-    <link href="/assets/new_cpanel/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="/assets/new_cpanel/css/bootstrap.css" rel="stylesheet" type="text/css" /> -->
     <!-- Font Awesome Icons -->
-    <link href="/assets/new_cpanel/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="/assets/new_cpanel/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="/assets/new_cpanel/css/animate.css" rel="stylesheet" type="text/css" />
     <link href="/assets/new_cpanel/css/portalStyle3.css" rel="stylesheet" type="text/css" />
     <link href="/assets/new_cpanel/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css" />
-    <link href="/assets/new_cpanel/css/css.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/new_cpanel/css/css.css" rel="stylesheet" type="text/css" /> -->
 
     <div class="raw">
         <div class="col-lg-9 col-md-8" id="first-level-left">
@@ -613,6 +613,6 @@ export default {
 }
 
 </script>
-<style>
+<!-- <style>
 .chat-popup {display: none; position: fixed; bottom: 0; right: 15px; border-: 3px solid #f1f1f1; z-index: 9;}
-</style>
+</style> -->

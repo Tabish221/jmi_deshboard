@@ -36745,12 +36745,8 @@ var auth = firebaseApp.auth();
       // choose target dropdown
       var select = jquery__WEBPACK_IMPORTED_MODULE_3___default()('select#countryCode');
       select.html(select.find('option').sort(function (x, y) {
-        // to change to descending order switch "<" for ">"
         return jquery__WEBPACK_IMPORTED_MODULE_3___default()(x).text() > jquery__WEBPACK_IMPORTED_MODULE_3___default()(y).text() ? 1 : -1;
       }));
-
-      // select default item after sorting (first item)
-      // $('select').get(0).selectedIndex = 0;
     });
   },
   methods: {
@@ -36975,7 +36971,7 @@ var _hoisted_5 = {
 var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "login-logo"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "assets-up/images/logo.png",
+  src: "/assets-up/images/logo.png",
   alt: ""
 })], -1 /* HOISTED */);
 var _hoisted_7 = {
@@ -37000,168 +36996,196 @@ var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 var _hoisted_13 = {
   "class": "d-flex"
 };
-var _hoisted_14 = ["value"];
-var _hoisted_15 = {
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("option", {
+  value: "",
+  selected: "",
+  disabled: ""
+}, "- Select -", -1 /* HOISTED */);
+var _hoisted_15 = ["value"];
+var _hoisted_16 = {
   "class": "col-md-8"
 };
-var _hoisted_16 = {
+var _hoisted_17 = {
   "class": "signupd-feild"
 };
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
   "for": "fullname"
 }, " ", -1 /* HOISTED */);
-var _hoisted_18 = {
+var _hoisted_19 = {
   "class": "col-md-8"
 };
-var _hoisted_19 = {
+var _hoisted_20 = {
   "class": "signupd-feild"
 };
-var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
   "for": "email"
 }, "Email Id :", -1 /* HOISTED */);
-var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "alert alert-danger col-sm-12",
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "alert alert-danger mt-2",
   id: "emailerror",
   style: {
     "display": "none"
   }
 }, null, -1 /* HOISTED */);
-var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "alert alert-success col-sm-12",
+var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "alert alert-success mt-2",
   id: "emailsentSuccess",
   style: {
     "display": "none"
   }
 }, null, -1 /* HOISTED */);
-var _hoisted_23 = {
+var _hoisted_24 = {
   "class": "col-md-4"
 };
-var _hoisted_24 = {
+var _hoisted_25 = {
   "class": "loginForm-btn signupd-feild"
 };
-var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
   "for": "email_send_code1"
 }, " ", -1 /* HOISTED */);
-var _hoisted_26 = {
+var _hoisted_27 = {
   "class": "col-md-8"
 };
-var _hoisted_27 = {
+var _hoisted_28 = {
   "class": "signupd-feild"
 };
-var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "alert alert-success col-sm-12",
+var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "alert alert-success mt-2",
   id: "emailsuccessRegsiter",
   style: {
     "display": "none"
   }
 }, null, -1 /* HOISTED */);
-var _hoisted_29 = {
+var _hoisted_30 = {
   "class": "col-md-4"
 };
-var _hoisted_30 = {
+var _hoisted_31 = {
   "class": "loginForm-btn signupd-feild"
 };
-var _hoisted_31 = {
+var _hoisted_32 = {
   "class": "col-md-3"
 };
-var _hoisted_32 = {
+var _hoisted_33 = {
   "class": "signupd-feild"
 };
-var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
   "for": "countryCode"
 }, "Country Code :", -1 /* HOISTED */);
-var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\" id=\"myCode\" disabled selected>Code</option><option data-countryCode=\"DZ\" value=\"213\">+213</option><option data-countryCode=\"AD\" value=\"376\"> +376</option><option data-countryCode=\"AO\" value=\"244\"> +244</option><option data-countryCode=\"AI\" value=\"1264\"> +1264</option><option data-countryCode=\"AG\" value=\"1268\">+1268</option><option data-countryCode=\"AR\" value=\"54\"> +54</option><option data-countryCode=\"AM\" value=\"374\"> +374</option><option data-countryCode=\"AW\" value=\"297\"> +297</option><option data-countryCode=\"AU\" value=\"61\"> +61</option><option data-countryCode=\"AT\" value=\"43\"> +43</option><option data-countryCode=\"AZ\" value=\"994\"> +994</option><option data-countryCode=\"BS\" value=\"1242\"> +1242</option><option data-countryCode=\"BH\" value=\"973\"> +973</option><option data-countryCode=\"BD\" value=\"880\"> +880</option><option data-countryCode=\"BB\" value=\"1246\"> +1246</option><option data-countryCode=\"BY\" value=\"375\"> +375</option><option data-countryCode=\"BE\" value=\"32\"> +32</option><option data-countryCode=\"BZ\" value=\"501\"> +501</option><option data-countryCode=\"BJ\" value=\"229\"> +229</option><option data-countryCode=\"BM\" value=\"1441\"> +1441</option><option data-countryCode=\"BT\" value=\"975\"> +975</option><option data-countryCode=\"BO\" value=\"591\"> +591</option><option data-countryCode=\"BA\" value=\"387\"> +387</option><option data-countryCode=\"BW\" value=\"267\"> +267</option><option data-countryCode=\"BR\" value=\"55\"> +55</option><option data-countryCode=\"BN\" value=\"673\"> +673</option><option data-countryCode=\"BG\" value=\"359\"> +359</option><option data-countryCode=\"BF\" value=\"226\"> Faso +226</option><option data-countryCode=\"BI\" value=\"257\"> +257</option><option data-countryCode=\"KH\" value=\"855\"> +855</option><option data-countryCode=\"CM\" value=\"237\"> +237</option><option data-countryCode=\"CA\" value=\"1\"> +1</option><option data-countryCode=\"CV\" value=\"238\"> +238</option><option data-countryCode=\"KY\" value=\"1345\"> +1345</option><option data-countryCode=\"CF\" value=\"236\"> +236</option><option data-countryCode=\"CL\" value=\"56\"> +56</option><option data-countryCode=\"CN\" value=\"86\"> +86</option><option data-countryCode=\"CO\" value=\"57\"> +57</option><option data-countryCode=\"KM\" value=\"269\"> +269</option><option data-countryCode=\"CG\" value=\"242\"> +242</option><option data-countryCode=\"CK\" value=\"682\"> +682</option><option data-countryCode=\"CR\" value=\"506\"> +506</option><option data-countryCode=\"HR\" value=\"385\"> +385</option><option data-countryCode=\"CU\" value=\"53\"> +53</option><option data-countryCode=\"CY\" value=\"90392\"> +90392</option><option data-countryCode=\"CY\" value=\"357\"> +357</option><option data-countryCode=\"CZ\" value=\"42\"> +42</option><option data-countryCode=\"DK\" value=\"45\"> +45</option><option data-countryCode=\"DJ\" value=\"253\"> +253</option><option data-countryCode=\"DM\" value=\"1809\"> +1809</option><option data-countryCode=\"DO\" value=\"1809\"> +1809</option><option data-countryCode=\"EC\" value=\"593\"> +593</option><option data-countryCode=\"EG\" value=\"20\"> +20</option><option data-countryCode=\"SV\" value=\"503\"> +503</option><option data-countryCode=\"GQ\" value=\"240\"> +240</option><option data-countryCode=\"ER\" value=\"291\"> +291</option><option data-countryCode=\"EE\" value=\"372\"> +372</option><option data-countryCode=\"PAK\" value=\"92\">+92</option><option data-countryCode=\"ET\" value=\"251\"> +251</option><option data-countryCode=\"FK\" value=\"500\"> +500</option><option data-countryCode=\"FO\" value=\"298\"> +298</option><option data-countryCode=\"FJ\" value=\"679\"> +679</option><option data-countryCode=\"FI\" value=\"358\"> +358</option><option data-countryCode=\"FR\" value=\"33\"> +33</option><option data-countryCode=\"GF\" value=\"594\"> +594</option><option data-countryCode=\"PF\" value=\"689\"> +689</option><option data-countryCode=\"GA\" value=\"241\"> +241</option><option data-countryCode=\"GM\" value=\"220\"> +220</option><option data-countryCode=\"GE\" value=\"995\"> +995</option><option data-countryCode=\"DE\" value=\"49\"> +49</option><option data-countryCode=\"GH\" value=\"233\"> +233</option><option data-countryCode=\"GI\" value=\"350\"> +350</option><option data-countryCode=\"GR\" value=\"30\"> +30</option><option data-countryCode=\"GL\" value=\"299\"> +299</option><option data-countryCode=\"GD\" value=\"1473\"> +1473</option><option data-countryCode=\"GP\" value=\"590\"> +590</option><option data-countryCode=\"GU\" value=\"671\"> +671</option><option data-countryCode=\"GT\" value=\"502\"> +502</option><option data-countryCode=\"GN\" value=\"224\"> +224</option><option data-countryCode=\"GW\" value=\"245\"> +245</option><option data-countryCode=\"GY\" value=\"592\"> +592</option><option data-countryCode=\"HT\" value=\"509\"> +509</option><option data-countryCode=\"HN\" value=\"504\"> +504</option><option data-countryCode=\"HK\" value=\"852\"> +852</option><option data-countryCode=\"HU\" value=\"36\"> +36</option><option data-countryCode=\"IS\" value=\"354\"> +354</option><option data-countryCode=\"IN\" value=\"91\"> +91</option><option data-countryCode=\"ID\" value=\"62\"> +62</option><option data-countryCode=\"IR\" value=\"98\"> +98</option><option data-countryCode=\"IQ\" value=\"964\"> +964</option><option data-countryCode=\"IE\" value=\"353\"> +353</option><option data-countryCode=\"IL\" value=\"972\"> +972</option><option data-countryCode=\"IT\" value=\"39\"> +39</option><option data-countryCode=\"JM\" value=\"1876\"> +1876</option><option data-countryCode=\"JP\" value=\"81\"> +81</option><option data-countryCode=\"JO\" value=\"962\"> +962</option><option data-countryCode=\"KZ\" value=\"7\"> +7</option><option data-countryCode=\"KE\" value=\"254\"> +254</option><option data-countryCode=\"KI\" value=\"686\"> +686</option><option data-countryCode=\"KP\" value=\"850\"> +850</option><option data-countryCode=\"KR\" value=\"82\"> +82</option><option data-countryCode=\"KW\" value=\"965\"> +965</option><option data-countryCode=\"KG\" value=\"996\"> +996</option><option data-countryCode=\"LA\" value=\"856\"> +856</option><option data-countryCode=\"LV\" value=\"371\"> +371</option><option data-countryCode=\"LB\" value=\"961\"> +961</option><option data-countryCode=\"LS\" value=\"266\"> +266</option><option data-countryCode=\"LR\" value=\"231\"> +231</option><option data-countryCode=\"LY\" value=\"218\"> +218</option><option data-countryCode=\"LI\" value=\"417\"> +417</option><option data-countryCode=\"LT\" value=\"370\"> +370</option><option data-countryCode=\"LU\" value=\"352\"> +352</option><option data-countryCode=\"MO\" value=\"853\"> +853</option><option data-countryCode=\"MK\" value=\"389\"> +389</option><option data-countryCode=\"MG\" value=\"261\"> +261</option><option data-countryCode=\"MW\" value=\"265\"> +265</option><option data-countryCode=\"MY\" value=\"60\"> +60</option><option data-countryCode=\"MV\" value=\"960\"> +960</option><option data-countryCode=\"ML\" value=\"223\"> +223</option><option data-countryCode=\"MT\" value=\"356\"> +356</option><option data-countryCode=\"MH\" value=\"692\"> +692</option><option data-countryCode=\"MQ\" value=\"596\"> +596</option><option data-countryCode=\"MR\" value=\"222\"> +222</option><option data-countryCode=\"YT\" value=\"269\"> +269</option><option data-countryCode=\"MX\" value=\"52\"> +52</option><option data-countryCode=\"FM\" value=\"691\"> +691</option><option data-countryCode=\"MD\" value=\"373\"> +373</option><option data-countryCode=\"MC\" value=\"377\"> +377</option><option data-countryCode=\"MN\" value=\"976\"> +976</option><option data-countryCode=\"MS\" value=\"1664\"> +1664</option><option data-countryCode=\"MA\" value=\"212\"> +212</option><option data-countryCode=\"MZ\" value=\"258\"> +258</option><option data-countryCode=\"MN\" value=\"95\"> +95</option><option data-countryCode=\"NA\" value=\"264\"> +264</option><option data-countryCode=\"NR\" value=\"674\"> +674</option><option data-countryCode=\"NP\" value=\"977\"> +977</option><option data-countryCode=\"NL\" value=\"31\"> +31</option><option data-countryCode=\"NC\" value=\"687\"> +687</option><option data-countryCode=\"NZ\" value=\"64\"> +64</option><option data-countryCode=\"NI\" value=\"505\"> +505</option><option data-countryCode=\"NE\" value=\"227\"> +227</option><option data-countryCode=\"NG\" value=\"234\"> +234</option><option data-countryCode=\"NU\" value=\"683\"> +683</option><option data-countryCode=\"NF\" value=\"672\"> +672</option><option data-countryCode=\"NP\" value=\"670\"> +670</option><option data-countryCode=\"NO\" value=\"47\"> +47</option><option data-countryCode=\"OM\" value=\"968\"> +968</option><option data-countryCode=\"PW\" value=\"680\"> +680</option><option data-countryCode=\"PA\" value=\"507\"> +507</option><option data-countryCode=\"PG\" value=\"675\"> +675</option><option data-countryCode=\"PY\" value=\"595\"> +595</option><option data-countryCode=\"PE\" value=\"51\"> +51</option><option data-countryCode=\"PH\" value=\"63\"> +63</option><option data-countryCode=\"PL\" value=\"48\"> +48</option><option data-countryCode=\"PT\" value=\"351\"> +351</option><option data-countryCode=\"PR\" value=\"1787\"> +1787</option><option data-countryCode=\"QA\" value=\"974\"> +974</option><option data-countryCode=\"RE\" value=\"262\"> +262</option><option data-countryCode=\"RO\" value=\"40\"> +40</option><option data-countryCode=\"RU\" value=\"7\"> +7</option><option data-countryCode=\"RW\" value=\"250\"> +250</option><option data-countryCode=\"SM\" value=\"378\"> +378</option><option data-countryCode=\"ST\" value=\"239\"> +239</option><option data-countryCode=\"SA\" value=\"966\"> +966</option><option data-countryCode=\"SN\" value=\"221\"> +221</option><option data-countryCode=\"CS\" value=\"381\"> +381</option><option data-countryCode=\"SC\" value=\"248\"> +248</option><option data-countryCode=\"SL\" value=\"232\"> +232</option><option data-countryCode=\"SG\" value=\"65\"> +65</option><option data-countryCode=\"SK\" value=\"421\"> +421</option><option data-countryCode=\"SI\" value=\"386\"> +386</option><option data-countryCode=\"SB\" value=\"677\"> +677</option><option data-countryCode=\"SO\" value=\"252\"> +252</option><option data-countryCode=\"ZA\" value=\"27\"> +27</option><option data-countryCode=\"ES\" value=\"34\"> +34</option><option data-countryCode=\"LK\" value=\"94\"> +94</option><option data-countryCode=\"SH\" value=\"290\"> +290</option><option data-countryCode=\"KN\" value=\"1869\">+1869</option><option data-countryCode=\"SC\" value=\"1758\"> +1758</option><option data-countryCode=\"SD\" value=\"249\"> +249</option><option data-countryCode=\"SR\" value=\"597\"> +597</option><option data-countryCode=\"SZ\" value=\"268\"> +268</option><option data-countryCode=\"SE\" value=\"46\"> +46</option><option data-countryCode=\"CH\" value=\"41\"> +41</option><option data-countryCode=\"SI\" value=\"963\"> +963</option><option data-countryCode=\"TW\" value=\"886\"> +886</option><option data-countryCode=\"TJ\" value=\"7\"> +7</option><option data-countryCode=\"TH\" value=\"66\"> +66</option><option data-countryCode=\"TG\" value=\"228\"> +228</option><option data-countryCode=\"TO\" value=\"676\"> +676</option><option data-countryCode=\"TT\" value=\"1868\"> +1868</option><option data-countryCode=\"TN\" value=\"216\"> +216</option><option data-countryCode=\"TR\" value=\"90\"> +90</option><option data-countryCode=\"TM\" value=\"993\"> +993</option><option data-countryCode=\"TC\" value=\"1649\"> +1649</option><option data-countryCode=\"TV\" value=\"688\"> +688</option><option data-countryCode=\"UG\" value=\"256\"> +256</option><option data-countryCode=\"GB\" value=\"44\">+44</option><option data-countryCode=\"UA\" value=\"380\"> +380</option><option data-countryCode=\"AE\" value=\"971\">+971</option><option data-countryCode=\"UY\" value=\"598\"> +598</option><option data-countryCode=\"US\" value=\"1\"> +1</option><option data-countryCode=\"UZ\" value=\"7\"> +7</option><option data-countryCode=\"VU\" value=\"678\"> +678</option><option data-countryCode=\"VA\" value=\"379\"> +379</option><option data-countryCode=\"VE\" value=\"58\"> +58</option><option data-countryCode=\"VN\" value=\"84\"> +84</option><option data-countryCode=\"VG\" value=\"84\"> +1284</option><option data-countryCode=\"VI\" value=\"84\"> +1340</option><option data-countryCode=\"WF\" value=\"681\"> +681</option><option data-countryCode=\"YE\" value=\"969\">+969</option><option data-countryCode=\"YE\" value=\"967\">+967</option><option data-countryCode=\"ZM\" value=\"260\">+260</option><option data-countryCode=\"ZW\" value=\"263\"> +263</option>", 215);
-var _hoisted_249 = [_hoisted_34];
-var _hoisted_250 = {
+var _hoisted_35 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\" selected disabled>Code</option><option data-countryCode=\"DZ\" value=\"213\">+213</option><option data-countryCode=\"AD\" value=\"376\"> +376</option><option data-countryCode=\"AO\" value=\"244\"> +244</option><option data-countryCode=\"AI\" value=\"1264\"> +1264</option><option data-countryCode=\"AG\" value=\"1268\">+1268</option><option data-countryCode=\"AR\" value=\"54\"> +54</option><option data-countryCode=\"AM\" value=\"374\"> +374</option><option data-countryCode=\"AW\" value=\"297\"> +297</option><option data-countryCode=\"AU\" value=\"61\"> +61</option><option data-countryCode=\"AT\" value=\"43\"> +43</option><option data-countryCode=\"AZ\" value=\"994\"> +994</option><option data-countryCode=\"BS\" value=\"1242\"> +1242</option><option data-countryCode=\"BH\" value=\"973\"> +973</option><option data-countryCode=\"BD\" value=\"880\"> +880</option><option data-countryCode=\"BB\" value=\"1246\"> +1246</option><option data-countryCode=\"BY\" value=\"375\"> +375</option><option data-countryCode=\"BE\" value=\"32\"> +32</option><option data-countryCode=\"BZ\" value=\"501\"> +501</option><option data-countryCode=\"BJ\" value=\"229\"> +229</option><option data-countryCode=\"BM\" value=\"1441\"> +1441</option><option data-countryCode=\"BT\" value=\"975\"> +975</option><option data-countryCode=\"BO\" value=\"591\"> +591</option><option data-countryCode=\"BA\" value=\"387\"> +387</option><option data-countryCode=\"BW\" value=\"267\"> +267</option><option data-countryCode=\"BR\" value=\"55\"> +55</option><option data-countryCode=\"BN\" value=\"673\"> +673</option><option data-countryCode=\"BG\" value=\"359\"> +359</option><option data-countryCode=\"BF\" value=\"226\"> Faso +226</option><option data-countryCode=\"BI\" value=\"257\"> +257</option><option data-countryCode=\"KH\" value=\"855\"> +855</option><option data-countryCode=\"CM\" value=\"237\"> +237</option><option data-countryCode=\"CA\" value=\"1\"> +1</option><option data-countryCode=\"CV\" value=\"238\"> +238</option><option data-countryCode=\"KY\" value=\"1345\"> +1345</option><option data-countryCode=\"CF\" value=\"236\"> +236</option><option data-countryCode=\"CL\" value=\"56\"> +56</option><option data-countryCode=\"CN\" value=\"86\"> +86</option><option data-countryCode=\"CO\" value=\"57\"> +57</option><option data-countryCode=\"KM\" value=\"269\"> +269</option><option data-countryCode=\"CG\" value=\"242\"> +242</option><option data-countryCode=\"CK\" value=\"682\"> +682</option><option data-countryCode=\"CR\" value=\"506\"> +506</option><option data-countryCode=\"HR\" value=\"385\"> +385</option><option data-countryCode=\"CU\" value=\"53\"> +53</option><option data-countryCode=\"CY\" value=\"90392\"> +90392</option><option data-countryCode=\"CY\" value=\"357\"> +357</option><option data-countryCode=\"CZ\" value=\"42\"> +42</option><option data-countryCode=\"DK\" value=\"45\"> +45</option><option data-countryCode=\"DJ\" value=\"253\"> +253</option><option data-countryCode=\"DM\" value=\"1809\"> +1809</option><option data-countryCode=\"DO\" value=\"1809\"> +1809</option><option data-countryCode=\"EC\" value=\"593\"> +593</option><option data-countryCode=\"EG\" value=\"20\"> +20</option><option data-countryCode=\"SV\" value=\"503\"> +503</option><option data-countryCode=\"GQ\" value=\"240\"> +240</option><option data-countryCode=\"ER\" value=\"291\"> +291</option><option data-countryCode=\"EE\" value=\"372\"> +372</option><option data-countryCode=\"PAK\" value=\"92\">+92</option><option data-countryCode=\"ET\" value=\"251\"> +251</option><option data-countryCode=\"FK\" value=\"500\"> +500</option><option data-countryCode=\"FO\" value=\"298\"> +298</option><option data-countryCode=\"FJ\" value=\"679\"> +679</option><option data-countryCode=\"FI\" value=\"358\"> +358</option><option data-countryCode=\"FR\" value=\"33\"> +33</option><option data-countryCode=\"GF\" value=\"594\"> +594</option><option data-countryCode=\"PF\" value=\"689\"> +689</option><option data-countryCode=\"GA\" value=\"241\"> +241</option><option data-countryCode=\"GM\" value=\"220\"> +220</option><option data-countryCode=\"GE\" value=\"995\"> +995</option><option data-countryCode=\"DE\" value=\"49\"> +49</option><option data-countryCode=\"GH\" value=\"233\"> +233</option><option data-countryCode=\"GI\" value=\"350\"> +350</option><option data-countryCode=\"GR\" value=\"30\"> +30</option><option data-countryCode=\"GL\" value=\"299\"> +299</option><option data-countryCode=\"GD\" value=\"1473\"> +1473</option><option data-countryCode=\"GP\" value=\"590\"> +590</option><option data-countryCode=\"GU\" value=\"671\"> +671</option><option data-countryCode=\"GT\" value=\"502\"> +502</option><option data-countryCode=\"GN\" value=\"224\"> +224</option><option data-countryCode=\"GW\" value=\"245\"> +245</option><option data-countryCode=\"GY\" value=\"592\"> +592</option><option data-countryCode=\"HT\" value=\"509\"> +509</option><option data-countryCode=\"HN\" value=\"504\"> +504</option><option data-countryCode=\"HK\" value=\"852\"> +852</option><option data-countryCode=\"HU\" value=\"36\"> +36</option><option data-countryCode=\"IS\" value=\"354\"> +354</option><option data-countryCode=\"IN\" value=\"91\"> +91</option><option data-countryCode=\"ID\" value=\"62\"> +62</option><option data-countryCode=\"IR\" value=\"98\"> +98</option><option data-countryCode=\"IQ\" value=\"964\"> +964</option><option data-countryCode=\"IE\" value=\"353\"> +353</option><option data-countryCode=\"IL\" value=\"972\"> +972</option><option data-countryCode=\"IT\" value=\"39\"> +39</option><option data-countryCode=\"JM\" value=\"1876\"> +1876</option><option data-countryCode=\"JP\" value=\"81\"> +81</option><option data-countryCode=\"JO\" value=\"962\"> +962</option><option data-countryCode=\"KZ\" value=\"7\"> +7</option><option data-countryCode=\"KE\" value=\"254\"> +254</option><option data-countryCode=\"KI\" value=\"686\"> +686</option><option data-countryCode=\"KP\" value=\"850\"> +850</option><option data-countryCode=\"KR\" value=\"82\"> +82</option><option data-countryCode=\"KW\" value=\"965\"> +965</option><option data-countryCode=\"KG\" value=\"996\"> +996</option><option data-countryCode=\"LA\" value=\"856\"> +856</option><option data-countryCode=\"LV\" value=\"371\"> +371</option><option data-countryCode=\"LB\" value=\"961\"> +961</option><option data-countryCode=\"LS\" value=\"266\"> +266</option><option data-countryCode=\"LR\" value=\"231\"> +231</option><option data-countryCode=\"LY\" value=\"218\"> +218</option><option data-countryCode=\"LI\" value=\"417\"> +417</option><option data-countryCode=\"LT\" value=\"370\"> +370</option><option data-countryCode=\"LU\" value=\"352\"> +352</option><option data-countryCode=\"MO\" value=\"853\"> +853</option><option data-countryCode=\"MK\" value=\"389\"> +389</option><option data-countryCode=\"MG\" value=\"261\"> +261</option><option data-countryCode=\"MW\" value=\"265\"> +265</option><option data-countryCode=\"MY\" value=\"60\"> +60</option><option data-countryCode=\"MV\" value=\"960\"> +960</option><option data-countryCode=\"ML\" value=\"223\"> +223</option><option data-countryCode=\"MT\" value=\"356\"> +356</option><option data-countryCode=\"MH\" value=\"692\"> +692</option><option data-countryCode=\"MQ\" value=\"596\"> +596</option><option data-countryCode=\"MR\" value=\"222\"> +222</option><option data-countryCode=\"YT\" value=\"269\"> +269</option><option data-countryCode=\"MX\" value=\"52\"> +52</option><option data-countryCode=\"FM\" value=\"691\"> +691</option><option data-countryCode=\"MD\" value=\"373\"> +373</option><option data-countryCode=\"MC\" value=\"377\"> +377</option><option data-countryCode=\"MN\" value=\"976\"> +976</option><option data-countryCode=\"MS\" value=\"1664\"> +1664</option><option data-countryCode=\"MA\" value=\"212\"> +212</option><option data-countryCode=\"MZ\" value=\"258\"> +258</option><option data-countryCode=\"MN\" value=\"95\"> +95</option><option data-countryCode=\"NA\" value=\"264\"> +264</option><option data-countryCode=\"NR\" value=\"674\"> +674</option><option data-countryCode=\"NP\" value=\"977\"> +977</option><option data-countryCode=\"NL\" value=\"31\"> +31</option><option data-countryCode=\"NC\" value=\"687\"> +687</option><option data-countryCode=\"NZ\" value=\"64\"> +64</option><option data-countryCode=\"NI\" value=\"505\"> +505</option><option data-countryCode=\"NE\" value=\"227\"> +227</option><option data-countryCode=\"NG\" value=\"234\"> +234</option><option data-countryCode=\"NU\" value=\"683\"> +683</option><option data-countryCode=\"NF\" value=\"672\"> +672</option><option data-countryCode=\"NP\" value=\"670\"> +670</option><option data-countryCode=\"NO\" value=\"47\"> +47</option><option data-countryCode=\"OM\" value=\"968\"> +968</option><option data-countryCode=\"PW\" value=\"680\"> +680</option><option data-countryCode=\"PA\" value=\"507\"> +507</option><option data-countryCode=\"PG\" value=\"675\"> +675</option><option data-countryCode=\"PY\" value=\"595\"> +595</option><option data-countryCode=\"PE\" value=\"51\"> +51</option><option data-countryCode=\"PH\" value=\"63\"> +63</option><option data-countryCode=\"PL\" value=\"48\"> +48</option><option data-countryCode=\"PT\" value=\"351\"> +351</option><option data-countryCode=\"PR\" value=\"1787\"> +1787</option><option data-countryCode=\"QA\" value=\"974\"> +974</option><option data-countryCode=\"RE\" value=\"262\"> +262</option><option data-countryCode=\"RO\" value=\"40\"> +40</option><option data-countryCode=\"RU\" value=\"7\"> +7</option><option data-countryCode=\"RW\" value=\"250\"> +250</option><option data-countryCode=\"SM\" value=\"378\"> +378</option><option data-countryCode=\"ST\" value=\"239\"> +239</option><option data-countryCode=\"SA\" value=\"966\"> +966</option><option data-countryCode=\"SN\" value=\"221\"> +221</option><option data-countryCode=\"CS\" value=\"381\"> +381</option><option data-countryCode=\"SC\" value=\"248\"> +248</option><option data-countryCode=\"SL\" value=\"232\"> +232</option><option data-countryCode=\"SG\" value=\"65\"> +65</option><option data-countryCode=\"SK\" value=\"421\"> +421</option><option data-countryCode=\"SI\" value=\"386\"> +386</option><option data-countryCode=\"SB\" value=\"677\"> +677</option><option data-countryCode=\"SO\" value=\"252\"> +252</option><option data-countryCode=\"ZA\" value=\"27\"> +27</option><option data-countryCode=\"ES\" value=\"34\"> +34</option><option data-countryCode=\"LK\" value=\"94\"> +94</option><option data-countryCode=\"SH\" value=\"290\"> +290</option><option data-countryCode=\"KN\" value=\"1869\">+1869</option><option data-countryCode=\"SC\" value=\"1758\"> +1758</option><option data-countryCode=\"SD\" value=\"249\"> +249</option><option data-countryCode=\"SR\" value=\"597\"> +597</option><option data-countryCode=\"SZ\" value=\"268\"> +268</option><option data-countryCode=\"SE\" value=\"46\"> +46</option><option data-countryCode=\"CH\" value=\"41\"> +41</option><option data-countryCode=\"SI\" value=\"963\"> +963</option><option data-countryCode=\"TW\" value=\"886\"> +886</option><option data-countryCode=\"TJ\" value=\"7\"> +7</option><option data-countryCode=\"TH\" value=\"66\"> +66</option><option data-countryCode=\"TG\" value=\"228\"> +228</option><option data-countryCode=\"TO\" value=\"676\"> +676</option><option data-countryCode=\"TT\" value=\"1868\"> +1868</option><option data-countryCode=\"TN\" value=\"216\"> +216</option><option data-countryCode=\"TR\" value=\"90\"> +90</option><option data-countryCode=\"TM\" value=\"993\"> +993</option><option data-countryCode=\"TC\" value=\"1649\"> +1649</option><option data-countryCode=\"TV\" value=\"688\"> +688</option><option data-countryCode=\"UG\" value=\"256\"> +256</option><option data-countryCode=\"GB\" value=\"44\">+44</option><option data-countryCode=\"UA\" value=\"380\"> +380</option><option data-countryCode=\"AE\" value=\"971\">+971</option><option data-countryCode=\"UY\" value=\"598\"> +598</option><option data-countryCode=\"US\" value=\"1\"> +1</option><option data-countryCode=\"UZ\" value=\"7\"> +7</option><option data-countryCode=\"VU\" value=\"678\"> +678</option><option data-countryCode=\"VA\" value=\"379\"> +379</option><option data-countryCode=\"VE\" value=\"58\"> +58</option><option data-countryCode=\"VN\" value=\"84\"> +84</option><option data-countryCode=\"VG\" value=\"84\"> +1284</option><option data-countryCode=\"VI\" value=\"84\"> +1340</option><option data-countryCode=\"WF\" value=\"681\"> +681</option><option data-countryCode=\"YE\" value=\"969\">+969</option><option data-countryCode=\"YE\" value=\"967\">+967</option><option data-countryCode=\"ZM\" value=\"260\">+260</option><option data-countryCode=\"ZW\" value=\"263\"> +263</option>", 215);
+var _hoisted_250 = [_hoisted_35];
+var _hoisted_251 = {
   "class": "col-md-6"
 };
-var _hoisted_251 = {
+var _hoisted_252 = {
   "class": "signupd-feild"
 };
-var _hoisted_252 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+var _hoisted_253 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
   "for": "number"
 }, "Mobile No. :", -1 /* HOISTED */);
-var _hoisted_253 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "alert alert-danger col-sm-12",
+var _hoisted_254 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "alert alert-danger mt-2",
   id: "SMSError",
   style: {
     "display": "none"
   }
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span")], -1 /* HOISTED */);
-var _hoisted_254 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "alert alert-success col-sm-12",
+var _hoisted_255 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "alert alert-success mt-2",
   id: "SMSSuccess",
   style: {
     "display": "none"
   }
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span")], -1 /* HOISTED */);
-var _hoisted_255 = {
+var _hoisted_256 = {
   "class": "col-md-3"
 };
-var _hoisted_256 = {
+var _hoisted_257 = {
   "class": "signupd-feild loginForm-btn"
 };
-var _hoisted_257 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+var _hoisted_258 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
   "for": ""
 }, " ", -1 /* HOISTED */);
-var _hoisted_258 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"col-md-8\"><div class=\"signupd-feild\"><input type=\"number\" id=\"verificationCode\" class=\"form-control\" placeholder=\"Enter verification code\" style=\"display:none;\" required><div class=\"alert alert-success col-sm-12\" id=\"SuccessVerify\" style=\"display:none;\"></div><div class=\"alert error col-sm-12\" id=\"ErrorVerify\" style=\"display:none;\"></div></div></div>", 1);
-var _hoisted_259 = {
+var _hoisted_259 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"col-md-8\"><div class=\"signupd-feild\"><input type=\"number\" id=\"verificationCode\" class=\"form-control\" placeholder=\"Enter verification code\" style=\"display:none;\" required><div class=\"alert alert-success mt-2\" id=\"SuccessVerify\" style=\"display:none;\"></div><div class=\"alert error mt-2\" id=\"ErrorVerify\" style=\"display:none;\"></div></div></div>", 1);
+var _hoisted_260 = {
   "class": "col-md-4"
 };
-var _hoisted_260 = {
+var _hoisted_261 = {
   "class": "signupd-feild loginForm-btn"
 };
-var _hoisted_261 = {
+var _hoisted_262 = {
   "class": "col-md-6"
 };
-var _hoisted_262 = {
+var _hoisted_263 = {
   "class": "signupd-feild"
 };
-var _hoisted_263 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+var _hoisted_264 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
   "for": "fName"
-}, "Password :", -1 /* HOISTED */);
-var _hoisted_264 = {
+}, "Password : ", -1 /* HOISTED */);
+var _hoisted_265 = {
   "class": "d-flex align-items-center"
 };
-var _hoisted_265 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
-  id: "open",
-  "class": ""
-}, "show", -1 /* HOISTED */);
 var _hoisted_266 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
-  id: "close",
-  "class": ""
-}, "hide", -1 /* HOISTED */);
-var _hoisted_267 = {
+  "class": "fa fa-eye",
+  "aria-hidden": "true",
+  id: "open",
+  style: {
+    "display": "none"
+  }
+}, null, -1 /* HOISTED */);
+var _hoisted_267 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+  "class": "fa fa-eye-slash",
+  "aria-hidden": "true",
+  id: "close"
+}, null, -1 /* HOISTED */);
+var _hoisted_268 = [_hoisted_266, _hoisted_267];
+var _hoisted_269 = {
   "class": "col-md-6"
 };
-var _hoisted_268 = {
+var _hoisted_270 = {
   "class": "signupd-feild"
 };
-var _hoisted_269 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+var _hoisted_271 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
   "for": "fName"
 }, "Confirm Password :", -1 /* HOISTED */);
-var _hoisted_270 = {
+var _hoisted_272 = {
   "class": "d-flex align-items-center"
 };
-var _hoisted_271 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+var _hoisted_273 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+  "class": "fa fa-eye",
+  "aria-hidden": "true",
   id: "open2",
-  "class": ""
-}, "show", -1 /* HOISTED */);
-var _hoisted_272 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
-  id: "close2",
-  "class": ""
-}, "hide", -1 /* HOISTED */);
-var _hoisted_273 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div id=\"recaptcha-container mb-3\"></div><div class=\"col-md-12\"><!-- &lt;div class=&quot;signupd-agree&quot;&gt;\n                                            &lt;div class=&quot;&quot;&gt;\n                                                &lt;input type=&quot;checkbox&quot; id=&quot;switch&quot; class=&quot;checkbox&quot;/&gt;\n                                                &lt;label for=&quot;switch&quot; class=&quot;toggle&quot;&gt;&lt;/label&gt;\n                                            &lt;/div&gt;\n                                            &lt;p&gt;Agree to &lt;a href=&quot;#&quot;&gt; Terms &amp; Conditions &lt;/a&gt; | &lt;a href=&quot;#&quot;&gt; Privacy Statement &lt;/a&gt;&lt;/p&gt;\n                                        &lt;/div&gt; --><div class=\"loginForm-btn\"><button type=\"submit\" class=\"submit\" id=\"register1\" disabled>SignUp Now</button></div><div class=\"loginForm-copyright\"><p>Copyright © JMI Brokers 2023. <br> All rights reserved. </p></div></div>", 2);
-var _hoisted_275 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  style: {
+    "display": "none"
+  }
+}, null, -1 /* HOISTED */);
+var _hoisted_274 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+  "class": "fa fa-eye-slash",
+  "aria-hidden": "true",
+  id: "close2"
+}, null, -1 /* HOISTED */);
+var _hoisted_275 = [_hoisted_273, _hoisted_274];
+var _hoisted_276 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div id=\"recaptcha-container mb-3\"></div><div class=\"col-md-12\"><div class=\"loginForm-btn\"><button type=\"submit\" class=\"submit btn\" id=\"register1\" disabled>SignUp Now</button></div><div class=\"signup-navbar\"><ul><li class=\"first\"><a href=\"javascript:;\">Home</a></li><li>|</li><li><a href=\"javascript:;\">About Us</a></li><li>|</li><li><a href=\"javascript:;\">Privacy Policy</a></li><li>|</li><li class=\"last\"><a href=\"javascript:;\">Terms &amp; Conditions</a></li></ul></div><div class=\"loginForm-copyright\"><p>Copyright © JMI Brokers 2023. <br> All rights reserved. </p></div></div>", 2);
+var _hoisted_278 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "col-md-6"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "login-sideImage"
+  "class": "login-sideImage",
+  style: {
+    "font-size": "0",
+    "position": "fixed",
+    "top": "0",
+    "right": "0",
+    "width": "50%"
+  }
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "/assets-up/images/login.png",
+  style: {
+    "max-width": "100%",
+    "max-height": "100%"
+  },
   alt: ""
 })])], -1 /* HOISTED */);
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [_hoisted_6, _typeof($setup.errors) === 'object' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [_hoisted_6, _typeof($setup.errors) === 'object' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     key: 0
   }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.errors, function (value, index) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
@@ -37182,11 +37206,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return $setup.form.title = $event;
     }),
     id: "title"
-  }, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.title_list, function (title) {
+  }, [_hoisted_14, ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.title_list, function (title) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("option", {
       value: title.value
-    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(title.text), 9 /* TEXT, PROPS */, _hoisted_14);
-  }), 256 /* UNKEYED_FRAGMENT */))], 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $setup.form.title]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [_hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(title.text), 9 /* TEXT, PROPS */, _hoisted_15);
+  }), 256 /* UNKEYED_FRAGMENT */))], 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $setup.form.title]])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [_hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     type: "text",
     "class": "",
     "onUpdate:modelValue": _cache[1] || (_cache[1] = function ($event) {
@@ -37196,7 +37220,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     name: "fullname",
     placeholder: "Full Name *",
     required: ""
-  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.fullname]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [_hoisted_20, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.fullname]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [_hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     type: "email",
     name: "email",
     placeholder: "Email :",
@@ -37206,7 +37230,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "form-email",
     id: "email",
     required: ""
-  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.email]]), _hoisted_21, _hoisted_22])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [_hoisted_25, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.email]]), _hoisted_22, _hoisted_23])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [_hoisted_26, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     type: "button",
     id: "email_send_code1",
     style: {
@@ -37216,7 +37240,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[3] || (_cache[3] = function ($event) {
       return $options.emailSendAuth();
     })
-  }, "Send Code")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_26, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  }, "Send Code")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_28, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     type: "number",
     id: "emailverificationCode",
     "onUpdate:modelValue": _cache[4] || (_cache[4] = function ($event) {
@@ -37229,7 +37253,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       "display": "none"
     },
     required: ""
-  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.emailverificationCode]]), _hoisted_28])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.emailverificationCode]]), _hoisted_29])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     type: "button",
     id: "email_verify_code",
     style: {
@@ -37240,15 +37264,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[5] || (_cache[5] = function ($event) {
       return $options.emailcodeverify();
     })
-  }, "Verify code")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" PHONE "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [_hoisted_33, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("select", {
+  }, "Verify code")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" PHONE "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_33, [_hoisted_34, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("select", {
     name: "countryCode",
-    id: "countryCode",
+    id: "countryCode1",
     "onUpdate:modelValue": _cache[6] || (_cache[6] = function ($event) {
       return $setup.form.countryCode = $event;
     }),
-    "class": "form-control",
+    "class": "form-control1",
     required: ""
-  }, [].concat(_hoisted_249), 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $setup.form.countryCode]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_250, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_251, [_hoisted_252, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  }, [].concat(_hoisted_250), 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $setup.form.countryCode]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_251, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_252, [_hoisted_253, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     type: "number",
     id: "number",
     "onUpdate:modelValue": _cache[7] || (_cache[7] = function ($event) {
@@ -37258,7 +37282,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     name: "phone_number",
     placeholder: "Mobile Number",
     required: ""
-  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.phone_number]]), _hoisted_253, _hoisted_254])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_255, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_256, [_hoisted_257, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.phone_number]]), _hoisted_254, _hoisted_255])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_256, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_257, [_hoisted_258, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     type: "button",
     id: "send_code1",
     style: {
@@ -37268,7 +37292,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[8] || (_cache[8] = function ($event) {
       return $options.phoneSendAuth();
     })
-  }, "Send Code")])]), _hoisted_258, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_259, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_260, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  }, "Send Code")])]), _hoisted_259, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_260, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_261, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     type: "button",
     id: "verify_code",
     onClick: _cache[9] || (_cache[9] = function ($event) {
@@ -37279,10 +37303,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       "padding": "10px",
       "display": "none"
     }
-  }, "Verify code")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_261, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_262, [_hoisted_263, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_264, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  }, "Verify code")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_262, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_263, [_hoisted_264, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_265, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     id: "password",
     type: "password",
-    "class": "form-control",
+    "class": "form-control1 pe-5",
     "onUpdate:modelValue": _cache[10] || (_cache[10] = function ($event) {
       return $setup.form.password = $event;
     }),
@@ -37294,10 +37318,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[11] || (_cache[11] = function ($event) {
       return $options.toggleEye('password');
     }),
-    type: "button"
-  }, [_hoisted_265, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), _hoisted_266])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_267, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_268, [_hoisted_269, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_270, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+    type: "button",
+    style: {
+      "position": "absolute",
+      "top": "50px",
+      "right": "15px"
+    }
+  }, [].concat(_hoisted_268))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_269, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_270, [_hoisted_271, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_272, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     type: "password",
-    "class": "form-control1",
+    "class": "form-control1 pe-5",
     placeholder: "Confirm Password *",
     "onUpdate:modelValue": _cache[12] || (_cache[12] = function ($event) {
       return $setup.form.confirmpassword = $event;
@@ -37310,61 +37339,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[13] || (_cache[13] = function ($event) {
       return $options.toggleEye2('confirmpassword');
     }),
-    type: "button"
-  }, [_hoisted_271, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), _hoisted_272])])])]), _hoisted_273])], 32 /* NEED_HYDRATION */)])])]), _hoisted_275])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"opendemoaccount openliveaccount\"  style=\"background-image:url('/assets/img/demoaccountbg.jpg');\">\n        <div class=\"container\">\n            <div class=\"row pdtb40\">\n                <div id=\"recaptcha-container\" ></div>\n\n                <div class=\"myFlex\">\n\n                    <div class=\"col-lg-4 col-md-5 col-sm-6 col-xs-12 col-xxs text-left\" >\n                        <div id=\"newLogin\">\n                            <img src =\"/assets/m/img/icon.png\">\n                            <h2> Registration</h2>\n                        </div>\n                        <div class=\"alert alert-danger\" v-if=\"typeof errors === 'string'\">\n                            {{errors}}\n                        </div>\n                        <div class=\"alert alert-danger\" v-for=\"(value, index) in errors\" :key=\"index\" v-if=\"typeof errors === 'object'\">\n                            {{errors[0]}}\n                        </div>\n\n                        <form id=\"RegisterForm\"  method=\"post\" @submit.prevent=\"handleSignup\" class=\"registration-form\">\n                            <div id=\"recaptcha-container\" ></div>\n                            <div class=\"control-group\">\n                                <div class=\"col-sm-3 padding-left-0\">\n                                    <div class=\"controls\">\n                                        <select class=\"form-control\" name=\"title\" v-model=\"form.title\"  id=\"title\">\n                                            <option v-for=\"title in title_list\" :value=\"title.value\"  >\n                                                {{ title.text }}\n                                            </option>\n                                        </select>\n                                    </div>\n                                </div>\n\n                                <div class=\"col-sm-9 padding-right-0 \">\n                                    <div class=\"controls\">\n                                        <input  type=\"text\" class=\"form-control  \" v-model=\"form.fullname\" id=\"fullname\" name=\"fullname\" placeholder=\"Full Name *\" required>\n                                    </div>\n                                </div>\n                            </div>\n\n                            <div class=\"form-group\">\n                                <div class=\"alert alert-danger col-sm-12\" id=\"emailerror\" style=\"display: none;\"></div>\n                                <div class=\"alert alert-success col-sm-12\" id=\"emailsentSuccess\" style=\"display: none;\"></div>\n\n                                <div class=\"col-sm-8\">\n                                    <input type=\"email\" name=\"email\" placeholder=\"Email :\"   v-model=\"form.email\"  class=\"form-email form-control\" id=\"email\" required>\n                                </div>\n                                <div class=\"col-sm-4\" >\n                                    <button type=\"button\"  id=\"email_send_code\"  class=\"btn btn-success\" @click=\"emailSendAuth()\">Send Code</button>\n                                </div>\n                            </div>\n\n                            <div class=\"form-group\">\n                                <div class=\"col-sm-8\">\n                                    <input type=\"number\" id=\"emailverificationCode\"  v-model=\"form.emailverificationCode\" name=\"emailverificationCode\" class=\"form-control\" placeholder=\"Enter Email verification code\" style=\"display:none;\" required>\n                                </div>\n                                <div class=\"col-sm-4\" >\n                                    <button type=\"button\" id=\"email_verify_code\"  class=\"btn btn-success\" @click=\"emailcodeverify()\"  style=\"display:none;\">Verify code</button>\n                                </div>\n                                <div class=\"alert alert-success col-sm-12\" id=\"emailsuccessRegsiter\" style=\"display: none;\"></div>\n                            </div>\n\n                            <div class=\"form-group\">\n                                <input type=\"text\" name=\"username\"  v-model=\"form.username\"  placeholder=\"Username : No Spaces\"    class=\"form-email form-control\" id=\"username\" required>\n                            </div>\n\n                            <div class=\"form-group\">\n                                <div class=\"alert alert-danger col-sm-12\" id=\"SMSError\" style=\"display: none;\">\n                                    <span></span>\n                                </div>\n                                <div class=\"alert alert-success col-sm-12\" id=\"SMSSuccess\" style=\"display: none;\">\n                                    <span></span>\n                                </div>\n                                <div class=\"col-sm-3\">\n                                    <select name=\"countryCode\" id=\"countryCode\"  v-model=\"form.countryCode\"  class=\"form-control\"  required>\n                                        <option  value=\"\" id=\"myCode\" disabled selected>Code</option>\n                                        <option data-countryCode=\"DZ\" value=\"213\">+213</option>\n                                        <option data-countryCode=\"AD\" value=\"376\"> +376</option>\n                                        <option data-countryCode=\"AO\" value=\"244\"> +244</option>\n                                        <option data-countryCode=\"AI\" value=\"1264\"> +1264</option>\n                                        <option data-countryCode=\"AG\" value=\"1268\">+1268</option>\n                                        <option data-countryCode=\"AR\" value=\"54\"> +54</option>\n                                        <option data-countryCode=\"AM\" value=\"374\"> +374</option>\n                                        <option data-countryCode=\"AW\" value=\"297\"> +297</option>\n                                        <option data-countryCode=\"AU\" value=\"61\"> +61</option>\n                                        <option data-countryCode=\"AT\" value=\"43\"> +43</option>\n                                        <option data-countryCode=\"AZ\" value=\"994\"> +994</option>\n                                        <option data-countryCode=\"BS\" value=\"1242\"> +1242</option>\n                                        <option data-countryCode=\"BH\" value=\"973\"> +973</option>\n                                        <option data-countryCode=\"BD\" value=\"880\"> +880</option>\n                                        <option data-countryCode=\"BB\" value=\"1246\"> +1246</option>\n                                        <option data-countryCode=\"BY\" value=\"375\"> +375</option>\n                                        <option data-countryCode=\"BE\" value=\"32\"> +32</option>\n                                        <option data-countryCode=\"BZ\" value=\"501\"> +501</option>\n                                        <option data-countryCode=\"BJ\" value=\"229\"> +229</option>\n                                        <option data-countryCode=\"BM\" value=\"1441\"> +1441</option>\n                                        <option data-countryCode=\"BT\" value=\"975\"> +975</option>\n                                        <option data-countryCode=\"BO\" value=\"591\"> +591</option>\n                                        <option data-countryCode=\"BA\" value=\"387\">  +387</option>\n                                        <option data-countryCode=\"BW\" value=\"267\"> +267</option>\n                                        <option data-countryCode=\"BR\" value=\"55\"> +55</option>\n                                        <option data-countryCode=\"BN\" value=\"673\"> +673</option>\n                                        <option data-countryCode=\"BG\" value=\"359\"> +359</option>\n                                        <option data-countryCode=\"BF\" value=\"226\"> Faso +226</option>\n                                        <option data-countryCode=\"BI\" value=\"257\"> +257</option>\n                                        <option data-countryCode=\"KH\" value=\"855\"> +855</option>\n                                        <option data-countryCode=\"CM\" value=\"237\"> +237</option>\n                                        <option data-countryCode=\"CA\" value=\"1\"> +1</option>\n                                        <option data-countryCode=\"CV\" value=\"238\"> +238</option>\n                                        <option data-countryCode=\"KY\" value=\"1345\">  +1345</option>\n                                        <option data-countryCode=\"CF\" value=\"236\">   +236</option>\n                                        <option data-countryCode=\"CL\" value=\"56\"> +56</option>\n                                        <option data-countryCode=\"CN\" value=\"86\"> +86</option>\n                                        <option data-countryCode=\"CO\" value=\"57\"> +57</option>\n                                        <option data-countryCode=\"KM\" value=\"269\"> +269</option>\n                                        <option data-countryCode=\"CG\" value=\"242\"> +242</option>\n                                        <option data-countryCode=\"CK\" value=\"682\">  +682</option>\n                                        <option data-countryCode=\"CR\" value=\"506\">  +506</option>\n                                        <option data-countryCode=\"HR\" value=\"385\"> +385</option>\n                                        <option data-countryCode=\"CU\" value=\"53\"> +53</option>\n                                        <option data-countryCode=\"CY\" value=\"90392\">  +90392</option>\n                                        <option data-countryCode=\"CY\" value=\"357\">  +357</option>\n                                        <option data-countryCode=\"CZ\" value=\"42\">  +42</option>\n                                        <option data-countryCode=\"DK\" value=\"45\"> +45</option>\n                                        <option data-countryCode=\"DJ\" value=\"253\"> +253</option>\n                                        <option data-countryCode=\"DM\" value=\"1809\"> +1809</option>\n                                        <option data-countryCode=\"DO\" value=\"1809\">  +1809</option>\n                                        <option data-countryCode=\"EC\" value=\"593\"> +593</option>\n                                        <option data-countryCode=\"EG\" value=\"20\"> +20</option>\n                                        <option data-countryCode=\"SV\" value=\"503\">  +503</option>\n                                        <option data-countryCode=\"GQ\" value=\"240\">  +240</option>\n                                        <option data-countryCode=\"ER\" value=\"291\"> +291</option>\n                                        <option data-countryCode=\"EE\" value=\"372\"> +372</option>\n                                        <option data-countryCode=\"PAK\" value=\"92\">+92</option>\n                                        <option data-countryCode=\"ET\" value=\"251\"> +251</option>\n                                        <option data-countryCode=\"FK\" value=\"500\">  +500</option>\n                                        <option data-countryCode=\"FO\" value=\"298\">  +298</option>\n                                        <option data-countryCode=\"FJ\" value=\"679\"> +679</option>\n                                        <option data-countryCode=\"FI\" value=\"358\"> +358</option>\n                                        <option data-countryCode=\"FR\" value=\"33\"> +33</option>\n                                        <option data-countryCode=\"GF\" value=\"594\">  +594</option>\n                                        <option data-countryCode=\"PF\" value=\"689\">  +689</option>\n                                        <option data-countryCode=\"GA\" value=\"241\"> +241</option>\n                                        <option data-countryCode=\"GM\" value=\"220\"> +220</option>\n\n                                        <option data-countryCode=\"GE\" value=\"995\"> +995</option>\n                                        <option data-countryCode=\"DE\" value=\"49\"> +49</option>\n                                        <option data-countryCode=\"GH\" value=\"233\"> +233</option>\n                                        <option data-countryCode=\"GI\" value=\"350\"> +350</option>\n                                        <option data-countryCode=\"GR\" value=\"30\"> +30</option>\n                                        <option data-countryCode=\"GL\" value=\"299\"> +299</option>\n                                        <option data-countryCode=\"GD\" value=\"1473\"> +1473</option>\n                                        <option data-countryCode=\"GP\" value=\"590\"> +590</option>\n                                        <option data-countryCode=\"GU\" value=\"671\"> +671</option>\n                                        <option data-countryCode=\"GT\" value=\"502\"> +502</option>\n                                        <option data-countryCode=\"GN\" value=\"224\"> +224</option>\n                                        <option data-countryCode=\"GW\" value=\"245\"> +245</option>\n                                        <option data-countryCode=\"GY\" value=\"592\"> +592</option>\n                                        <option data-countryCode=\"HT\" value=\"509\"> +509</option>\n                                        <option data-countryCode=\"HN\" value=\"504\"> +504</option>\n                                        <option data-countryCode=\"HK\" value=\"852\">  +852</option>\n                                        <option data-countryCode=\"HU\" value=\"36\"> +36</option>\n                                        <option data-countryCode=\"IS\" value=\"354\"> +354</option>\n                                        <option data-countryCode=\"IN\" value=\"91\"> +91</option>\n                                        <option data-countryCode=\"ID\" value=\"62\"> +62</option>\n                                        <option data-countryCode=\"IR\" value=\"98\"> +98</option>\n                                        <option data-countryCode=\"IQ\" value=\"964\"> +964</option>\n                                        <option data-countryCode=\"IE\" value=\"353\"> +353</option>\n                                        <option data-countryCode=\"IL\" value=\"972\"> +972</option>\n                                        <option data-countryCode=\"IT\" value=\"39\"> +39</option>\n                                        <option data-countryCode=\"JM\" value=\"1876\"> +1876</option>\n                                        <option data-countryCode=\"JP\" value=\"81\"> +81</option>\n                                        <option data-countryCode=\"JO\" value=\"962\"> +962</option>\n                                        <option data-countryCode=\"KZ\" value=\"7\"> +7</option>\n                                        <option data-countryCode=\"KE\" value=\"254\"> +254</option>\n                                        <option data-countryCode=\"KI\" value=\"686\"> +686</option>\n                                        <option data-countryCode=\"KP\" value=\"850\">  +850</option>\n                                        <option data-countryCode=\"KR\" value=\"82\">  +82</option>\n                                        <option data-countryCode=\"KW\" value=\"965\"> +965</option>\n                                        <option data-countryCode=\"KG\" value=\"996\"> +996</option>\n                                        <option data-countryCode=\"LA\" value=\"856\"> +856</option>\n                                        <option data-countryCode=\"LV\" value=\"371\"> +371</option>\n                                        <option data-countryCode=\"LB\" value=\"961\"> +961</option>\n                                        <option data-countryCode=\"LS\" value=\"266\"> +266</option>\n                                        <option data-countryCode=\"LR\" value=\"231\"> +231</option>\n                                        <option data-countryCode=\"LY\" value=\"218\"> +218</option>\n                                        <option data-countryCode=\"LI\" value=\"417\"> +417</option>\n                                        <option data-countryCode=\"LT\" value=\"370\"> +370</option>\n                                        <option data-countryCode=\"LU\" value=\"352\"> +352</option>\n                                        <option data-countryCode=\"MO\" value=\"853\"> +853</option>\n                                        <option data-countryCode=\"MK\" value=\"389\"> +389</option>\n                                        <option data-countryCode=\"MG\" value=\"261\"> +261</option>\n                                        <option data-countryCode=\"MW\" value=\"265\"> +265</option>\n                                        <option data-countryCode=\"MY\" value=\"60\"> +60</option>\n                                        <option data-countryCode=\"MV\" value=\"960\"> +960</option>\n                                        <option data-countryCode=\"ML\" value=\"223\"> +223</option>\n                                        <option data-countryCode=\"MT\" value=\"356\"> +356</option>\n                                        <option data-countryCode=\"MH\" value=\"692\">  +692</option>\n                                        <option data-countryCode=\"MQ\" value=\"596\"> +596</option>\n                                        <option data-countryCode=\"MR\" value=\"222\"> +222</option>\n                                        <option data-countryCode=\"YT\" value=\"269\"> +269</option>\n                                        <option data-countryCode=\"MX\" value=\"52\"> +52</option>\n                                        <option data-countryCode=\"FM\" value=\"691\"> +691</option>\n                                        <option data-countryCode=\"MD\" value=\"373\"> +373</option>\n                                        <option data-countryCode=\"MC\" value=\"377\"> +377</option>\n                                        <option data-countryCode=\"MN\" value=\"976\"> +976</option>\n                                        <option data-countryCode=\"MS\" value=\"1664\"> +1664</option>\n                                        <option data-countryCode=\"MA\" value=\"212\"> +212</option>\n                                        <option data-countryCode=\"MZ\" value=\"258\"> +258</option>\n                                        <option data-countryCode=\"MN\" value=\"95\"> +95</option>\n                                        <option data-countryCode=\"NA\" value=\"264\"> +264</option>\n                                        <option data-countryCode=\"NR\" value=\"674\"> +674</option>\n                                        <option data-countryCode=\"NP\" value=\"977\"> +977</option>\n                                        <option data-countryCode=\"NL\" value=\"31\"> +31</option>\n                                        <option data-countryCode=\"NC\" value=\"687\">  +687</option>\n                                        <option data-countryCode=\"NZ\" value=\"64\">  +64</option>\n                                        <option data-countryCode=\"NI\" value=\"505\"> +505</option>\n                                        <option data-countryCode=\"NE\" value=\"227\"> +227</option>\n                                        <option data-countryCode=\"NG\" value=\"234\"> +234</option>\n                                        <option data-countryCode=\"NU\" value=\"683\"> +683</option>\n                                        <option data-countryCode=\"NF\" value=\"672\">  +672</option>\n                                        <option data-countryCode=\"NP\" value=\"670\">  +670</option>\n                                        <option data-countryCode=\"NO\" value=\"47\"> +47</option>\n                                        <option data-countryCode=\"OM\" value=\"968\"> +968</option>\n                                        <option data-countryCode=\"PW\" value=\"680\"> +680</option>\n                                        <option data-countryCode=\"PA\" value=\"507\"> +507</option>\n                                        <option data-countryCode=\"PG\" value=\"675\">   +675</option>\n                                        <option data-countryCode=\"PY\" value=\"595\"> +595</option>\n                                        <option data-countryCode=\"PE\" value=\"51\"> +51</option>\n                                        <option data-countryCode=\"PH\" value=\"63\"> +63</option>\n                                        <option data-countryCode=\"PL\" value=\"48\"> +48</option>\n                                        <option data-countryCode=\"PT\" value=\"351\"> +351</option>\n                                        <option data-countryCode=\"PR\" value=\"1787\">  +1787</option>\n                                        <option data-countryCode=\"QA\" value=\"974\"> +974</option>\n                                        <option data-countryCode=\"RE\" value=\"262\"> +262</option>\n                                        <option data-countryCode=\"RO\" value=\"40\"> +40</option>\n                                        <option data-countryCode=\"RU\" value=\"7\"> +7</option>\n                                        <option data-countryCode=\"RW\" value=\"250\"> +250</option>\n                                        <option data-countryCode=\"SM\" value=\"378\">  +378</option>\n                                        <option data-countryCode=\"ST\" value=\"239\"> +239</option>\n                                        <option data-countryCode=\"SA\" value=\"966\">  +966</option>\n                                        <option data-countryCode=\"SN\" value=\"221\"> +221</option>\n                                        <option data-countryCode=\"CS\" value=\"381\"> +381</option>\n                                        <option data-countryCode=\"SC\" value=\"248\"> +248</option>\n                                        <option data-countryCode=\"SL\" value=\"232\">  +232</option>\n                                        <option data-countryCode=\"SG\" value=\"65\"> +65</option>\n                                        <option data-countryCode=\"SK\" value=\"421\">  +421</option>\n                                        <option data-countryCode=\"SI\" value=\"386\"> +386</option>\n                                        <option data-countryCode=\"SB\" value=\"677\">  +677</option>\n                                        <option data-countryCode=\"SO\" value=\"252\"> +252</option>\n                                        <option data-countryCode=\"ZA\" value=\"27\">  +27</option>\n                                        <option data-countryCode=\"ES\" value=\"34\"> +34</option>\n                                        <option data-countryCode=\"LK\" value=\"94\">  +94</option>\n                                        <option data-countryCode=\"SH\" value=\"290\"> +290</option>\n                                        <option data-countryCode=\"KN\" value=\"1869\">+1869</option>\n                                        <option data-countryCode=\"SC\" value=\"1758\"> +1758</option>\n                                        <option data-countryCode=\"SD\" value=\"249\"> +249</option>\n                                        <option data-countryCode=\"SR\" value=\"597\"> +597</option>\n                                        <option data-countryCode=\"SZ\" value=\"268\"> +268</option>\n                                        <option data-countryCode=\"SE\" value=\"46\"> +46</option>\n                                        <option data-countryCode=\"CH\" value=\"41\"> +41</option>\n                                        <option data-countryCode=\"SI\" value=\"963\"> +963</option>\n                                        <option data-countryCode=\"TW\" value=\"886\"> +886</option>\n                                        <option data-countryCode=\"TJ\" value=\"7\"> +7</option>\n                                        <option data-countryCode=\"TH\" value=\"66\"> +66</option>\n                                        <option data-countryCode=\"TG\" value=\"228\"> +228</option>\n                                        <option data-countryCode=\"TO\" value=\"676\"> +676</option>\n                                        <option data-countryCode=\"TT\" value=\"1868\">  +1868</option>\n                                        <option data-countryCode=\"TN\" value=\"216\"> +216</option>\n                                        <option data-countryCode=\"TR\" value=\"90\"> +90</option>\n                                        <option data-countryCode=\"TM\" value=\"993\"> +993</option>\n                                        <option data-countryCode=\"TC\" value=\"1649\"> +1649</option>\n                                        <option data-countryCode=\"TV\" value=\"688\"> +688</option>\n                                        <option data-countryCode=\"UG\" value=\"256\"> +256</option>\n                                        <option data-countryCode=\"GB\" value=\"44\">+44</option>\n                                        <option data-countryCode=\"UA\" value=\"380\"> +380</option>\n                                        <option data-countryCode=\"AE\" value=\"971\">+971</option>\n                                        <option data-countryCode=\"UY\" value=\"598\"> +598</option>\n                                        <option data-countryCode=\"US\" value=\"1\"> +1</option>\n                                        <option data-countryCode=\"UZ\" value=\"7\"> +7</option>\n                                        <option data-countryCode=\"VU\" value=\"678\"> +678</option>\n                                        <option data-countryCode=\"VA\" value=\"379\">  +379</option>\n                                        <option data-countryCode=\"VE\" value=\"58\"> +58</option>\n                                        <option data-countryCode=\"VN\" value=\"84\"> +84</option>\n                                        <option data-countryCode=\"VG\" value=\"84\">  +1284</option>\n                                        <option data-countryCode=\"VI\" value=\"84\"> +1340</option>\n                                        <option data-countryCode=\"WF\" value=\"681\"> +681</option>\n                                        <option data-countryCode=\"YE\" value=\"969\">+969</option>\n                                        <option data-countryCode=\"YE\" value=\"967\">+967</option>\n                                        <option data-countryCode=\"ZM\" value=\"260\">+260</option>\n                                        <option data-countryCode=\"ZW\" value=\"263\"> +263</option>\n                                    </select>\n                                </div>\n                                <div class=\"col-sm-5\">\n                                    <input type=\"number\" id=\"number\" v-model=\"form.phone_number\"  class=\"form-control\" name=\"phone_number\" placeholder=\"Mobile Number\" required>\n                                </div>\n                                <div class=\"col-sm-4\">\n                                    <button type=\"button\"  id=\"send_code\"  class=\"btn btn-success\" @click=\"phoneSendAuth()\" >Send Code</button>\n                                </div>\n                            </div>\n\n                            <div class=\"form-group\">\n                                <div class=\"col-sm-8\">\n                                    <input type=\"number\" id=\"verificationCode\" class=\"form-control\"  placeholder=\"Enter verification code\" style=\"display:none;\" required>\n                                </div>\n                                <div class=\"col-sm-4\">\n                                    <button type=\"button\" id=\"verify_code\" class=\"btn btn-success\" @click=\"codeverify();\"  style=\"display:none;\">Verify code</button>\n                                </div>\n                                <div class=\"alert alert-success col-sm-12\" id=\"SuccessVerify\" style=\"display: none;\"></div>\n                                <div class=\"alert error col-sm-12\" id=\"ErrorVerify\" style=\"display: none;\"></div>\n                            </div>\n\n                            <div class=\"control-group\">\n                                <div class=\"col-sm-6 padding-left-0\">\n                                    <div class=\"controls input-container\">\n                                        <input  id=\"password\" type=\"password\" class=\"form-control\" v-model=\"form.password\"  placeholder=\" Password *\"  name=\"password\" required>\n                                        <button class=\"btnEye\" @click=\"toggleEye('password')\" type=\"button\"><i id=\"open\" class=\"fas fa-eye\"></i> <i id=\"close\" class=\"fas fa-eye-slash\"></i></button>\n                                    </div>\n                                </div>\n\n                                <div class=\"col-sm-6 padding-right-0 \">\n                                    <div class=\"controls input-container\">\n                                        <input  type=\"password\" class=\"form-control\" placeholder=\"Confirm Password *\" v-model=\"form.confirmpassword\" id=\"confirmpassword\" name=\"confirmpassword\" required>\n                                        <button class=\"btnEye\" @click=\"toggleEye('confirmpassword')\" type=\"button\"><i id=\"open2\" class=\"fas fa-eye\"></i> <i id=\"close2\" class=\"fas fa-eye-slash\"></i></button>\n                                    </div>\n                                </div>\n                            </div>\n\n                            <button type=\"submit\" class=\"btn btn-success submit\" id=\"register\" disabled>Register Now</button>\n                        </form>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div> ")], 2112 /* STABLE_FRAGMENT, DEV_ROOT_FRAGMENT */);
+    type: "button",
+    style: {
+      "position": "absolute",
+      "top": "50px",
+      "right": "15px"
+    }
+  }, [].concat(_hoisted_275))])])]), _hoisted_276])], 32 /* NEED_HYDRATION */)])])]), _hoisted_278])])]);
 }
-
-/***/ }),
-
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/views/en/pages/Signup.vue?vue&type=style&index=0&id=f7f07f4c&lang=css":
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/views/en/pages/Signup.vue?vue&type=style&index=0&id=f7f07f4c&lang=css ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/laravel-mix/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/laravel-mix/node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
-// Imports
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#newLogin\n{\n    display: flex;\n    align-items: center;\n}\n#newLogin h2\n{\n    color:#0059b2;\n    font-family: 'Roboto-Bold';\n    margin: 0px 10px;\n}\ninput:-webkit-autofill,\ninput:-webkit-autofill:hover,\ninput:-webkit-autofill:focus,\ninput:-webkit-autofill:active\n{\n    -webkit-box-shadow: 0 0 0 30px white inset !important;\n}\n#capatcha-quest *\n{\n    color: #777777;\n    font-weight:bold;\n}\n#send_code , #email_send_code , #register\n{\n    background-color: #fdbe01 !important;\n    color: white !important;\n    border-radius: 4px;\n    border: 1px solid #bfbfbf !important;\n    padding: 6px 10px !important;\n    width: auto !important;\n    display: flex;\n}\n#open  , #open2\n{\n    display:none ;\n}\n#open , #open2, #close , #close2\n{\n    font-size: 15px;\n    padding-right: 5px;\n}\n.btnEye\n{\n    border: none;\n    background-color: white;\n    padding: 0px;\n    border-radius: inherit;\n}\n.input-container\n{\n    display: flex;\n    background-color: white;\n    border: 1px solid #bfbfbf;\n    margin-bottom:10px;\n    max-width: 270px !important;\n    border-radius: 4px;\n}\n#password , #confirmpassword\n{\n    width: calc(100% - 19px);\n    margin-bottom: 0px !important;\n    border: none;\n}\n.container\n{\n    width: 100% !important;\n}\n@media only screen and (max-width:768px)\n{\ndiv.col-sm-3.padding-left-0, div.col-sm-8 ,div.col-sm-6.padding-left-0\n    {\n        padding:0px !important;\n}\n.myFlex\n    {\n        display:flex;\n        justify-content:center;\n}\ndiv.form-group\n    {\n        margin-bottom:5px;\n}\n.input-container\n    {\n        max-width:100% !important;\n}\n#RegisterForm\n    {\n        width:100%;\n}\n.pdtb40\n    {\n}\ndiv.col-xs-12.text-left\n    {\n        padding:0px;\n}\n.container\n    {\n        max-width:390px;\n}\n}\n@media only screen and (max-width:402px)\n{\n#newLogin h2\n    {\n        font-size:25px;\n}\n}\n", ""]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/views/en/pages/Signup.vue?vue&type=style&index=0&id=f7f07f4c&lang=css":
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/views/en/pages/Signup.vue?vue&type=style&index=0&id=f7f07f4c&lang=css ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Signup_vue_vue_type_style_index_0_id_f7f07f4c_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Signup.vue?vue&type=style&index=0&id=f7f07f4c&lang=css */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/views/en/pages/Signup.vue?vue&type=style&index=0&id=f7f07f4c&lang=css");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Signup_vue_vue_type_style_index_0_id_f7f07f4c_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Signup_vue_vue_type_style_index_0_id_f7f07f4c_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 
@@ -37380,16 +37362,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Signup_vue_vue_type_template_id_f7f07f4c__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Signup.vue?vue&type=template&id=f7f07f4c */ "./resources/js/views/en/pages/Signup.vue?vue&type=template&id=f7f07f4c");
 /* harmony import */ var _Signup_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Signup.vue?vue&type=script&lang=js */ "./resources/js/views/en/pages/Signup.vue?vue&type=script&lang=js");
-/* harmony import */ var _Signup_vue_vue_type_style_index_0_id_f7f07f4c_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Signup.vue?vue&type=style&index=0&id=f7f07f4c&lang=css */ "./resources/js/views/en/pages/Signup.vue?vue&type=style&index=0&id=f7f07f4c&lang=css");
-/* harmony import */ var _node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-
-
-const __exports__ = /*#__PURE__*/(0,_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Signup_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Signup_vue_vue_type_template_id_f7f07f4c__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/views/en/pages/Signup.vue"]])
+const __exports__ = /*#__PURE__*/(0,_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Signup_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Signup_vue_vue_type_template_id_f7f07f4c__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/views/en/pages/Signup.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -37424,18 +37403,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Signup_vue_vue_type_template_id_f7f07f4c__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Signup_vue_vue_type_template_id_f7f07f4c__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Signup.vue?vue&type=template&id=f7f07f4c */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/views/en/pages/Signup.vue?vue&type=template&id=f7f07f4c");
-
-
-/***/ }),
-
-/***/ "./resources/js/views/en/pages/Signup.vue?vue&type=style&index=0&id=f7f07f4c&lang=css":
-/*!********************************************************************************************!*\
-  !*** ./resources/js/views/en/pages/Signup.vue?vue&type=style&index=0&id=f7f07f4c&lang=css ***!
-  \********************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Signup_vue_vue_type_style_index_0_id_f7f07f4c_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader/dist/cjs.js!../../../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Signup.vue?vue&type=style&index=0&id=f7f07f4c&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/views/en/pages/Signup.vue?vue&type=style&index=0&id=f7f07f4c&lang=css");
 
 
 /***/ }),

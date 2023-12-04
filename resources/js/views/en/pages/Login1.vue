@@ -68,13 +68,52 @@
                 </div>
 
                 <div class="col-md-6">
-                    <div class="login-sideImage" style="font-size: 0;position: fixed;top: 0;right: 0;width: 50%;">
-                        <img src="/assets-up/images/login.png" style="max-width: 100%;max-height: 100%;" alt="Log In Images">
+                    <div class="login-sideImage">
+                        <img src="/assets-up/images/login.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+    <!-- ################################################ -->
+    <!-- <div class="loginpage" style="background-image:url('/assets/m/img/pic.png')">
+        <div class="container">
+            <div class="alert alert-danger" v-if="typeof errors === 'string'">
+                {{ errors }}
+            </div>
+            <div class="alert alert-danger" v-for="(value, index) in errors" :key="index" v-if="typeof errors === 'object'">
+                {{ errors[0] }}
+            </div>
+            <div class="bigDiv col-lg-3 col-sm-5 col-xs-6 col-xxs-12">
+                <div class="login pdtb40">
+                    <div id="newLogin">
+                        <img src="/assets/m/img/icon.png">
+                        <h2>Login</h2>
+                    </div>
+                    <div class="alert alert-danger col-sm-12" id="Error" style="display: none;"></div>
+                    <div class="alert alert-success col-sm-12" id="Success" style="display: none;"></div>
+                    <form id="" autocomplete="off" method="post" @submit.prevent="handleLogin" class="form-horizontal">
+                        <p class="error text-center"></p>
+                        <div class="input-container">
+                            <input name="username" type="text" v-model="form.username" placeholder="Username or Email"
+                                class="txt-box" required />
+                        </div>
+                        <div class="input-container">
+                            <input id="myPass" name="password" type="Password" v-model="form.password"
+                                placeholder="Password :" class="txt-box" required />
+
+                        </div>
+                        <input type="submit" name="loginsubmit" value="Login" id="loginsubmit" class="form-btn" />
+                    </form>
+                    <p class="text-center">Forget<a href="/en/forgot-password"> Password </a>?</p>
+                    <p class="text-center">Don't have an account?<a href="/en/signup"> Sign Up</a></p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- *********************************************** -->
 </template>
 
 <script>

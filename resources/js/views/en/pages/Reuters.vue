@@ -1,12 +1,20 @@
 <template>
 
-    <marquee behavior="alternate" direction="right"
-             onmouseover="this.stop();"
-             onmouseout="this.start();">
-        <table  class="prices" cellspacing="1" cellpadding="2" border="0" style="background: #0059b2;font-size:12px;padding: 0px; font-family:Tahoma, Arial, Helvetica, sans-serif;margin:0 auto;width:max-content;direction: rtl;">
+    <marquee behavior="alternate" direction="right" onmouseover="this.stop();" onmouseout="this.start();">
+        <table
+            class="prices"
+            cellspacing="1"
+            cellpadding="2"
+            border="0"
+            style="background: #0059b2;font-size:12px;padding: 0px; font-family:Tahoma, Arial, Helvetica, sans-serif;margin:0 auto;width:max-content;direction: rtl;"
+        >
             <tr style="font-weight:bold;" align="center">
-
-                <td id="sign" v-for="reuters_new in this.reuters_news"  style="color:#fff;text-align:left;display:inline-block;clear:both">{{ reuters_new.news }} <span style="color: #ffc926; font-size: 12px;"> {{ reuters_new.time }}</span></td>
+                <td
+                    id="sign"
+                    v-for="reuters_new in this.reuters_news"
+                    style="color:#fff;text-align:left;display:inline-block;clear:both">{{ reuters_new.news }} >
+                    <span style="color: #ffc926; font-size: 12px;"> {{ reuters_new.time }}</span>
+                </td>
                 <td></td>
 
             </tr></table>

@@ -1,19 +1,13 @@
 <template>
-
-
     <div className="row gray_bg">
-        <img src="/assets/img/commoditiescover.jpg" alt=""
-             className="img-responsive center-block picHeight"/>
+        <img src="/assets/img/commoditiescover.jpg" alt="" className="img-responsive center-block picHeight"/>
     </div>
-
     <!-------------------------------------- Start Collapse ------------------------------------------------------------------->
-
     <h1 className="cfdHeader"> CFD Commodities </h1>
     <ul className="nav nav-tabs" style="margin-bottom: 30px; margin-left:20px;">
         <li className="active"><a data-toggle="tab" href="#menu1">CFDs/Energy</a></li>
         <li><a data-toggle="tab" href="#menu2">CFDs Commodity</a></li>
     </ul>
-
     <div className="tab-content">
         <div id="menu1" className="tab-pane fade in active">
             <iframe src="/en/datatable1"></iframe>
@@ -21,14 +15,9 @@
         <div id="menu2" className="tab-pane fade">
             <iframe src="/en/datatable2"></iframe>
         </div>
-
     </div>
-
     <a className="read cfdHeader" href="/en/stocks2">Read more ...</a>
-
     <!------------------------------------------------------ End Collapse------------------------------------------------------->
-
-
 </template>
 
 <script>

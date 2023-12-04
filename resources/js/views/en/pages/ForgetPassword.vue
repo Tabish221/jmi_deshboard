@@ -1,41 +1,68 @@
 <template>
+    <section class="loginSection">
+        <div class="container-fluid p-0">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="login-main">
+                        <div class="login-logo">
+                            <img src="/assets-up/images/logo.png" alt="">
+                        </div>
+                        <div class="login-heading">
+                            <h6>Forget Password</h6>
+                        </div>
+
+                        <div class="alert alert-danger my-2" id="Error" style="display: none;">
+                            <span> </span>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+                        </div>
+                        <div class="alert alert-success my-2" id="Success" style="display: none;">
+                            <span> </span>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+                        </div>
+                        <div class="alert alert-danger my-2" v-if="typeof errors === 'string'">
+                            {{errors}}
+                        </div>
+                        <div class="alert alert-danger my-2" v-for="(value, index) in errors" :key="index" v-if="typeof errors === 'object'">
+                            {{errors[0]}}
+                        </div>
+
+                        <div class="loginForm">
+                            <form id="resetpassword" autocomplete="off" method="post" @submit.prevent="handleForgotPassword" class="form-horizontal1">
+                                <input type="hidden"  name="base_url" id="base_url" value="/" />
+                                <div class="loginForm-feild">
+                                    <label for="username">Email Id:</label>
+
+                                    <div class="feildInput">
+                                        <input name="username_email" type="text" id="email" v-model="form.username_email" placeholder="Plaese enter your registered email or username" class="form-control" required/>
+                                        <span id="ctl00_ContentPlaceHolder1_RegularExpressionValidator1" style="color:rgb(204, 31, 31);display:none;">Please Enter Valid Email Address</span>
+                                    </div>
+                                </div>
+
+                                <div class="loginForm-btn">
+                                    <button type="submit" name="resetpassword" id="resetpassword" class="btn btn-success submit" >Reset Password</button>
+                                </div>
+
+                                <div class="loginForm-new">
+                                    <p>Don't have an account? <a href="/en/signup">Signup Now</a></p>
+                                </div>
 
 
-    <div class="container">
-        <div class="col-sm-4">
+                                <div class="loginForm-copyright">
+                                    <p>Copyright © JMI Brokers 2023. <br> All rights reserved. </p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
 
-
-            <h2>Forgot Password</h2>
-
-            <div class="alert alert-danger col-sm-12" id="Error" style="display: none;">
-                <span> </span>
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+                <div class="col-md-6">
+                    <div class="login-sideImage" style="font-size: 0;position: fixed;top: 0;right: 0;width: 50%;">
+                        <img src="/assets-up/images/login.png" style="max-width: 100%;max-height: 100%;" alt="Forget Password Images">
+                    </div>
+                </div>
             </div>
-            <div class="alert alert-success col-sm-12" id="Success" style="display: none;">
-                <span> </span>
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-            </div>
-
-            <div class="alert alert-danger" v-if="typeof errors === 'string'">
-
-                {{errors}}
-            </div>
-            <div class="alert alert-danger" v-for="(value, index) in errors" :key="index" v-if="typeof errors === 'object'">
-
-                {{errors[0]}}
-            </div>
-            <form id="resetpassword" autocomplete="off" method="post" @submit.prevent="handleForgotPassword" class="form-horizontal">
-                <input type="hidden"  name="base_url" id="base_url" value="/" />
-                <input name="username_email" type="text" id="email" v-model="form.username_email" placeholder="Plaese enter your registered email or username" class="form-control" required/>
-                <span id="ctl00_ContentPlaceHolder1_RegularExpressionValidator1" style="color:White;display:none;">Please Enter Valid Email Address</span>
-                <br />
-                <input type="submit" name="resetpassword" value="Reset Password"  id="resetpassword" class="btn btn-success submit" />
-            </form>
-
         </div>
-    </div>
-
-
+    </section>
 </template>
 
 <script>

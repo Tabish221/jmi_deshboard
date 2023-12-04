@@ -1,6 +1,5 @@
 <template>
-asdasdasdasdakfkasdkasdfkljsdklj
-    <div class="loginpage"   style="background-image:url('/assets/m/img/pic.png')">
+    <!-- <div class="loginpage"   style="background-image:url('/assets/m/img/pic.png')">
         <div class="container">
 
 
@@ -49,8 +48,7 @@ asdasdasdasdakfkasdkasdfkljsdklj
             </div>
 
         </div>
-    </div>
-
+    </div> -->
 </template>
 
 <script>

@@ -328,6 +328,15 @@ button {
   height: 14px;
   border-radius: 2px;
 }
+.theam-form .hd h4 {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #333;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
 
 .bg-grey {
   background-color: #bbbbbb !important;
@@ -413,6 +422,15 @@ input[type=text]:focus, input[type=email]:focus, input[type=date]:focus, input[t
   border-color: #f3c919 !important;
 }
 
+.sendverificationmailArea span#sendverificationmail {
+  font-size: 14px;
+  line-height: 1.2;
+  padding: 0;
+}
+.sendverificationmailArea span#sendverificationmail:hover {
+  color: #f3c919;
+}
+
 /* header CSS */
 header {
   transition: all 0.4s ease-In-out;
@@ -481,11 +499,62 @@ header {
   margin-left: 40px;
   padding-left: 30px;
 }
-.topHeader-btn .tpBtn-language {
+.topHeader-btn .dropdown-menu {
+  padding: 0;
+}
+.topHeader-btn .dropdown-menu li {
+  border-bottom: 1px solid #cccccc;
+}
+.topHeader-btn .dropdown-menu li a {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #333;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-wrap: nowrap;
+}
+.topHeader-btn .dropdown-menu li a:hover {
+  color: #333;
+  background-color: #e2e2e2;
+}
+.topHeader-btn .dropdown-menu li.last {
+  border-bottom: none;
+}
+.topHeader-btn .tpBtn-myaccout .dropdown-menu {
+  padding: 0;
+}
+.topHeader-btn .tpBtn-myaccout .dropdown-menu li {
+  border-bottom: 1px solid #cccccc;
+}
+.topHeader-btn .tpBtn-myaccout .dropdown-menu li a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #333;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-wrap: nowrap;
+}
+.topHeader-btn .tpBtn-myaccout .dropdown-menu li a:hover {
+  color: #333;
+  background-color: #e2e2e2;
+}
+.topHeader-btn .tpBtn-myaccout .dropdown-menu li a i {
+  color: #0B236D;
+}
+.topHeader-btn .tpBtn-myaccout .dropdown-menu li.last {
+  border-bottom: none;
+}
+.topHeader-btn .tpBtn-language, .topHeader-btn .tpBtn-myaccout {
   padding-right: 20px;
   margin-top: 4px;
 }
-.topHeader-btn .tpBtn-language a {
+.topHeader-btn .tpBtn-language a, .topHeader-btn .tpBtn-myaccout a {
   color: #EDEDED;
   font-size: 12px;
   font-weight: 500;
@@ -493,11 +562,41 @@ header {
   letter-spacing: -0.5px;
   display: flex;
   align-items: center;
+  gap: 5px;
 }
-.topHeader-btn .tpBtn-language a i {
+.topHeader-btn .tpBtn-language a i, .topHeader-btn .tpBtn-myaccout a i {
   padding-left: 5px;
 }
-.topHeader-btn .tpBtn-language a:hover {
+.topHeader-btn .tpBtn-language a:hover, .topHeader-btn .tpBtn-myaccout a:hover {
+  color: #FED801;
+}
+.topHeader-btn .notification-menu {
+  padding-right: 20px;
+  margin-top: 4px;
+}
+.topHeader-btn .notification-menu a.notifiBtn {
+  position: relative;
+}
+.topHeader-btn .notification-menu a.notifiBtn .label {
+  position: absolute;
+  background-color: rgb(255, 8, 0);
+  color: #fff;
+  font-size: 10px;
+  padding: 0;
+  border-radius: 50%;
+  top: -5px;
+  left: 10px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topHeader-btn .notification-menu a.notifiBtn i {
+  font-size: 18px;
+  color: #fff;
+}
+.topHeader-btn .notification-menu a.notifiBtn:hover {
   color: #FED801;
 }
 .topHeader-btn .tpBtn-login {
@@ -2362,6 +2461,8 @@ aside .aside-table .aside-tablebody .trad-icon.down {
 
 .loginSection {
   min-height: 100vh;
+  overflow: hidden;
+  overflow-y: auto;
 }
 
 .login-main {
@@ -2397,12 +2498,18 @@ aside .aside-table .aside-tablebody .trad-icon.down {
 .loginForm-feild .feildInput {
   position: relative;
 }
+.loginForm-feild .feildInput .btnEye {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
 .loginForm-feild .feildInput input {
   border-radius: 8px;
   background: #F3F3F3;
   height: 63px;
   width: 100%;
   padding: 20px 80px 20px 20px;
+  box-shadow: none !important;
 }
 .loginForm-feild .feildInput span {
   border-radius: 8px;
@@ -2487,6 +2594,11 @@ aside .aside-table .aside-tablebody .trad-icon.down {
 
 .login-sideImage {
   font-size: 0;
+  font-size: 0;
+  position: fixed;
+  top: 0;
+  width: 50%;
+  height: 100vh;
 }
 .login-sideImage img {
   height: 100%;
